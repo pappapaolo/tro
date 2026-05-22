@@ -7,7 +7,8 @@ import {
   cleanText,
   inferCategory,
   makeId,
-  parseItalianDate,
+  parseItalianRange,
+  parseItalianRangeEnd,
   slugify,
 } from "../lib/normalize";
 
@@ -45,8 +46,9 @@ export async function scrape(): Promise<ScrapedEvent[]> {
     const link = tile.find("a.absl").attr("href");
     const ticketUrl = absoluteUrl(SOURCE_URL, link) ?? SOURCE_URL;
 
-    const start = parseRange(dateRaw);
+    const start = parseItalianRange(dateRaw ?? "");
     if (!start) return; // skip tiles without parseable dates (e.g. "Stagione 25/26")
+    const end = parseItalianRangeEnd(dateRaw ?? "") ?? undefined;
 
     const id = makeId(VENUE_SLUG, title, start);
     if (seen.has(id)) return;
@@ -65,7 +67,7 @@ export async function scrape(): Promise<ScrapedEvent[]> {
       description: descRaw,
       image,
       venueSlug: VENUE_SLUG,
-      performances: [{ start }],
+      performances: [{ start, end }],
       ticketUrl,
       source: { venue: VENUE_NAME, url: SOURCE_URL, scrapedAt },
     });
@@ -83,31 +85,4 @@ function mapCategory(text: string | undefined): Category {
   if (t.includes("ballet")) return "ballet";
   if (t.includes("concert") || t.includes("music")) return "concert";
   return "theater";
-}
-
-/** Parses "20 Maggio - 7 Giugno 2026" or "19 - 31 Maggio 2026" → ISO start string. */
-function parseRange(text: string | undefined): string | null {
-  if (!text) return null;
-  // Find year
-  const yearMatch = text.match(/(\d{4})/);
-  const year = yearMatch ? parseInt(yearMatch[1], 10) : undefined;
-
-  // Find first "<day> <month>?" before a dash
-  const startBeforeDash = text.split("-")[0];
-  // Try parsing as full date first; if no month, prepend month from end.
-  let iso = parseItalianDate(startBeforeDash, year);
-  if (iso) return iso;
-
-  // Start has only day; pull month from the end ("19 - 31 Maggio 2026")
-  const monthFromEnd = text.match(
-    /-\s*\d{1,2}\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)/i,
-  );
-  if (monthFromEnd) {
-    const dayOnly = startBeforeDash.match(/(\d{1,2})/);
-    if (dayOnly) {
-      iso = parseItalianDate(`${dayOnly[1]} ${monthFromEnd[1]}`, year);
-      if (iso) return iso;
-    }
-  }
-  return null;
 }

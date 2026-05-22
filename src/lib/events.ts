@@ -55,7 +55,7 @@ function firstPerformanceTime(e: Event): number {
 
 function lastPerformanceTime(e: Event): number {
   if (!e.performances.length) return 0;
-  return new Date(
-    e.performances[e.performances.length - 1].start,
-  ).getTime();
+  const last = e.performances[e.performances.length - 1];
+  // For shows with a date range, the run is on as long as `end` hasn't passed.
+  return new Date(last.end ?? last.start).getTime();
 }
