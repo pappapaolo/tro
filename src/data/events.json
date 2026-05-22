@@ -1,0 +1,274 @@
+[
+  {
+    "id": "7343b72036",
+    "slug": "chi-come-me-7343b72036",
+    "title": "Chi come me",
+    "category": "theater",
+    "description": "Uno spettacolo che ha incantato oltre 30.000 spettatori. Di Roy Chen, adattamento, regia e costumi Andrée Ruth Shammah.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2024/09/chi-come-me-mos-pos2.png",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-06T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/chi-come-me-2/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "12c13d3120",
+    "slug": "le-vacanze-dei-signori-lagonia-12c13d3120",
+    "title": "Le vacanze dei signori Lagonìa",
+    "category": "theater",
+    "description": "Cinquant’anni di matrimonio raccontati tra risate improvvise, silenzi poetici e piccoli drammi quotidiani: ecco i signori Lagonia sul palco. Scritto da Francesco Colella e Francesco Lagi.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/lagonia-tfp-25-26-mos-pos2.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-19T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/le-vacanze-dei-signori-lagonia/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "ca8c45149f",
+    "slug": "terzo-tempo-ca8c45149f",
+    "title": "Terzo Tempo",
+    "category": "theater",
+    "description": "Dopo i sessanta tutto può succedere. Una commedia brillante sull’età che avanza, tra colpi di scena, affetto e risate. Tratto dal romanzo di Lidia Ravera, con Lucia Vasini e Paolo Hendel.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/terzo-tempp-tfp-25-26-pos1-800x1003.png",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-20T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/terzo-tempo-2/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "3b0e09772a",
+    "slug": "cuore-di-cactus-3b0e09772a",
+    "title": "Cuore di cactus",
+    "category": "theater",
+    "description": "Da \"Cuore di cactus\" di Antonio Calabrò nasce oltre dieci anni fa uno spettacolo che intreccia memoria personale e storia collettiva, emozione e ragione critica. Con Fausto Russo Alesi.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/cuore-di-cactus-tfp-25-26-d1-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-25T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/cuore-di-cactus/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "d25d761271",
+    "slug": "a-visual-diary-d25d761271",
+    "title": "A Visual Diary",
+    "category": "theater",
+    "description": "Dopo New York, Londra e Basilea, Fabio Cherstich riporta a Milano il suo omaggio alla scena queer della New York anni '80, tra teatro, arte visiva e narrazione.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/02/a-visual-diary-tfp-25-26-d-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-26T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/a-visual-diary/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "d72343a220",
+    "slug": "il-mio-nome-e-maria-stuarda-d72343a220",
+    "title": "Il mio nome è Maria Stuarda",
+    "category": "theater",
+    "description": "Maria Stuarda non è solo una regina: è corpo e voce di una donna privata di dignità e futuro. In scena, un cammino che smaschera la violenza. Di Nicoletta Verna, con Marina Rocco.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2025/07/IL-MIO-NOME-E-maria-stuarda-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-06-03T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/maria-stuarda/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "d88b9ac23e",
+    "slug": "danilo-dolci-la-domanda-che-non-si-spegne-d88b9ac23e",
+    "title": "Danilo Dolci – La domanda che non si spegne",
+    "category": "theater",
+    "description": "Reading tra poesia, vita, musica e microfono aperto. Con Fausto Cabra e Mimosa Campironi.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/01/Serata_Danilo_Dolci_Cabra_d-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-06-16T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/danilo-dolci-la-domanda-che-non-si-spegne/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:02:30.243Z"
+    }
+  },
+  {
+    "id": "7df5d94578",
+    "slug": "notre-dame-de-paris-7df5d94578",
+    "title": "Notre Dame de Paris",
+    "subtitle": "Riccardo Cocciante & Luc Plamondon",
+    "category": "theater",
+    "description": "The musical phenomenon based on Victor Hugo's novel, performed in Italian. Touring production stops at Arcimboldi for a limited run.",
+    "venueSlug": "teatro-arcimboldi",
+    "performances": [
+      {
+        "start": "2026-06-18T20:30:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroarcimboldi.it/",
+    "priceFrom": 32,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "teatro-arcimboldi",
+      "url": "https://www.teatroarcimboldi.it/",
+      "scrapedAt": "2026-05-22T15:02:33.484Z"
+    }
+  },
+  {
+    "id": "34c14719da",
+    "slug": "concerto-di-pasqua-34c14719da",
+    "title": "Concerto di Pasqua",
+    "subtitle": "Orchestra I Pomeriggi Musicali",
+    "category": "concert",
+    "description": "The orchestra's traditional Easter program at Teatro Dal Verme. Sacred music for chorus, soloists and orchestra. Conductor and program TBA.",
+    "venueSlug": "i-pomeriggi-musicali",
+    "performances": [
+      {
+        "start": "2026-07-03T20:45:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.ipomeriggi.it/",
+    "priceFrom": 14,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "i-pomeriggi-musicali",
+      "url": "https://www.ipomeriggi.it/",
+      "scrapedAt": "2026-05-22T15:02:33.484Z"
+    }
+  },
+  {
+    "id": "8442dee93a",
+    "slug": "tosca-8442dee93a",
+    "title": "Tosca",
+    "subtitle": "Giacomo Puccini",
+    "category": "opera",
+    "description": "Puccini's iconic verismo opera returns to La Scala. A singer, a painter, a corrupt police chief — Rome in 1800. Conducted by the resident maestro; new staging by the season's director.",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-12T20:00:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season.html",
+    "priceFrom": 35,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "teatro-alla-scala",
+      "url": "https://www.teatroallascala.org/en/season.html",
+      "scrapedAt": "2026-05-22T15:02:33.484Z"
+    }
+  },
+  {
+    "id": "6323f6aabf",
+    "slug": "il-lago-dei-cigni-6323f6aabf",
+    "title": "Il lago dei cigni",
+    "subtitle": "Swan Lake — Pyotr Ilyich Tchaikovsky",
+    "category": "ballet",
+    "description": "Tchaikovsky's defining ballet, in the version that made it canon. The corps de ballet of Teatro alla Scala dances the white acts; principals announced closer to opening.",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-05T20:00:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season.html",
+    "priceFrom": 40,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "teatro-alla-scala",
+      "url": "https://www.teatroallascala.org/en/season.html",
+      "scrapedAt": "2026-05-22T15:02:33.484Z"
+    }
+  },
+  {
+    "id": "3569db7b8a",
+    "slug": "arlecchino-servitore-di-due-padroni-3569db7b8a",
+    "title": "Arlecchino servitore di due padroni",
+    "subtitle": "Carlo Goldoni — regia Giorgio Strehler",
+    "category": "theater",
+    "description": "Piccolo Teatro's signature production, in continuous repertory since 1947. Goldoni's commedia dell'arte masterpiece, in the staging that defined Italian theatre after the war.",
+    "venueSlug": "piccolo-teatro",
+    "performances": [
+      {
+        "start": "2026-11-15T20:30:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026",
+    "priceFrom": 18,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "piccolo-teatro",
+      "url": "https://www.piccoloteatro.org/it/2025-2026",
+      "scrapedAt": "2026-05-22T15:02:33.484Z"
+    }
+  },
+  {
+    "id": "28d37cbc7c",
+    "slug": "elektra-28d37cbc7c",
+    "title": "Elektra",
+    "subtitle": "Richard Strauss",
+    "category": "opera",
+    "description": "Strauss's one-act tragedy after Hofmannsthal. Mythic Greek revenge in 100 unbroken minutes of orchestral violence. A defining 20th-century opera.",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-12-08T20:00:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season.html",
+    "priceFrom": 45,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "teatro-alla-scala",
+      "url": "https://www.teatroallascala.org/en/season.html",
+      "scrapedAt": "2026-05-22T15:02:33.484Z"
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "teatro-alla-scala",
+    "name": "Teatro alla Scala",
+    "city": "Milan",
+    "address": "Via Filodrammatici 2, 20121 Milano",
+    "website": "https://www.teatroallascala.org/"
+  },
+  {
+    "slug": "piccolo-teatro",
+    "name": "Piccolo Teatro di Milano",
+    "city": "Milan",
+    "address": "Largo Antonio Greppi 1, 20121 Milano",
+    "website": "https://www.piccoloteatro.org/"
+  },
+  {
+    "slug": "teatro-franco-parenti",
+    "name": "Teatro Franco Parenti",
+    "city": "Milan",
+    "address": "Via Pier Lombardo 14, 20135 Milano",
+    "website": "https://www.teatrofrancoparenti.it/"
+  },
+  {
+    "slug": "teatro-arcimboldi",
+    "name": "Teatro degli Arcimboldi",
+    "city": "Milan",
+    "address": "Viale dell'Innovazione 20, 20126 Milano",
+    "website": "https://www.teatroarcimboldi.it/"
+  },
+  {
+    "slug": "teatro-elfo-puccini",
+    "name": "Teatro Elfo Puccini",
+    "city": "Milan",
+    "address": "Corso Buenos Aires 33, 20124 Milano",
+    "website": "https://www.elfo.org/"
+  },
+  {
+    "slug": "teatro-manzoni",
+    "name": "Teatro Manzoni",
+    "city": "Milan",
+    "address": "Via Manzoni 42, 20121 Milano",
+    "website": "https://www.teatromanzoni.it/"
+  },
+  {
+    "slug": "i-pomeriggi-musicali",
+    "name": "I Pomeriggi Musicali — Teatro Dal Verme",
+    "city": "Milan",
+    "address": "Via San Giovanni sul Muro 2, 20121 Milano",
+    "website": "https://www.ipomeriggi.it/"
+  },
+  {
+    "slug": "teatro-carcano",
+    "name": "Teatro Carcano",
+    "city": "Milan",
+    "address": "Corso di Porta Romana 63, 20122 Milano",
+    "website": "https://www.teatrocarcano.com/"
+  },
+  {
+    "slug": "teatro-out-off",
+    "name": "Teatro Out Off",
+    "city": "Milan",
+    "address": "Via Mac Mahon 16, 20155 Milano",
+    "website": "https://www.teatrooutoff.it/"
+  },
+  {
+    "slug": "teatro-filodrammatici",
+    "name": "Teatro Filodrammatici",
+    "city": "Milan",
+    "address": "Via Filodrammatici 1, 20121 Milano",
+    "website": "https://www.teatrofilodrammatici.eu/"
+  },
+  {
+    "slug": "teatro-nazionale",
+    "name": "Teatro Nazionale CheBanca!",
+    "city": "Milan",
+    "address": "Piazza Piemonte 12, 20145 Milano",
+    "website": "https://www.teatronazionale.it/"
+  }
+]
