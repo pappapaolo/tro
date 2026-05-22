@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Onest } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const onest = Onest({
+  variable: "--font-onest",
   subsets: ["latin"],
   display: "swap",
 });
@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="en" className={`${onest.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white text-black">
         <Nav />
         <main className="flex-1">{children}</main>
