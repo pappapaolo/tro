@@ -5,6 +5,7 @@ import { scrape as scrapeScala } from "./sources/scala";
 import { scrape as scrapeParenti } from "./sources/parenti";
 import { scrape as scrapeElfo } from "./sources/elfo";
 import { scrape as scrapeManzoni } from "./sources/manzoni";
+import { scrape as scrapeAuditorium } from "./sources/auditorium";
 import { scrape as scrapeManual } from "./sources/manual";
 import type { ScrapedEvent } from "./lib/normalize";
 
@@ -16,6 +17,7 @@ const SOURCES: { name: string; run: () => Promise<ScrapedEvent[]> }[] = [
   { name: "parenti", run: scrapeParenti },
   { name: "elfo", run: scrapeElfo },
   { name: "manzoni", run: scrapeManzoni },
+  { name: "auditorium", run: scrapeAuditorium },
   { name: "manual", run: scrapeManual },
 ];
 

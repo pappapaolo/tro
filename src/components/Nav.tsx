@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import { Suspense } from "react";
+import CitySwitcher from "./CitySwitcher";
 
 export default function Nav() {
   return (
@@ -7,20 +10,27 @@ export default function Nav() {
         <Link
           href="/"
           aria-label="tro home"
-          className="text-2xl font-black tracking-tight leading-none"
+          className="flex items-center"
         >
-          tro
+          <Image
+            src="/logo.svg"
+            alt="tro"
+            width={68}
+            height={35}
+            priority
+            className="h-8 w-auto"
+          />
         </Link>
-        <div className="hidden sm:flex items-center gap-2 text-sm text-(--color-muted)">
-          <span className="select-none">·</span>
-          <button
-            type="button"
-            className="rounded-full px-3 py-1 hover:bg-black/5 transition-colors"
-            aria-label="Change city"
-          >
-            Milan
-          </button>
-        </div>
+        <Suspense
+          fallback={
+            <div className="flex items-center text-sm">
+              <span className="text-(--color-muted) mr-2">·</span>
+              <span className="rounded-full px-3 py-1">Milan</span>
+            </div>
+          }
+        >
+          <CitySwitcher />
+        </Suspense>
         <div className="ml-auto flex items-center gap-1">
           <Link
             href="/about"

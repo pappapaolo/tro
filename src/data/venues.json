@@ -75,5 +75,26 @@
     "city": "Milan",
     "address": "Piazza Piemonte 12, 20145 Milano",
     "website": "https://www.teatronazionale.it/"
+  },
+  {
+    "slug": "auditorium-parco-della-musica",
+    "name": "Auditorium Parco della Musica Ennio Morricone",
+    "city": "Rome",
+    "address": "Viale Pietro de Coubertin 30, 00196 Roma",
+    "website": "https://www.auditorium.com/"
+  },
+  {
+    "slug": "teatro-opera-roma",
+    "name": "Teatro dell'Opera di Roma",
+    "city": "Rome",
+    "address": "Piazza Beniamino Gigli 7, 00184 Roma",
+    "website": "https://www.operaroma.it/"
+  },
+  {
+    "slug": "teatro-argentina",
+    "name": "Teatro Argentina",
+    "city": "Rome",
+    "address": "Largo di Torre Argentina 52, 00186 Roma",
+    "website": "https://www.teatrodiroma.net/"
   }
 ]
