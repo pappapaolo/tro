@@ -1,15 +1,25 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { Venue } from "@/lib/types";
 
-interface Props {
-  venues: Venue[];
-  value: string | null;
-  onChange: (slug: string | null) => void;
+export interface FilterOption {
+  value: string;
+  label: string;
 }
 
-export default function VenueFilter({ venues, value, onChange }: Props) {
+interface Props {
+  options: FilterOption[];
+  value: string | null;
+  emptyLabel: string;
+  onChange: (value: string | null) => void;
+}
+
+export default function FilterDropdown({
+  options,
+  value,
+  emptyLabel,
+  onChange,
+}: Props) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -23,8 +33,9 @@ export default function VenueFilter({ venues, value, onChange }: Props) {
     return () => document.removeEventListener("mousedown", onClick);
   }, [open]);
 
-  const current = venues.find((v) => v.slug === value);
-  const label = current ? current.name : "Any venue";
+  const current = options.find((o) => o.value === value);
+  const label = current ? current.label : emptyLabel;
+  const active = !!current;
 
   return (
     <div ref={ref} className="relative">
@@ -34,7 +45,7 @@ export default function VenueFilter({ venues, value, onChange }: Props) {
         aria-haspopup="listbox"
         aria-expanded={open}
         className={`inline-flex max-w-full items-center gap-2 rounded-full border px-4 py-1.5 text-sm transition-colors ${
-          current
+          active
             ? "border-black bg-black text-white"
             : "border-(--color-line) bg-white text-black hover:border-black/60"
         }`}
@@ -47,13 +58,18 @@ export default function VenueFilter({ venues, value, onChange }: Props) {
           aria-hidden
           className={`shrink-0 transition-transform ${open ? "rotate-180" : ""}`}
         >
-          <path d="M1 3 L5 7 L9 3" stroke="currentColor" strokeWidth="1.5" fill="none" />
+          <path
+            d="M1 3 L5 7 L9 3"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            fill="none"
+          />
         </svg>
       </button>
       {open && (
         <ul
           role="listbox"
-          className="absolute top-full left-0 z-30 mt-2 min-w-[260px] max-h-[60vh] overflow-auto rounded-xl border border-(--color-line) bg-white shadow-lg"
+          className="absolute top-full left-0 z-30 mt-2 min-w-[220px] max-h-[60vh] overflow-auto rounded-xl border border-(--color-line) bg-white shadow-lg"
         >
           <li>
             <button
@@ -68,28 +84,28 @@ export default function VenueFilter({ venues, value, onChange }: Props) {
                 value === null ? "font-medium" : ""
               }`}
             >
-              <span>Any venue</span>
+              <span>{emptyLabel}</span>
               {value === null && (
                 <span className="text-(--color-accent)">•</span>
               )}
             </button>
           </li>
-          {venues.map((v) => (
-            <li key={v.slug}>
+          {options.map((opt) => (
+            <li key={opt.value}>
               <button
                 type="button"
                 role="option"
-                aria-selected={v.slug === value}
+                aria-selected={opt.value === value}
                 onClick={() => {
-                  onChange(v.slug);
+                  onChange(opt.value);
                   setOpen(false);
                 }}
                 className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-black/5 ${
-                  v.slug === value ? "font-medium" : ""
+                  opt.value === value ? "font-medium" : ""
                 }`}
               >
-                <span className="truncate">{v.name}</span>
-                {v.slug === value && (
+                <span className="truncate">{opt.label}</span>
+                {opt.value === value && (
                   <span className="text-(--color-accent) shrink-0">•</span>
                 )}
               </button>

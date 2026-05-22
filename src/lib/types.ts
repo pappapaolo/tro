@@ -40,6 +40,12 @@ export interface Event {
   ticketUrl?: string;
   priceFrom?: number;
   priceCurrency?: string;
+  /**
+   * Editorial heuristic score, 0–100. Higher = more newsworthy. Computed
+   * from venue prestige + premiere/brand-name keywords + run length.
+   * Used to sort the grid and badge top picks.
+   */
+  rank?: number;
   source: {
     venue: string;
     url: string;

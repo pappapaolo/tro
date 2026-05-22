@@ -1,6 +1,7 @@
 "use client";
 
-import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
+import Image from "next/image";
+import { useMemo } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Event, Venue } from "@/lib/types";
 import { CATEGORIES, type Category } from "@/lib/types";
@@ -10,26 +11,27 @@ import {
   type WhenFilter,
 } from "@/lib/filters";
 import { CITIES, DEFAULT_CITY, type CityId } from "@/lib/cities";
+import { CURTAIN } from "@/lib/illustrations";
 import EventGrid from "./EventGrid";
-import VenueFilter from "./VenueFilter";
+import FilterDropdown from "./FilterDropdown";
 
 interface Props {
   events: Event[];
   venues: Venue[];
 }
 
-const WHEN_OPTIONS: { id: WhenFilter; label: string }[] = [
-  { id: "tonight", label: "Tonight" },
-  { id: "weekend", label: "This weekend" },
-  { id: "week", label: "This week" },
-  { id: "month", label: "This month" },
+const WHEN_OPTIONS = [
+  { value: "tonight", label: "Tonight" },
+  { value: "weekend", label: "This weekend" },
+  { value: "week", label: "This week" },
+  { value: "month", label: "This month" },
 ];
 
-const PRICE_OPTIONS: { id: PriceFilter; label: string }[] = [
-  { id: "free", label: "Free" },
-  { id: "lt20", label: "Under €20" },
-  { id: "lt50", label: "Under €50" },
-  { id: "50plus", label: "€50+" },
+const PRICE_OPTIONS = [
+  { value: "free", label: "Free" },
+  { value: "lt20", label: "Under €20" },
+  { value: "lt50", label: "Under €50" },
+  { value: "50plus", label: "€50+" },
 ];
 
 export default function Browse({ events, venues }: Props) {
@@ -37,32 +39,12 @@ export default function Browse({ events, venues }: Props) {
   const pathname = usePathname();
   const params = useSearchParams();
 
+  const q = params.get("q") ?? "";
   const cat = (params.get("cat") as Category | null) ?? null;
   const when = (params.get("when") as WhenFilter | null) ?? null;
   const price = (params.get("price") as PriceFilter | null) ?? null;
   const venue = params.get("venue") ?? null;
   const city = (params.get("city") as CityId | null) ?? DEFAULT_CITY;
-
-  const [q, setQ] = useState(params.get("q") ?? "");
-  const deferredQ = useDeferredValue(q);
-
-  // Keep the latest params reachable inside the debounce timeout so it
-  // doesn't overwrite filters set after the user stopped typing.
-  const paramsRef = useRef(params);
-  paramsRef.current = params;
-
-  useEffect(() => {
-    const currentQ = paramsRef.current.get("q") ?? "";
-    if (deferredQ === currentQ) return;
-    const t = setTimeout(() => {
-      const next = new URLSearchParams(paramsRef.current.toString());
-      if (deferredQ) next.set("q", deferredQ);
-      else next.delete("q");
-      const qs = next.toString();
-      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-    }, 200);
-    return () => clearTimeout(t);
-  }, [deferredQ, pathname, router]);
 
   const venueCity = useMemo(() => {
     const map = new Map(venues.map((v) => [v.slug, v.city]));
@@ -83,7 +65,7 @@ export default function Browse({ events, venues }: Props) {
       applyFilters(
         events,
         {
-          q: deferredQ,
+          q: q,
           cat: cat ?? undefined,
           when: when ?? undefined,
           price: price ?? undefined,
@@ -92,21 +74,19 @@ export default function Browse({ events, venues }: Props) {
         },
         venueCity,
       ),
-    [events, deferredQ, cat, when, price, venue, currentCity.venueCity, venueCity],
+    [events, q, cat, when, price, venue, currentCity.venueCity, venueCity],
   );
 
   function setParam(key: string, value: string | null) {
     const next = new URLSearchParams(params.toString());
     if (value) next.set(key, value);
     else next.delete(key);
-    // Switching city invalidates any pinned venue
     if (key === "city") next.delete("venue");
     const qs = next.toString();
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
   }
 
   function clearAll() {
-    setQ("");
     router.replace(pathname, { scroll: false });
   }
 
@@ -119,69 +99,61 @@ export default function Browse({ events, venues }: Props) {
 
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
-      <section className="mb-8 sm:mb-10">
-        <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight leading-tight max-w-2xl">
-          What&apos;s on in {currentCity.label}.
-        </h1>
-        <p className="mt-3 text-(--color-muted) max-w-xl">
-          Theater, opera, ballet and dance. One place to browse what&apos;s on
-          and where to get tickets.
-        </p>
+      <section className="mb-8 sm:mb-10 grid grid-cols-1 sm:grid-cols-[1fr_180px] items-center gap-6">
+        <div>
+          <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight leading-tight">
+            What&apos;s on in {currentCity.label}.
+          </h1>
+          <p className="mt-3 text-(--color-muted) max-w-xl">
+            Theater, opera, ballet and dance. Featured shows ranked by our
+            editorial heuristic — venue prestige, premieres, brand-name
+            productions.
+          </p>
+        </div>
+        <Image
+          src={CURTAIN.src}
+          alt={CURTAIN.alt}
+          width={180}
+          height={180}
+          className="justify-self-end hidden sm:block"
+          priority
+        />
       </section>
 
-      <div className="mb-4 relative">
-        <SearchIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-(--color-muted) pointer-events-none" />
-        <input
-          type="search"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder="Search shows, venues, artists"
-          className="w-full h-12 pl-11 pr-4 rounded-full border border-(--color-line) bg-white text-base placeholder:text-(--color-muted) focus:outline-none focus:border-black transition-colors"
-          aria-label="Search"
-        />
-      </div>
+      <PillRow
+        ariaLabel="Filter by category"
+        options={[
+          { id: null, label: "All" },
+          ...CATEGORIES.map((c) => ({ id: c.id, label: c.label })),
+        ]}
+        value={cat}
+        onChange={(v) => setParam("cat", v)}
+      />
 
-      <div className="space-y-2 mb-3">
-        <PillRow
-          ariaLabel="Filter by category"
-          options={[
-            { id: null, label: "All" },
-            ...CATEGORIES.map((c) => ({ id: c.id, label: c.label })),
-          ]}
-          value={cat}
-          onChange={(v) => setParam("cat", v)}
-        />
-        <PillRow
-          ariaLabel="Filter by date"
-          options={[
-            { id: null, label: "Any date" },
-            ...WHEN_OPTIONS.map((w) => ({ id: w.id, label: w.label })),
-          ]}
+      <div className="mt-3 mb-8 flex flex-wrap items-center gap-2">
+        <FilterDropdown
+          options={WHEN_OPTIONS}
           value={when}
+          emptyLabel="Any date"
           onChange={(v) => setParam("when", v)}
         />
-        <PillRow
-          ariaLabel="Filter by price"
-          options={[
-            { id: null, label: "Any price" },
-            ...PRICE_OPTIONS.map((p) => ({ id: p.id, label: p.label })),
-          ]}
-          value={price}
-          onChange={(v) => setParam("price", v)}
-        />
-      </div>
-
-      <div className="mb-6 flex items-center gap-3">
-        <VenueFilter
-          venues={cityVenues}
+        <FilterDropdown
+          options={cityVenues.map((v) => ({ value: v.slug, label: v.name }))}
           value={venue}
-          onChange={(slug) => setParam("venue", slug)}
+          emptyLabel="Any venue"
+          onChange={(v) => setParam("venue", v)}
+        />
+        <FilterDropdown
+          options={PRICE_OPTIONS}
+          value={price}
+          emptyLabel="Any price"
+          onChange={(v) => setParam("price", v)}
         />
         {activeCount > 0 && (
           <button
             type="button"
             onClick={clearAll}
-            className="text-sm text-(--color-muted) underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            className="ml-1 text-sm text-(--color-muted) underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
           >
             Clear all
           </button>
@@ -240,20 +212,5 @@ function PillRow<T extends string | null>({
         })}
       </div>
     </div>
-  );
-}
-
-function SearchIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      aria-hidden
-      className={className}
-    >
-      <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" fill="none" />
-      <path d="M20 20 L16.5 16.5" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
-    </svg>
   );
 }

@@ -1,0 +1,46 @@
+name: Refresh events
+
+on:
+  # Daily at 06:00 UTC (08:00 Milan, before most box offices open)
+  schedule:
+    - cron: "0 6 * * *"
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Use a token with write perms so the push triggers Vercel
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install
+        run: npm ci
+
+      - name: Scrape
+        run: npm run scrape
+
+      - name: Commit if changed
+        run: |
+          git config user.name "tro-bot"
+          git config user.email "bot@tro"
+          git add src/data/events.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            COUNT=$(node -e "console.log(require('./src/data/events.json').length)")
+            git commit -m "chore: refresh events (${COUNT} upcoming)"
+            git push
+          fi

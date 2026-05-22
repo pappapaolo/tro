@@ -8,12 +8,19 @@ const allVenues = venuesData as Venue[];
 const venueBySlug = new Map(allVenues.map((v) => [v.slug, v]));
 
 export function getAllEvents(): Event[] {
+  // Sort: rank desc (editorial pick first), then earliest start.
   return [...allEvents].sort((a, b) => {
-    const aStart = firstPerformanceTime(a);
-    const bStart = firstPerformanceTime(b);
-    return aStart - bStart;
+    const dr = (b.rank ?? 0) - (a.rank ?? 0);
+    if (dr !== 0) return dr;
+    return firstPerformanceTime(a) - firstPerformanceTime(b);
   });
 }
+
+/**
+ * Threshold above which an event is shown with an "Editor's pick" badge.
+ * Tuned so that ~10-20% of the catalog gets the badge.
+ */
+export const EDITORS_PICK_THRESHOLD = 82;
 
 export function getUpcomingEvents(now: Date = new Date()): Event[] {
   const t = now.getTime();
@@ -25,7 +32,11 @@ export function getEventBySlug(slug: string): Event | undefined {
 }
 
 export function getEventsByVenue(venueSlug: string): Event[] {
-  return getAllEvents().filter((e) => e.venueSlug === venueSlug);
+  // Venue pages: show chronologically (people are looking at a specific
+  // venue's calendar, not the editorial mix).
+  return [...allEvents]
+    .filter((e) => e.venueSlug === venueSlug)
+    .sort((a, b) => firstPerformanceTime(a) - firstPerformanceTime(b));
 }
 
 export function getRelatedEvents(event: Event, limit = 6): Event[] {

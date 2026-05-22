@@ -3,12 +3,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
+  EDITORS_PICK_THRESHOLD,
   getEventBySlug,
   getRelatedEvents,
   getVenueBySlug,
   getAllEvents,
 } from "@/lib/events";
 import { formatDateBadge, formatDateLong, formatPrice } from "@/lib/format";
+import { illustrationForCategory } from "@/lib/illustrations";
 import EventGrid from "@/components/EventGrid";
 
 interface PageProps {
@@ -47,7 +49,7 @@ export default async function EventPage({ params }: PageProps) {
 
   return (
     <article className="mx-auto max-w-[1100px] px-4 sm:px-6 pt-8 pb-16">
-      <div className="relative aspect-[16/9] sm:aspect-[16/7] w-full overflow-hidden bg-(--color-line) rounded-xl">
+      <div className="relative aspect-[16/9] sm:aspect-[16/7] w-full overflow-hidden bg-white ring-1 ring-(--color-line) rounded-xl">
         {event.image ? (
           <Image
             src={event.image}
@@ -58,9 +60,20 @@ export default async function EventPage({ params }: PageProps) {
             className="object-cover"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center text-(--color-muted) uppercase tracking-widest">
-            {event.category}
-          </div>
+          <Image
+            src={illustrationForCategory(event.category).src}
+            alt={illustrationForCategory(event.category).alt}
+            fill
+            sizes="100vw"
+            priority
+            className="object-contain p-10 sm:p-16"
+          />
+        )}
+        {(event.rank ?? 0) >= EDITORS_PICK_THRESHOLD && (
+          <span className="absolute top-4 left-4 inline-flex items-center gap-1 rounded-full bg-black/90 text-white text-xs font-medium tracking-wide px-3 py-1.5">
+            <span aria-hidden className="text-(--color-accent)">★</span>
+            Editor&apos;s pick
+          </span>
         )}
       </div>
 

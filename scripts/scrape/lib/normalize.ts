@@ -21,6 +21,7 @@ export interface ScrapedEvent {
   ticketUrl?: string;
   priceFrom?: number;
   priceCurrency?: string;
+  rank?: number;
   source: { venue: string; url: string; scrapedAt: string };
 }
 

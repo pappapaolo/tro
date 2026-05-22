@@ -1,1075 +1,23 @@
 [
   {
-    "id": "2dc8ce9c1a",
-    "slug": "l-ultimo-nastro-di-krapp-quella-volta-2dc8ce9c1a",
-    "title": "L’ultimo nastro di Krapp / Quella volta",
-    "category": "theater",
-    "description": "Con Ferdinando Bruni.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2466.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-04-08T20:00:00.000Z",
-        "end": "2026-05-17T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/l-ultimo-nastro-di-krapp.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "7343b72036",
-    "slug": "chi-come-me-7343b72036",
-    "title": "Chi come me",
-    "category": "theater",
-    "description": "Uno spettacolo che ha incantato oltre 30.000 spettatori. Di Roy Chen, adattamento, regia e costumi Andrée Ruth Shammah.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2024/09/chi-come-me-mos-pos2.png",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-05-06T20:00:00.000Z",
-        "end": "2026-05-24T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/chi-come-me-2/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "35196a9c1b",
-    "slug": "dentro-la-tela-35196a9c1b",
-    "title": "DENTRO LA TELA",
-    "subtitle": "Indagine su Artemisia",
-    "category": "theater",
-    "description": "Con Cinzia Spanò.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2513.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-07T20:00:00.000Z",
-        "end": "2026-05-31T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/dentro-la-tela.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "9e181dacef",
-    "slug": "making-of-9e181dacef",
-    "title": "Making Of",
-    "subtitle": "The Mary Shelley picture show",
-    "category": "theater",
-    "description": "Con Minima Theatralia, Duperdu.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2533.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-09T20:00:00.000Z",
-        "end": "2026-05-10T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/the-mary-shelley-picture-show.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "cee6baa7e2",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-cee6baa7e2",
-    "title": "Members of the Teatro alla Scala Orchestra",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/476/476356mbdg-ph-marco-brescia---teatro-alla-scala-.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-10T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-the-teatro-alla-scala-orchestra-10-may-2026.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "d985e21d47",
-    "slug": "concert-for-the-anniversary-of-la-scala-s-reopening-d985e21d47",
-    "title": "Concert for the Anniversary of La Scala’s Reopening",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/_con/concerto-1946-toscanini.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-11T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/exceptional-concerts/concert-for-the-anniversary-of-la-scala-s-reopening.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "9b647c866b",
-    "slug": "tre-sorelle-9b647c866b",
-    "title": "TRE SORELLE",
-    "subtitle": "NEVICA. CHE SENSO HA?",
-    "category": "theater",
-    "description": "Con Liv Ferracchiati.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2511.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-12T20:00:00.000Z",
-        "end": "2026-05-17T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "dba7098d94",
-    "slug": "tre-sorelle-dba7098d94",
-    "title": "TRE SORELLE",
-    "subtitle": "NEVICA. CHE SENSO HA?",
-    "category": "theater",
-    "description": "Con Anteprima Under 30.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2682.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-12T20:30:00.000Z",
-        "end": "2026-05-12T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle-under30.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "928e118231",
-    "slug": "nabucodonosor-928e118231",
-    "title": "Nabucodonosor",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/nab/nabucodonosor-2026.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/nabucodonosor.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "c2bd8d71d2",
-    "slug": "piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel-c2bd8d71d2",
-    "title": "Piano City Milano | Giuseppe Guarrera, \"Homage to Alfred Brendel\"",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "56528bfc6d",
-    "slug": "workshop-for-expecting-families-carmen-56528bfc6d",
-    "title": "Workshop for expecting families: Carmen",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/ope/opera-meno-9-sezione.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/workshops-in-the-theatre-s-foyer/opera-meno9-carmen.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "28936f1192",
-    "slug": "arcadi-volodos-28936f1192",
-    "title": "Arcadi Volodos",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/arc/arcadi-volodos-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-17T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/arcadi-volodos.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "032d5b70d6",
-    "slug": "piano-city-milano-daniele-martinelli-032d5b70d6",
-    "title": "Piano City Milano | Daniele Martinelli",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-17T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-daniele-martinelli.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "cfbe194ca8",
-    "slug": "alda-caiello-and-quartetto-nous-35-festival-milano-musica-cfbe194ca8",
-    "title": "Alda Caiello and Quartetto Noûs - 35° Festival Milano Musica",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/mil/milanomusica26-quartettonous-scala-24apr26-web-studiohanninen-_gl_3124.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-18T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/alda-caiello-and-quartetto-nous.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "4663b0bae3",
-    "slug": "orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festiva-4663b0bae3",
-    "title": "Orchestra Sinfonica Nazionale della Rai, Michele Gamba, Minh-Tam Nguyen - 35° Festival Milano Musica",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/18-/18-05_osnrai-scala-07mag23-web-studiohanninen-_mgl7031.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-18T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festival-milano-musica.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "12c13d3120",
-    "slug": "le-vacanze-dei-signori-lagonia-12c13d3120",
-    "title": "Le vacanze dei signori Lagonìa",
-    "category": "theater",
-    "description": "Cinquant’anni di matrimonio raccontati tra risate improvvise, silenzi poetici e piccoli drammi quotidiani: ecco i signori Lagonia sul palco. Scritto da Francesco Colella e Francesco Lagi.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/lagonia-tfp-25-26-mos-pos2.jpg",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-05-19T20:00:00.000Z",
-        "end": "2026-05-31T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/le-vacanze-dei-signori-lagonia/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "612f91a76f",
-    "slug": "casanova-612f91a76f",
-    "title": "CASANOVA",
-    "category": "theater",
-    "description": "Con Sandro Lombardi.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2512.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-19T20:00:00.000Z",
-        "end": "2026-05-24T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/casanova.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "ca8c45149f",
-    "slug": "terzo-tempo-ca8c45149f",
-    "title": "Terzo Tempo",
-    "category": "theater",
-    "description": "Dopo i sessanta tutto può succedere. Una commedia brillante sull’età che avanza, tra colpi di scena, affetto e risate. Tratto dal romanzo di Lidia Ravera, con Lucia Vasini e Paolo Hendel.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/terzo-tempp-tfp-25-26-pos1-800x1003.png",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-05-20T20:00:00.000Z",
-        "end": "2026-06-07T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/terzo-tempo-2/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "4e51e3c22e",
-    "slug": "alice-s-adventures-in-wonderland-4e51e3c22e",
-    "title": "Alice’s Adventures in Wonderland",
+    "id": "9fb4b8648f",
+    "slug": "balanchine-bausch-stravinsky-9fb4b8648f",
+    "title": "Balanchine Bausch Stravinsky",
     "category": "ballet",
-    "image": "https://www.teatroallascala.org/static/upload/ali/alice-s-adventures-in-wonderland-foto-promo----agnese-di-clemente--ph-brescia-e-amisano.jpg",
+    "image": "https://www.teatroallascala.org/static/upload/bal/balanchine-bausch-collage-immagine-sezione.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-05-21T20:00:00.000Z"
+        "start": "2026-11-07T20:00:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/alice-s-adventures-in-wonderland.html",
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/balanchine-bausch-stravinsky.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "93cc438765",
-    "slug": "come-una-catapulta-93cc438765",
-    "title": "Come una catapulta",
-    "category": "theater",
-    "description": "Herbert Ballerina in scena con il suo spettacolo teatrale che catapulterà in un sano divertimento con esilaranti nonsense.",
-    "image": "https://www.teatromanzoni.it/storage/2024/05/600x600-17.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-05-24T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/come-una-catapulta-2/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "3b0e09772a",
-    "slug": "cuore-di-cactus-3b0e09772a",
-    "title": "Cuore di cactus",
-    "category": "theater",
-    "description": "Da \"Cuore di cactus\" di Antonio Calabrò nasce oltre dieci anni fa uno spettacolo che intreccia memoria personale e storia collettiva, emozione e ragione critica. Con Fausto Russo Alesi.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/cuore-di-cactus-tfp-25-26-d1-800x450.jpg",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-05-25T20:00:00.000Z",
-        "end": "2026-05-25T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/cuore-di-cactus/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "eff2cfbfb8",
-    "slug": "leo-kottke-eff2cfbfb8",
-    "title": "LEO KOTTKE",
-    "subtitle": "evento annullato",
-    "category": "theater",
-    "description": "Con Barley Arts presenta.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2457.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-25T21:00:00.000Z",
-        "end": "2026-05-25T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/leo-kottke.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "d25d761271",
-    "slug": "a-visual-diary-d25d761271",
-    "title": "A Visual Diary",
-    "category": "theater",
-    "description": "Dopo New York, Londra e Basilea, Fabio Cherstich riporta a Milano il suo omaggio alla scena queer della New York anni '80, tra teatro, arte visiva e narrazione.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/02/a-visual-diary-tfp-25-26-d-800x450.jpg",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-05-26T20:00:00.000Z",
-        "end": "2026-05-27T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/a-visual-diary/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "d7edcd3150",
-    "slug": "arrivano-i-dunque-d7edcd3150",
-    "title": "ARRIVANO I DUNQUE",
-    "subtitle": "(Avannotti, sole Blu e la storia della giovane Saracinesca)",
-    "category": "theater",
-    "description": "Con Alessandro Bergonzoni.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2477.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-26T20:00:00.000Z",
-        "end": "2026-05-31T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/alessandro-bergonzoni.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "70bf567a94",
-    "slug": "percussionists-of-teatro-alla-scala-70bf567a94",
-    "title": "Percussionists of Teatro alla Scala",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/536/536383mbdg-ph-marco-brescia--teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-31T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/percussionists-of-teatro-alla-scala-31-may-2026.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "3040e4a0bf",
-    "slug": "i-promossi-sposi-3040e4a0bf",
-    "title": "I promossi sposi",
-    "category": "theater",
-    "description": "I Legnanesi al Teatro Manzoni di Milano con una nuova commedia. Che succede se la Teresa e il Giovanni non sono mai stati sposati per davvero?",
-    "image": "https://www.teatromanzoni.it/storage/2025/04/600x600-legna.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-05-31T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/i-promossi-sposi/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "d72343a220",
-    "slug": "il-mio-nome-e-maria-stuarda-d72343a220",
-    "title": "Il mio nome è Maria Stuarda",
-    "category": "theater",
-    "description": "Maria Stuarda non è solo una regina: è corpo e voce di una donna privata di dignità e futuro. In scena, un cammino che smaschera la violenza. Di Nicoletta Verna, con Marina Rocco.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2025/07/IL-MIO-NOME-E-maria-stuarda-800x450.jpg",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-06-03T20:00:00.000Z",
-        "end": "2026-06-07T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/maria-stuarda/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "12dc0762bd",
-    "slug": "quentin-crisp-12dc0762bd",
-    "title": "Quentin Crisp",
-    "subtitle": "La speranza è nuda",
-    "category": "theater",
-    "description": "Con Luca Toracca.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2479.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-03T20:00:00.000Z",
-        "end": "2026-06-19T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/quentin-crisp.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "cd16347278",
-    "slug": "a-volo-d-angelo-cd16347278",
-    "title": "A VOLO D’ANGELO",
-    "category": "theater",
-    "description": "Con Cottini/Canzi.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2578.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-03T20:00:00.000Z",
-        "end": "2026-06-05T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/a-volo-d-angelo.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "a3c3fe1b00",
-    "slug": "laura-ramoso-a3c3fe1b00",
-    "title": "Laura Ramoso",
-    "category": "theater",
-    "description": "Al Teatro Manzoni di Milano lo spettacolo di sketch comedy di Laura Ramoso dopo i grandi successi all'estero.",
-    "image": "https://www.teatromanzoni.it/storage/2025/12/600x600.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-06-03T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/laura-ramoso/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "052a3457a5",
-    "slug": "jakub-jozef-orlinski-michal-biel-052a3457a5",
-    "title": "Jakub Józef Orliński / Michal Biel",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/jak/jakub-jozef-orli-ski-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-07T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/jakub-josef-orlinski.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "13098aad19",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-13098aad19",
-    "title": "Members of the Teatro alla Scala Orchestra",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/536/536375mbdg-ph-marco-brescia--teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-07T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-teatro-alla-scala-orchestra-7-june-2026.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "0d2c7b794a",
-    "slug": "mimi-teo-and-the-fantastic-raft-0d2c7b794a",
-    "title": "Mimì & Teo and… The Fantastic Raft",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-07T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-fantastic-raft.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "a8598e6dab",
-    "slug": "carmen-a8598e6dab",
-    "title": "Carmen",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-737737badg-ph-brescia-e-amisano---teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-08T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/carmen.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "1db090b62f",
-    "slug": "il-babysitter-1db090b62f",
-    "title": "Il babysitter",
-    "category": "theater",
-    "description": "Uno spettacolo di Paolo Ruffini scandito da comicità e improvvisazione, che riporta il pubblico ad essere bambino per una sera.",
-    "image": "https://www.teatromanzoni.it/storage/2025/04/600x600-27.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-06-08T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/il-babysitter-3/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "3447f1ea13",
-    "slug": "de-frammentazione-di-dramma-assoluto-3447f1ea13",
-    "title": "De/frammentazione di dramma assoluto",
-    "category": "theater",
-    "description": "Con servomutoTeatro.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2515.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-09T20:00:00.000Z",
-        "end": "2026-06-14T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/de-frammentazione.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "92efbb585a",
-    "slug": "giusto-92efbb585a",
-    "title": "GIUSTO",
-    "category": "theater",
-    "description": "Con Rosario Lisma.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2478.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-09T20:00:00.000Z",
-        "end": "2026-06-11T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "e2f7e1b732",
-    "slug": "giusto-e2f7e1b732",
-    "title": "GIUSTO",
-    "category": "theater",
-    "description": "Con Anteprima Under 30.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2622.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-09T20:30:00.000Z",
-        "end": "2026-06-09T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto-under30.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "43da89ed50",
-    "slug": "myung-whun-chung-beethoven-brahms-43da89ed50",
-    "title": "Myung-Whun Chung / Beethoven / Brahms",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-11T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/myung-whun-chung.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "48ca0f0519",
-    "slug": "bouquet-of-madness-48ca0f0519",
-    "title": "Bouquet of Madness",
-    "category": "theater",
-    "description": "Con Barley Arts presenta.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2686.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-12T21:00:00.000Z",
-        "end": "2026-06-12T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/bouquet-of-madness.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "25890f402b",
-    "slug": "treble-voices-chorus-of-the-teatro-alla-scala-academy-25890f402b",
-    "title": "Treble Voices Chorus of the Teatro alla Scala Academy",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/cor/coro-voci-bianche_vito-daniele-fontana_080522_mg_2671.png",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-13T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/treble-voices-chorus-of-the-teatro-alla-scala-academy.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "6ebc4cd170",
-    "slug": "rette-parallele-sono-l-amore-e-la-morte-6ebc4cd170",
-    "title": "RETTE PARALLELE SONO L'AMORE E LA MORTE",
-    "category": "theater",
-    "description": "Con Oscar De Summa.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2516.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-15T20:00:00.000Z",
-        "end": "2026-06-19T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/rette-parallele-sono-l-amore-e-la-morte.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "d88b9ac23e",
-    "slug": "danilo-dolci-la-domanda-che-non-si-spegne-d88b9ac23e",
-    "title": "Danilo Dolci – La domanda che non si spegne",
-    "category": "theater",
-    "description": "Reading tra poesia, vita, musica e microfono aperto. Con Fausto Cabra e Mimosa Campironi.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/01/Serata_Danilo_Dolci_Cabra_d-800x450.jpg",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-06-16T20:00:00.000Z",
-        "end": "2026-06-28T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/danilo-dolci-la-domanda-che-non-si-spegne/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-22T15:26:24.120Z"
-    }
-  },
-  {
-    "id": "d6084618e7",
-    "slug": "wonder-woman-d6084618e7",
-    "title": "WONDER WOMAN",
-    "category": "theater",
-    "description": "Con Antonio Latella.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2525.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-16T20:00:00.000Z",
-        "end": "2026-06-19T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/wonder-woman.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-22T15:26:25.077Z"
-    }
-  },
-  {
-    "id": "6bac9b69e3",
-    "slug": "kneecap-6bac9b69e3",
-    "title": "Kneecap",
-    "subtitle": "Roma Summer Fest 2026",
-    "category": "concert",
-    "description": "Rap | Festival.",
-    "image": "https://www.auditorium.com/wp-content/uploads/2026/02/c-Tom-Beard-Liars-Tale-Lead-Press-Shot-scaled.jpg",
-    "venueSlug": "auditorium-parco-della-musica",
-    "performances": [
-      {
-        "start": "2026-06-17T21:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=44467",
-    "source": {
-      "venue": "Auditorium Parco della Musica",
-      "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-22T15:26:27.491Z"
-    }
-  },
-  {
-    "id": "b9b087a178",
-    "slug": "francesco-meli-luca-salsi-b9b087a178",
-    "title": "Francesco Meli / Luca Salsi",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-21T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/francesco-meli-luca-salsi.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "933da3a993",
-    "slug": "lucia-di-lammermoor-933da3a993",
-    "title": "Lucia di Lammermoor",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/luc/lucia-201_0h3a5728--ph-brescia-e-amisano--teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-26T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/lucia-di-lammermoor.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "6a848e44c1",
-    "slug": "danny-elfman-s-music-from-the-films-of-tim-burton-6a848e44c1",
-    "title": "Danny Elfman’s Music from The Films of Tim Burton",
-    "subtitle": "Roma Summer Fest 2026",
-    "category": "concert",
-    "description": "Colonne sonore | Festival.",
-    "image": "https://www.auditorium.com/wp-content/uploads/2025/12/Danny.png",
-    "venueSlug": "auditorium-parco-della-musica",
-    "performances": [
-      {
-        "start": "2026-07-01T21:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=43663",
-    "source": {
-      "venue": "Auditorium Parco della Musica",
-      "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-22T15:26:27.491Z"
-    }
-  },
-  {
-    "id": "64cbb83f76",
-    "slug": "don-quixote-64cbb83f76",
-    "title": "Don Quixote",
-    "category": "ballet",
-    "image": "https://www.teatroallascala.org/static/upload/don/don-chisciotte-nicoletta-manni--ph-brescia-e-amisano-teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-07-02T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/don-quixote.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "360ffe3ad2",
-    "slug": "john-legend-360ffe3ad2",
-    "title": "John Legend",
-    "subtitle": "Roma Summer Fest 2026",
-    "category": "concert",
-    "description": "Pop/Rock | Festival.",
-    "image": "https://www.auditorium.com/wp-content/uploads/2026/01/JL-1-copia.jpg",
-    "venueSlug": "auditorium-parco-della-musica",
-    "performances": [
-      {
-        "start": "2026-07-02T21:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=44107",
-    "source": {
-      "venue": "Auditorium Parco della Musica",
-      "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-22T15:26:27.491Z"
-    }
-  },
-  {
-    "id": "8cc9038030",
-    "slug": "diana-krall-8cc9038030",
-    "title": "Diana Krall",
-    "subtitle": "Roma Summer Fest 2026",
-    "category": "concert",
-    "description": "Jazz | Festival.",
-    "image": "https://www.auditorium.com/wp-content/uploads/2025/10/Senza-nome.png",
-    "venueSlug": "auditorium-parco-della-musica",
-    "performances": [
-      {
-        "start": "2026-07-15T21:15:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=43003",
-    "source": {
-      "venue": "Auditorium Parco della Musica",
-      "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-22T15:26:27.491Z"
-    }
-  },
-  {
-    "id": "14cf4692fb",
-    "slug": "l-elisir-d-amore-14cf4692fb",
-    "title": "L’elisir d’amore",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/mar/marco-alibrando-dal-sito-tartiere.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-09-05T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/l-elisir-d-amore.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "2b67f9788f",
-    "slug": "la-traviata-2b67f9788f",
-    "title": "La traviata",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/648/648712badg-ph-brescia-e-amisano---tas.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-09-19T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/la-traviata.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 90
   },
   {
     "id": "d695b7c2b6",
@@ -1091,165 +39,9 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-05-22T15:26:27.640Z"
-    }
-  },
-  {
-    "id": "e93d13d411",
-    "slug": "daniele-rustioni-e93d13d411",
-    "title": "Daniele Rustioni",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-09-22T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/daniele-rustioni.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "01be7f2f69",
-    "slug": "giselle-01be7f2f69",
-    "title": "Giselle",
-    "category": "ballet",
-    "image": "https://www.teatroallascala.org/static/upload/x-0/x-0h3a2453-martina-arduino-marco-agostino-ph-brescia-e-amisano---teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-01T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/giselle.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "092e32704d",
-    "slug": "rudolf-buchbinder-092e32704d",
-    "title": "Rudolf Buchbinder",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/202/2023-rudolf-buchbinder-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-04T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/rudolf-buchbinder.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "bb818d3cab",
-    "slug": "mimi-teo-and-the-magic-horn-bb818d3cab",
-    "title": "Mimì & Teo and… The Magic Horn",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-04T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-magic-horn.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "cdec715fc1",
-    "slug": "emozioni-cdec715fc1",
-    "title": "Emozioni",
-    "category": "theater",
-    "description": "Un appuntamento con le grandi canzoni di un mito della musica italiana: Lucio Battisti. Sul palco Gianmarco Carroccia.",
-    "image": "https://www.teatromanzoni.it/storage/2026/05/600x600-3.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-10-04T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/emozioni/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "bf2f804369",
-    "slug": "sei-personaggi-in-cerca-d-autore-bf2f804369",
-    "title": "Sei personaggi in cerca d'autore",
-    "subtitle": "Luigi Pirandello",
-    "category": "theater",
-    "description": "Pirandello's metatheatrical masterpiece at Teatro Argentina. A theater company is interrupted by six characters demanding their story be told.",
-    "venueSlug": "teatro-argentina",
-    "performances": [
-      {
-        "start": "2026-10-08T20:30:00Z",
-        "end": "2026-10-25T22:30:00Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatrodiroma.net/",
-    "priceFrom": 20,
-    "priceCurrency": "EUR",
-    "source": {
-      "venue": "teatro-argentina",
-      "url": "https://www.teatrodiroma.net/",
-      "scrapedAt": "2026-05-22T15:26:27.640Z"
-    }
-  },
-  {
-    "id": "bae7803806",
-    "slug": "symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring-bae7803806",
-    "title": "Symphonieorchester des Bayerischen Rundfunks / The Rite of Spring",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/201/2015-sir-simon-rattle-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-11T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/guest-orchestras/symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "752663dc5e",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-752663dc5e",
-    "title": "Members of the Teatro alla Scala Orchestra",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/561/561771badg---ph-brescia-e-amisano---teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-11T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-the-teatro-alla-scala-orchestra-11-october-2026.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
+      "scrapedAt": "2026-05-22T15:44:31.106Z"
+    },
+    "rank": 85
   },
   {
     "id": "aa8fd1041f",
@@ -1271,221 +63,9 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-05-22T15:26:27.640Z"
-    }
-  },
-  {
-    "id": "54b4293599",
-    "slug": "kpop-la-parodia-54b4293599",
-    "title": "KPOP. La parodia",
-    "category": "theater",
-    "description": "Un Teatro da Favola propone spettacoli per grandi e piccoli: divertenti e interattivi per i bambini, ironici e parodistici per gli adulti.",
-    "image": "https://www.teatromanzoni.it/storage/2026/04/600x600-11.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-10-17T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/kpop-la-parodia/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "b3081c900c",
-    "slug": "impressions-on-ravel-and-debussy-b3081c900c",
-    "title": "Impressions… on Ravel and Debussy",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-19T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/invitation-to-la-scala/impressions-on-ravel-debussy-20261019.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "00c06950d1",
-    "slug": "faust-00c06950d1",
-    "title": "Faust",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-davide-cerati-4resize.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-20T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/faust.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "dd13af6da8",
-    "slug": "l-elisir-d-amore-for-children-dd13af6da8",
-    "title": "L'elisir d'amore for children",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-24T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/great-operas-for-children/l-elisir-d-amore-for-children.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "f29d2db9aa",
-    "slug": "mimi-teo-and-the-jazz-robot-f29d2db9aa",
-    "title": "Mimì & Teo and… The Jazz Robot!",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-25T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-jazz-robot.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "037a04ebe6",
-    "slug": "fratello-sole-sorella-luna-037a04ebe6",
-    "title": "Fratello Sole, Sorella Luna",
-    "category": "theater",
-    "description": "Un progetto teatrale che rilegge in chiave contemporanea il celebre film di Zeffirelli sulla vita di San Francesco,",
-    "image": "https://www.teatromanzoni.it/storage/2026/05/600x600-2.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-10-25T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/fratello-sole-sorella-luna/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "6ed9da07d5",
-    "slug": "monet-6ed9da07d5",
-    "title": "Monet",
-    "category": "theater",
-    "description": "Il nuovo progetto a teatro di Marco Goldin dedicato alla vita e all’opera di Claude Monet: una festa per gli occhi e per il cuore.",
-    "image": "https://www.teatromanzoni.it/storage/2026/03/600x600-1.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-10-27T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/monet/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "6e38c1339e",
-    "slug": "verdi-requiem-mass-riccardo-chailly-6e38c1339e",
-    "title": "Verdi: Requiem Mass / Riccardo Chailly",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-7-maggio---ix-di-beethoven-diretta-da-riccardo-chailly-096a9611-ph-brescia-e-amisano---teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-28T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/exceptional-concerts/teatro-alla-scala-orchestra-chorus-requiem-verdi-chailly.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "9fb4b8648f",
-    "slug": "balanchine-bausch-stravinsky-9fb4b8648f",
-    "title": "Balanchine Bausch Stravinsky",
-    "category": "ballet",
-    "image": "https://www.teatroallascala.org/static/upload/bal/balanchine-bausch-collage-immagine-sezione.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-11-07T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/balanchine-bausch-stravinsky.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
-  },
-  {
-    "id": "e4304f2be6",
-    "slug": "qualcosa-e-andato-storto-e4304f2be6",
-    "title": "Qualcosa è andato storto",
-    "category": "theater",
-    "description": "Carlo Buccirosso nei panni di un avvocato di provincia che tenta il riscatto gestendo i feroci litigi ereditari della propria famiglia.",
-    "image": "https://www.teatromanzoni.it/storage/2026/04/600x600-12.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-11-08T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/qualcosa-e-andato-storto/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-22T15:26:26.617Z"
-    }
-  },
-  {
-    "id": "5533d15a63",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-5533d15a63",
-    "title": "Members of the Teatro alla Scala Orchestra",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/011/011_gn1a1491--ph-brescia-e-amisano--teatro-alla-scala.png",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-11-15T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-teatro-alla-scala-orchestra-15-november-2026.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
+      "scrapedAt": "2026-05-22T15:44:31.106Z"
+    },
+    "rank": 85
   },
   {
     "id": "aa644ecb0d",
@@ -1507,8 +87,229 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-05-22T15:26:27.640Z"
-    }
+      "scrapedAt": "2026-05-22T15:44:31.106Z"
+    },
+    "rank": 85
+  },
+  {
+    "id": "928e118231",
+    "slug": "nabucodonosor-928e118231",
+    "title": "Nabucodonosor",
+    "category": "opera",
+    "image": "https://www.teatroallascala.org/static/upload/nab/nabucodonosor-2026.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-16T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/nabucodonosor.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "4e51e3c22e",
+    "slug": "alice-s-adventures-in-wonderland-4e51e3c22e",
+    "title": "Alice’s Adventures in Wonderland",
+    "category": "ballet",
+    "image": "https://www.teatroallascala.org/static/upload/ali/alice-s-adventures-in-wonderland-foto-promo----agnese-di-clemente--ph-brescia-e-amisano.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-21T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/alice-s-adventures-in-wonderland.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "a8598e6dab",
+    "slug": "carmen-a8598e6dab",
+    "title": "Carmen",
+    "category": "opera",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-737737badg-ph-brescia-e-amisano---teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-08T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/carmen.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "933da3a993",
+    "slug": "lucia-di-lammermoor-933da3a993",
+    "title": "Lucia di Lammermoor",
+    "category": "opera",
+    "image": "https://www.teatroallascala.org/static/upload/luc/lucia-201_0h3a5728--ph-brescia-e-amisano--teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-26T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/lucia-di-lammermoor.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "64cbb83f76",
+    "slug": "don-quixote-64cbb83f76",
+    "title": "Don Quixote",
+    "category": "ballet",
+    "image": "https://www.teatroallascala.org/static/upload/don/don-chisciotte-nicoletta-manni--ph-brescia-e-amisano-teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-07-02T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/don-quixote.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "14cf4692fb",
+    "slug": "l-elisir-d-amore-14cf4692fb",
+    "title": "L’elisir d’amore",
+    "category": "opera",
+    "image": "https://www.teatroallascala.org/static/upload/mar/marco-alibrando-dal-sito-tartiere.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-05T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/l-elisir-d-amore.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "2b67f9788f",
+    "slug": "la-traviata-2b67f9788f",
+    "title": "La traviata",
+    "category": "opera",
+    "image": "https://www.teatroallascala.org/static/upload/648/648712badg-ph-brescia-e-amisano---tas.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-19T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/la-traviata.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "01be7f2f69",
+    "slug": "giselle-01be7f2f69",
+    "title": "Giselle",
+    "category": "ballet",
+    "image": "https://www.teatroallascala.org/static/upload/x-0/x-0h3a2453-martina-arduino-marco-agostino-ph-brescia-e-amisano---teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-01T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/giselle.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "00c06950d1",
+    "slug": "faust-00c06950d1",
+    "title": "Faust",
+    "category": "opera",
+    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-davide-cerati-4resize.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-20T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/faust.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 83
+  },
+  {
+    "id": "b9b087a178",
+    "slug": "francesco-meli-luca-salsi-b9b087a178",
+    "title": "Francesco Meli / Luca Salsi",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-21T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/francesco-meli-luca-salsi.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 80
+  },
+  {
+    "id": "6e38c1339e",
+    "slug": "verdi-requiem-mass-riccardo-chailly-6e38c1339e",
+    "title": "Verdi: Requiem Mass / Riccardo Chailly",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-7-maggio---ix-di-beethoven-diretta-da-riccardo-chailly-096a9611-ph-brescia-e-amisano---teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-28T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/exceptional-concerts/teatro-alla-scala-orchestra-chorus-requiem-verdi-chailly.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 80
   },
   {
     "id": "b6abb95dc7",
@@ -1526,8 +327,149 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 80
+  },
+  {
+    "id": "d985e21d47",
+    "slug": "concert-for-the-anniversary-of-la-scala-s-reopening-d985e21d47",
+    "title": "Concert for the Anniversary of La Scala’s Reopening",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/_con/concerto-1946-toscanini.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-11T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/exceptional-concerts/concert-for-the-anniversary-of-la-scala-s-reopening.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "56528bfc6d",
+    "slug": "workshop-for-expecting-families-carmen-56528bfc6d",
+    "title": "Workshop for expecting families: Carmen",
+    "category": "other",
+    "image": "https://www.teatroallascala.org/static/upload/ope/opera-meno-9-sezione.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-16T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/workshops-in-the-theatre-s-foyer/opera-meno9-carmen.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "4663b0bae3",
+    "slug": "orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festiva-4663b0bae3",
+    "title": "Orchestra Sinfonica Nazionale della Rai, Michele Gamba, Minh-Tam Nguyen - 35° Festival Milano Musica",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/18-/18-05_osnrai-scala-07mag23-web-studiohanninen-_mgl7031.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-18T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festival-milano-musica.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "43da89ed50",
+    "slug": "myung-whun-chung-beethoven-brahms-43da89ed50",
+    "title": "Myung-Whun Chung / Beethoven / Brahms",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-11T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/myung-whun-chung.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "e93d13d411",
+    "slug": "daniele-rustioni-e93d13d411",
+    "title": "Daniele Rustioni",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-22T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/daniele-rustioni.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "092e32704d",
+    "slug": "rudolf-buchbinder-092e32704d",
+    "title": "Rudolf Buchbinder",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/202/2023-rudolf-buchbinder-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-04T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/rudolf-buchbinder.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "dd13af6da8",
+    "slug": "l-elisir-d-amore-for-children-dd13af6da8",
+    "title": "L'elisir d'amore for children",
+    "category": "other",
+    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-24T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/great-operas-for-children/l-elisir-d-amore-for-children.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
   },
   {
     "id": "f7b9c5e77f",
@@ -1545,7 +487,1142 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-22T15:26:23.979Z"
-    }
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "cee6baa7e2",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-cee6baa7e2",
+    "title": "Members of the Teatro alla Scala Orchestra",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/476/476356mbdg-ph-marco-brescia---teatro-alla-scala-.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-10T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-the-teatro-alla-scala-orchestra-10-may-2026.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "c2bd8d71d2",
+    "slug": "piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel-c2bd8d71d2",
+    "title": "Piano City Milano | Giuseppe Guarrera, \"Homage to Alfred Brendel\"",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-16T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "28936f1192",
+    "slug": "arcadi-volodos-28936f1192",
+    "title": "Arcadi Volodos",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/arc/arcadi-volodos-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-17T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/arcadi-volodos.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "032d5b70d6",
+    "slug": "piano-city-milano-daniele-martinelli-032d5b70d6",
+    "title": "Piano City Milano | Daniele Martinelli",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-17T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-daniele-martinelli.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "cfbe194ca8",
+    "slug": "alda-caiello-and-quartetto-nous-35-festival-milano-musica-cfbe194ca8",
+    "title": "Alda Caiello and Quartetto Noûs - 35° Festival Milano Musica",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/mil/milanomusica26-quartettonous-scala-24apr26-web-studiohanninen-_gl_3124.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-18T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/alda-caiello-and-quartetto-nous.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "70bf567a94",
+    "slug": "percussionists-of-teatro-alla-scala-70bf567a94",
+    "title": "Percussionists of Teatro alla Scala",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/536/536383mbdg-ph-marco-brescia--teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-31T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/percussionists-of-teatro-alla-scala-31-may-2026.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "052a3457a5",
+    "slug": "jakub-jozef-orlinski-michal-biel-052a3457a5",
+    "title": "Jakub Józef Orliński / Michal Biel",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/jak/jakub-jozef-orli-ski-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-07T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/jakub-josef-orlinski.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "13098aad19",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-13098aad19",
+    "title": "Members of the Teatro alla Scala Orchestra",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/536/536375mbdg-ph-marco-brescia--teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-07T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-teatro-alla-scala-orchestra-7-june-2026.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "0d2c7b794a",
+    "slug": "mimi-teo-and-the-fantastic-raft-0d2c7b794a",
+    "title": "Mimì & Teo and… The Fantastic Raft",
+    "category": "other",
+    "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-07T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-fantastic-raft.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "25890f402b",
+    "slug": "treble-voices-chorus-of-the-teatro-alla-scala-academy-25890f402b",
+    "title": "Treble Voices Chorus of the Teatro alla Scala Academy",
+    "category": "other",
+    "image": "https://www.teatroallascala.org/static/upload/cor/coro-voci-bianche_vito-daniele-fontana_080522_mg_2671.png",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-13T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/treble-voices-chorus-of-the-teatro-alla-scala-academy.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "bb818d3cab",
+    "slug": "mimi-teo-and-the-magic-horn-bb818d3cab",
+    "title": "Mimì & Teo and… The Magic Horn",
+    "category": "other",
+    "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-04T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-magic-horn.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "bae7803806",
+    "slug": "symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring-bae7803806",
+    "title": "Symphonieorchester des Bayerischen Rundfunks / The Rite of Spring",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/201/2015-sir-simon-rattle-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-11T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/guest-orchestras/symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "752663dc5e",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-752663dc5e",
+    "title": "Members of the Teatro alla Scala Orchestra",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/561/561771badg---ph-brescia-e-amisano---teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-11T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-the-teatro-alla-scala-orchestra-11-october-2026.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "b3081c900c",
+    "slug": "impressions-on-ravel-and-debussy-b3081c900c",
+    "title": "Impressions… on Ravel and Debussy",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-19T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/invitation-to-la-scala/impressions-on-ravel-debussy-20261019.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "f29d2db9aa",
+    "slug": "mimi-teo-and-the-jazz-robot-f29d2db9aa",
+    "title": "Mimì & Teo and… The Jazz Robot!",
+    "category": "other",
+    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-25T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-jazz-robot.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "5533d15a63",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-5533d15a63",
+    "title": "Members of the Teatro alla Scala Orchestra",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/011/011_gn1a1491--ph-brescia-e-amisano--teatro-alla-scala.png",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-11-15T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-teatro-alla-scala-orchestra-15-november-2026.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-22T15:44:26.991Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "d88b9ac23e",
+    "slug": "danilo-dolci-la-domanda-che-non-si-spegne-d88b9ac23e",
+    "title": "Danilo Dolci – La domanda che non si spegne",
+    "category": "theater",
+    "description": "Reading tra poesia, vita, musica e microfono aperto. Con Fausto Cabra e Mimosa Campironi.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/01/Serata_Danilo_Dolci_Cabra_d-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-06-16T20:00:00.000Z",
+        "end": "2026-06-28T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/danilo-dolci-la-domanda-che-non-si-spegne/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 64
+  },
+  {
+    "id": "bf2f804369",
+    "slug": "sei-personaggi-in-cerca-d-autore-bf2f804369",
+    "title": "Sei personaggi in cerca d'autore",
+    "subtitle": "Luigi Pirandello",
+    "category": "theater",
+    "description": "Pirandello's metatheatrical masterpiece at Teatro Argentina. A theater company is interrupted by six characters demanding their story be told.",
+    "venueSlug": "teatro-argentina",
+    "performances": [
+      {
+        "start": "2026-10-08T20:30:00Z",
+        "end": "2026-10-25T22:30:00Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatrodiroma.net/",
+    "priceFrom": 20,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "teatro-argentina",
+      "url": "https://www.teatrodiroma.net/",
+      "scrapedAt": "2026-05-22T15:44:31.106Z"
+    },
+    "rank": 63
+  },
+  {
+    "id": "6bac9b69e3",
+    "slug": "kneecap-6bac9b69e3",
+    "title": "Kneecap",
+    "subtitle": "Roma Summer Fest 2026",
+    "category": "concert",
+    "description": "Rap | Festival.",
+    "image": "https://www.auditorium.com/wp-content/uploads/2026/02/c-Tom-Beard-Liars-Tale-Lead-Press-Shot-scaled.jpg",
+    "venueSlug": "auditorium-parco-della-musica",
+    "performances": [
+      {
+        "start": "2026-06-17T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=44467",
+    "source": {
+      "venue": "Auditorium Parco della Musica",
+      "url": "https://www.auditorium.com/it/eventi/",
+      "scrapedAt": "2026-05-22T15:44:30.842Z"
+    },
+    "rank": 61
+  },
+  {
+    "id": "6a848e44c1",
+    "slug": "danny-elfman-s-music-from-the-films-of-tim-burton-6a848e44c1",
+    "title": "Danny Elfman’s Music from The Films of Tim Burton",
+    "subtitle": "Roma Summer Fest 2026",
+    "category": "concert",
+    "description": "Colonne sonore | Festival.",
+    "image": "https://www.auditorium.com/wp-content/uploads/2025/12/Danny.png",
+    "venueSlug": "auditorium-parco-della-musica",
+    "performances": [
+      {
+        "start": "2026-07-01T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=43663",
+    "source": {
+      "venue": "Auditorium Parco della Musica",
+      "url": "https://www.auditorium.com/it/eventi/",
+      "scrapedAt": "2026-05-22T15:44:30.842Z"
+    },
+    "rank": 61
+  },
+  {
+    "id": "360ffe3ad2",
+    "slug": "john-legend-360ffe3ad2",
+    "title": "John Legend",
+    "subtitle": "Roma Summer Fest 2026",
+    "category": "concert",
+    "description": "Pop/Rock | Festival.",
+    "image": "https://www.auditorium.com/wp-content/uploads/2026/01/JL-1-copia.jpg",
+    "venueSlug": "auditorium-parco-della-musica",
+    "performances": [
+      {
+        "start": "2026-07-02T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=44107",
+    "source": {
+      "venue": "Auditorium Parco della Musica",
+      "url": "https://www.auditorium.com/it/eventi/",
+      "scrapedAt": "2026-05-22T15:44:30.842Z"
+    },
+    "rank": 61
+  },
+  {
+    "id": "8cc9038030",
+    "slug": "diana-krall-8cc9038030",
+    "title": "Diana Krall",
+    "subtitle": "Roma Summer Fest 2026",
+    "category": "concert",
+    "description": "Jazz | Festival.",
+    "image": "https://www.auditorium.com/wp-content/uploads/2025/10/Senza-nome.png",
+    "venueSlug": "auditorium-parco-della-musica",
+    "performances": [
+      {
+        "start": "2026-07-15T21:15:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.auditorium.com/ticket-one/?eid=43003",
+    "source": {
+      "venue": "Auditorium Parco della Musica",
+      "url": "https://www.auditorium.com/it/eventi/",
+      "scrapedAt": "2026-05-22T15:44:30.842Z"
+    },
+    "rank": 61
+  },
+  {
+    "id": "2dc8ce9c1a",
+    "slug": "l-ultimo-nastro-di-krapp-quella-volta-2dc8ce9c1a",
+    "title": "L’ultimo nastro di Krapp / Quella volta",
+    "category": "theater",
+    "description": "Con Ferdinando Bruni.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2466.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-04-08T20:00:00.000Z",
+        "end": "2026-05-17T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/l-ultimo-nastro-di-krapp.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 60
+  },
+  {
+    "id": "7343b72036",
+    "slug": "chi-come-me-7343b72036",
+    "title": "Chi come me",
+    "category": "theater",
+    "description": "Uno spettacolo che ha incantato oltre 30.000 spettatori. Di Roy Chen, adattamento, regia e costumi Andrée Ruth Shammah.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2024/09/chi-come-me-mos-pos2.png",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-06T20:00:00.000Z",
+        "end": "2026-05-24T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/chi-come-me-2/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 60
+  },
+  {
+    "id": "35196a9c1b",
+    "slug": "dentro-la-tela-35196a9c1b",
+    "title": "DENTRO LA TELA",
+    "subtitle": "Indagine su Artemisia",
+    "category": "theater",
+    "description": "Con Cinzia Spanò.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2513.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-07T20:00:00.000Z",
+        "end": "2026-05-31T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/dentro-la-tela.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 60
+  },
+  {
+    "id": "12c13d3120",
+    "slug": "le-vacanze-dei-signori-lagonia-12c13d3120",
+    "title": "Le vacanze dei signori Lagonìa",
+    "category": "theater",
+    "description": "Cinquant’anni di matrimonio raccontati tra risate improvvise, silenzi poetici e piccoli drammi quotidiani: ecco i signori Lagonia sul palco. Scritto da Francesco Colella e Francesco Lagi.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/lagonia-tfp-25-26-mos-pos2.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-19T20:00:00.000Z",
+        "end": "2026-05-31T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/le-vacanze-dei-signori-lagonia/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 60
+  },
+  {
+    "id": "ca8c45149f",
+    "slug": "terzo-tempo-ca8c45149f",
+    "title": "Terzo Tempo",
+    "category": "theater",
+    "description": "Dopo i sessanta tutto può succedere. Una commedia brillante sull’età che avanza, tra colpi di scena, affetto e risate. Tratto dal romanzo di Lidia Ravera, con Lucia Vasini e Paolo Hendel.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/terzo-tempp-tfp-25-26-pos1-800x1003.png",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-20T20:00:00.000Z",
+        "end": "2026-06-07T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/terzo-tempo-2/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 60
+  },
+  {
+    "id": "12dc0762bd",
+    "slug": "quentin-crisp-12dc0762bd",
+    "title": "Quentin Crisp",
+    "subtitle": "La speranza è nuda",
+    "category": "theater",
+    "description": "Con Luca Toracca.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2479.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-03T20:00:00.000Z",
+        "end": "2026-06-19T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/quentin-crisp.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 58
+  },
+  {
+    "id": "3b0e09772a",
+    "slug": "cuore-di-cactus-3b0e09772a",
+    "title": "Cuore di cactus",
+    "category": "theater",
+    "description": "Da \"Cuore di cactus\" di Antonio Calabrò nasce oltre dieci anni fa uno spettacolo che intreccia memoria personale e storia collettiva, emozione e ragione critica. Con Fausto Russo Alesi.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/05/cuore-di-cactus-tfp-25-26-d1-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-25T20:00:00.000Z",
+        "end": "2026-05-25T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/cuore-di-cactus/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 57
+  },
+  {
+    "id": "d25d761271",
+    "slug": "a-visual-diary-d25d761271",
+    "title": "A Visual Diary",
+    "category": "theater",
+    "description": "Dopo New York, Londra e Basilea, Fabio Cherstich riporta a Milano il suo omaggio alla scena queer della New York anni '80, tra teatro, arte visiva e narrazione.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/02/a-visual-diary-tfp-25-26-d-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-05-26T20:00:00.000Z",
+        "end": "2026-05-27T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/a-visual-diary/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 57
+  },
+  {
+    "id": "d72343a220",
+    "slug": "il-mio-nome-e-maria-stuarda-d72343a220",
+    "title": "Il mio nome è Maria Stuarda",
+    "category": "theater",
+    "description": "Maria Stuarda non è solo una regina: è corpo e voce di una donna privata di dignità e futuro. In scena, un cammino che smaschera la violenza. Di Nicoletta Verna, con Marina Rocco.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2025/07/IL-MIO-NOME-E-maria-stuarda-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-06-03T20:00:00.000Z",
+        "end": "2026-06-07T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/maria-stuarda/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-05-22T15:44:27.162Z"
+    },
+    "rank": 57
+  },
+  {
+    "id": "9e181dacef",
+    "slug": "making-of-9e181dacef",
+    "title": "Making Of",
+    "subtitle": "The Mary Shelley picture show",
+    "category": "theater",
+    "description": "Con Minima Theatralia, Duperdu.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2533.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-09T20:00:00.000Z",
+        "end": "2026-05-10T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/the-mary-shelley-picture-show.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "9b647c866b",
+    "slug": "tre-sorelle-9b647c866b",
+    "title": "TRE SORELLE",
+    "subtitle": "NEVICA. CHE SENSO HA?",
+    "category": "theater",
+    "description": "Con Liv Ferracchiati.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2511.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-12T20:00:00.000Z",
+        "end": "2026-05-17T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "dba7098d94",
+    "slug": "tre-sorelle-dba7098d94",
+    "title": "TRE SORELLE",
+    "subtitle": "NEVICA. CHE SENSO HA?",
+    "category": "theater",
+    "description": "Con Anteprima Under 30.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2682.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-12T20:30:00.000Z",
+        "end": "2026-05-12T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle-under30.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "612f91a76f",
+    "slug": "casanova-612f91a76f",
+    "title": "CASANOVA",
+    "category": "theater",
+    "description": "Con Sandro Lombardi.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2512.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-19T20:00:00.000Z",
+        "end": "2026-05-24T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/casanova.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "eff2cfbfb8",
+    "slug": "leo-kottke-eff2cfbfb8",
+    "title": "LEO KOTTKE",
+    "subtitle": "evento annullato",
+    "category": "theater",
+    "description": "Con Barley Arts presenta.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2457.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-25T21:00:00.000Z",
+        "end": "2026-05-25T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/leo-kottke.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "d7edcd3150",
+    "slug": "arrivano-i-dunque-d7edcd3150",
+    "title": "ARRIVANO I DUNQUE",
+    "subtitle": "(Avannotti, sole Blu e la storia della giovane Saracinesca)",
+    "category": "theater",
+    "description": "Con Alessandro Bergonzoni.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2477.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-26T20:00:00.000Z",
+        "end": "2026-05-31T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/alessandro-bergonzoni.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "cd16347278",
+    "slug": "a-volo-d-angelo-cd16347278",
+    "title": "A VOLO D’ANGELO",
+    "category": "theater",
+    "description": "Con Cottini/Canzi.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2578.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-03T20:00:00.000Z",
+        "end": "2026-06-05T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/a-volo-d-angelo.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "3447f1ea13",
+    "slug": "de-frammentazione-di-dramma-assoluto-3447f1ea13",
+    "title": "De/frammentazione di dramma assoluto",
+    "category": "theater",
+    "description": "Con servomutoTeatro.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2515.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-09T20:00:00.000Z",
+        "end": "2026-06-14T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/de-frammentazione.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "92efbb585a",
+    "slug": "giusto-92efbb585a",
+    "title": "GIUSTO",
+    "category": "theater",
+    "description": "Con Rosario Lisma.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2478.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-09T20:00:00.000Z",
+        "end": "2026-06-11T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "e2f7e1b732",
+    "slug": "giusto-e2f7e1b732",
+    "title": "GIUSTO",
+    "category": "theater",
+    "description": "Con Anteprima Under 30.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2622.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-09T20:30:00.000Z",
+        "end": "2026-06-09T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto-under30.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "48ca0f0519",
+    "slug": "bouquet-of-madness-48ca0f0519",
+    "title": "Bouquet of Madness",
+    "category": "theater",
+    "description": "Con Barley Arts presenta.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2686.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-12T21:00:00.000Z",
+        "end": "2026-06-12T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/bouquet-of-madness.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "6ebc4cd170",
+    "slug": "rette-parallele-sono-l-amore-e-la-morte-6ebc4cd170",
+    "title": "RETTE PARALLELE SONO L'AMORE E LA MORTE",
+    "category": "theater",
+    "description": "Con Oscar De Summa.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2516.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-15T20:00:00.000Z",
+        "end": "2026-06-19T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/rette-parallele-sono-l-amore-e-la-morte.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "d6084618e7",
+    "slug": "wonder-woman-d6084618e7",
+    "title": "WONDER WOMAN",
+    "category": "theater",
+    "description": "Con Antonio Latella.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2525.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-16T20:00:00.000Z",
+        "end": "2026-06-19T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/wonder-woman.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-22T15:44:28.202Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "93cc438765",
+    "slug": "come-una-catapulta-93cc438765",
+    "title": "Come una catapulta",
+    "category": "theater",
+    "description": "Herbert Ballerina in scena con il suo spettacolo teatrale che catapulterà in un sano divertimento con esilaranti nonsense.",
+    "image": "https://www.teatromanzoni.it/storage/2024/05/600x600-17.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-05-24T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/come-una-catapulta-2/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "3040e4a0bf",
+    "slug": "i-promossi-sposi-3040e4a0bf",
+    "title": "I promossi sposi",
+    "category": "theater",
+    "description": "I Legnanesi al Teatro Manzoni di Milano con una nuova commedia. Che succede se la Teresa e il Giovanni non sono mai stati sposati per davvero?",
+    "image": "https://www.teatromanzoni.it/storage/2025/04/600x600-legna.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-05-31T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/i-promossi-sposi/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "a3c3fe1b00",
+    "slug": "laura-ramoso-a3c3fe1b00",
+    "title": "Laura Ramoso",
+    "category": "theater",
+    "description": "Al Teatro Manzoni di Milano lo spettacolo di sketch comedy di Laura Ramoso dopo i grandi successi all'estero.",
+    "image": "https://www.teatromanzoni.it/storage/2025/12/600x600.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-06-03T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/laura-ramoso/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "1db090b62f",
+    "slug": "il-babysitter-1db090b62f",
+    "title": "Il babysitter",
+    "category": "theater",
+    "description": "Uno spettacolo di Paolo Ruffini scandito da comicità e improvvisazione, che riporta il pubblico ad essere bambino per una sera.",
+    "image": "https://www.teatromanzoni.it/storage/2025/04/600x600-27.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-06-08T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/il-babysitter-3/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "cdec715fc1",
+    "slug": "emozioni-cdec715fc1",
+    "title": "Emozioni",
+    "category": "theater",
+    "description": "Un appuntamento con le grandi canzoni di un mito della musica italiana: Lucio Battisti. Sul palco Gianmarco Carroccia.",
+    "image": "https://www.teatromanzoni.it/storage/2026/05/600x600-3.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-10-04T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/emozioni/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "54b4293599",
+    "slug": "kpop-la-parodia-54b4293599",
+    "title": "KPOP. La parodia",
+    "category": "theater",
+    "description": "Un Teatro da Favola propone spettacoli per grandi e piccoli: divertenti e interattivi per i bambini, ironici e parodistici per gli adulti.",
+    "image": "https://www.teatromanzoni.it/storage/2026/04/600x600-11.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-10-17T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/kpop-la-parodia/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "037a04ebe6",
+    "slug": "fratello-sole-sorella-luna-037a04ebe6",
+    "title": "Fratello Sole, Sorella Luna",
+    "category": "theater",
+    "description": "Un progetto teatrale che rilegge in chiave contemporanea il celebre film di Zeffirelli sulla vita di San Francesco,",
+    "image": "https://www.teatromanzoni.it/storage/2026/05/600x600-2.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-10-25T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/fratello-sole-sorella-luna/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "6ed9da07d5",
+    "slug": "monet-6ed9da07d5",
+    "title": "Monet",
+    "category": "theater",
+    "description": "Il nuovo progetto a teatro di Marco Goldin dedicato alla vita e all’opera di Claude Monet: una festa per gli occhi e per il cuore.",
+    "image": "https://www.teatromanzoni.it/storage/2026/03/600x600-1.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-10-27T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/monet/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "e4304f2be6",
+    "slug": "qualcosa-e-andato-storto-e4304f2be6",
+    "title": "Qualcosa è andato storto",
+    "category": "theater",
+    "description": "Carlo Buccirosso nei panni di un avvocato di provincia che tenta il riscatto gestendo i feroci litigi ereditari della propria famiglia.",
+    "image": "https://www.teatromanzoni.it/storage/2026/04/600x600-12.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-11-08T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/qualcosa-e-andato-storto/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-05-22T15:44:29.992Z"
+    },
+    "rank": 53
   }
 ]

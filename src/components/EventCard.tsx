@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Event } from "@/lib/types";
-import { getVenueBySlug } from "@/lib/events";
+import { EDITORS_PICK_THRESHOLD, getVenueBySlug } from "@/lib/events";
 import { formatDateBadge, formatPrice } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 
@@ -14,6 +14,7 @@ export default function EventCard({ event }: Props) {
   const first = event.performances[0]?.start;
   const price = formatPrice(event.priceFrom, event.priceCurrency);
   const fallback = illustrationForCategory(event.category);
+  const isPick = (event.rank ?? 0) >= EDITORS_PICK_THRESHOLD;
 
   return (
     <Link
@@ -30,15 +31,19 @@ export default function EventCard({ event }: Props) {
             className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center p-8 transition-transform duration-300 group-hover:scale-[1.04]">
-            <Image
-              src={fallback.src}
-              alt={fallback.alt}
-              width={400}
-              height={400}
-              className="h-full w-auto max-h-[80%] object-contain"
-            />
-          </div>
+          <Image
+            src={fallback.src}
+            alt={fallback.alt}
+            fill
+            sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw"
+            className="object-contain p-10 transition-transform duration-300 group-hover:scale-[1.04]"
+          />
+        )}
+        {isPick && (
+          <span className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full bg-black/90 text-white text-[11px] font-medium tracking-wide px-2.5 py-1">
+            <span aria-hidden className="text-(--color-accent)">★</span>
+            Editor&apos;s pick
+          </span>
         )}
       </div>
       <div className="mt-3 space-y-1">

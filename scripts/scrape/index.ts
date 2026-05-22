@@ -7,6 +7,7 @@ import { scrape as scrapeElfo } from "./sources/elfo";
 import { scrape as scrapeManzoni } from "./sources/manzoni";
 import { scrape as scrapeAuditorium } from "./sources/auditorium";
 import { scrape as scrapeManual } from "./sources/manual";
+import { computeRank } from "./lib/rank";
 import type { ScrapedEvent } from "./lib/normalize";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -45,11 +46,16 @@ async function main() {
       if (!last) return false;
       return new Date(last.end ?? last.start).getTime() >= cutoff;
     })
-    .sort(
-      (a, b) =>
+    .map((e) => ({ ...e, rank: e.rank ?? computeRank(e) }))
+    .sort((a, b) => {
+      // Primary: rank desc. Tiebreak: earliest start first.
+      const dr = (b.rank ?? 0) - (a.rank ?? 0);
+      if (dr !== 0) return dr;
+      return (
         new Date(a.performances[0]?.start ?? 0).getTime() -
-        new Date(b.performances[0]?.start ?? 0).getTime(),
-    );
+        new Date(b.performances[0]?.start ?? 0).getTime()
+      );
+    });
 
   await writeFile(OUTPUT, JSON.stringify(merged, null, 2) + "\n", "utf8");
   console.log(`\n→ wrote ${merged.length} events to ${OUTPUT}`);
