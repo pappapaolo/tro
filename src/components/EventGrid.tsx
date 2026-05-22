@@ -1,25 +1,36 @@
 import Image from "next/image";
 import type { Event } from "@/lib/types";
+import type { Category } from "@/lib/types";
 import EventCard from "./EventCard";
-import { CURTAIN } from "@/lib/illustrations";
+import {
+  CURTAIN,
+  illustrationForCategory,
+  type Illustration,
+} from "@/lib/illustrations";
 
 interface Props {
   events: Event[];
   emptyHint?: string;
+  emptyCategory?: Category;
 }
 
-export default function EventGrid({ events, emptyHint }: Props) {
+export default function EventGrid({ events, emptyHint, emptyCategory }: Props) {
   if (events.length === 0) {
+    const illustration: Illustration = emptyCategory
+      ? illustrationForCategory(emptyCategory)
+      : CURTAIN;
     return (
-      <div className="border border-(--color-line) rounded-2xl py-12 px-4 text-center text-(--color-muted) flex flex-col items-center gap-4">
+      <div className="border border-(--color-line) rounded-2xl py-16 px-4 text-center flex flex-col items-center gap-6">
         <Image
-          src={CURTAIN.src}
-          alt={CURTAIN.alt}
-          width={160}
-          height={160}
-          className="opacity-90"
+          src={illustration.src}
+          alt={illustration.alt}
+          width={320}
+          height={320}
+          className="w-[260px] h-auto sm:w-[300px]"
         />
-        <p>{emptyHint ?? "No shows yet. Run the scraper to populate."}</p>
+        <p className="text-(--color-muted) max-w-md">
+          {emptyHint ?? "No shows yet. Run the scraper to populate."}
+        </p>
       </div>
     );
   }

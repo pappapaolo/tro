@@ -1,8 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Event } from "@/lib/types";
+import { CATEGORIES } from "@/lib/types";
 import { EDITORS_PICK_THRESHOLD, getVenueBySlug } from "@/lib/events";
-import { formatDateBadge, formatPrice } from "@/lib/format";
+import {
+  firstSentence,
+  formatDateBadge,
+  formatPrice,
+  formatThrough,
+  isMultiDay,
+} from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 
 interface Props {
@@ -12,9 +19,17 @@ interface Props {
 export default function EventCard({ event }: Props) {
   const venue = getVenueBySlug(event.venueSlug);
   const first = event.performances[0]?.start;
+  const last = event.performances[event.performances.length - 1];
   const price = formatPrice(event.priceFrom, event.priceCurrency);
   const fallback = illustrationForCategory(event.category);
   const isPick = (event.rank ?? 0) >= EDITORS_PICK_THRESHOLD;
+  const categoryLabel = CATEGORIES.find((c) => c.id === event.category)?.label;
+  const subtitle = event.subtitle ?? firstSentence(event.description);
+  const through =
+    last?.end && isMultiDay(last.start, last.end)
+      ? formatThrough(last.end)
+      : null;
+  const showsCount = event.performances.length;
 
   return (
     <Link
@@ -45,7 +60,13 @@ export default function EventCard({ event }: Props) {
             Editor&apos;s pick
           </span>
         )}
+        {categoryLabel && (
+          <span className="absolute top-3 right-3 rounded-full bg-white/95 text-black text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 ring-1 ring-black/10">
+            {categoryLabel}
+          </span>
+        )}
       </div>
+
       <div className="mt-3 space-y-1">
         {first && (
           <div className="text-xs font-medium tracking-wider text-black/80">
@@ -55,10 +76,22 @@ export default function EventCard({ event }: Props) {
         <h3 className="text-base font-semibold leading-snug line-clamp-2 group-hover:text-(--color-accent) transition-colors">
           {event.title}
         </h3>
+        {subtitle && (
+          <p className="text-sm text-(--color-muted) line-clamp-1">
+            {subtitle}
+          </p>
+        )}
         <div className="flex items-baseline justify-between gap-2 text-sm text-(--color-muted)">
           <span className="truncate">{venue?.name ?? "—"}</span>
           {price && <span className="shrink-0 text-black/70">{price}</span>}
         </div>
+        {(through || showsCount > 1) && (
+          <div className="text-xs text-(--color-muted)">
+            {through}
+            {through && showsCount > 1 && " · "}
+            {showsCount > 1 && `${showsCount} performances`}
+          </div>
+        )}
       </div>
     </Link>
   );

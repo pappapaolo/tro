@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useMemo } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Event, Venue } from "@/lib/types";
@@ -11,7 +10,6 @@ import {
   type WhenFilter,
 } from "@/lib/filters";
 import { CITIES, DEFAULT_CITY, type CityId } from "@/lib/cities";
-import { CURTAIN } from "@/lib/illustrations";
 import EventGrid from "./EventGrid";
 import FilterDropdown from "./FilterDropdown";
 
@@ -99,25 +97,14 @@ export default function Browse({ events, venues }: Props) {
 
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
-      <section className="mb-8 sm:mb-10 grid grid-cols-1 sm:grid-cols-[1fr_180px] items-center gap-6">
-        <div>
-          <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight leading-tight">
-            What&apos;s on in {currentCity.label}.
-          </h1>
-          <p className="mt-3 text-(--color-muted) max-w-xl">
-            Theater, opera, ballet and dance. Featured shows ranked by our
-            editorial heuristic — venue prestige, premieres, brand-name
-            productions.
-          </p>
-        </div>
-        <Image
-          src={CURTAIN.src}
-          alt={CURTAIN.alt}
-          width={180}
-          height={180}
-          className="justify-self-end hidden sm:block"
-          priority
-        />
+      <section className="mb-8 sm:mb-10">
+        <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight leading-tight max-w-2xl">
+          What&apos;s on in {currentCity.label}.
+        </h1>
+        <p className="mt-3 text-(--color-muted) max-w-xl">
+          Theater, opera, ballet and dance. Featured shows ranked by venue
+          prestige, premieres and brand-name productions.
+        </p>
       </section>
 
       <PillRow
@@ -162,9 +149,12 @@ export default function Browse({ events, venues }: Props) {
 
       <EventGrid
         events={filtered}
+        emptyCategory={cat ?? undefined}
         emptyHint={
           events.length === 0
             ? `No events in ${currentCity.label} yet.`
+            : cat
+            ? `No ${CATEGORIES.find((c) => c.id === cat)?.label.toLowerCase()} matches that filter.`
             : "Nothing matches that filter. Try clearing it."
         }
       />
