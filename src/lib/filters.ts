@@ -9,6 +9,7 @@ export interface FilterState {
   when?: WhenFilter;
   price?: PriceFilter;
   city?: string;
+  venue?: string;
 }
 
 export function applyFilters(
@@ -16,13 +17,14 @@ export function applyFilters(
   state: FilterState,
   venueCity: (slug: string) => string | undefined,
 ): Event[] {
-  const { q, cat, when, price, city } = state;
+  const { q, cat, when, price, city, venue } = state;
   const qLower = q?.trim().toLowerCase();
   const now = new Date();
   const range = whenRange(when, now);
 
   return events.filter((e) => {
     if (cat && e.category !== cat) return false;
+    if (venue && e.venueSlug !== venue) return false;
     if (city) {
       const eCity = venueCity(e.venueSlug)?.toLowerCase();
       if (eCity !== city.toLowerCase()) return false;

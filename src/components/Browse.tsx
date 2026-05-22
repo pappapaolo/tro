@@ -1,6 +1,6 @@
 "use client";
 
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Event, Venue } from "@/lib/types";
 import { CATEGORIES, type Category } from "@/lib/types";
@@ -11,6 +11,7 @@ import {
 } from "@/lib/filters";
 import { CITIES, DEFAULT_CITY, type CityId } from "@/lib/cities";
 import EventGrid from "./EventGrid";
+import VenueFilter from "./VenueFilter";
 
 interface Props {
   events: Event[];
@@ -39,29 +40,43 @@ export default function Browse({ events, venues }: Props) {
   const cat = (params.get("cat") as Category | null) ?? null;
   const when = (params.get("when") as WhenFilter | null) ?? null;
   const price = (params.get("price") as PriceFilter | null) ?? null;
+  const venue = params.get("venue") ?? null;
   const city = (params.get("city") as CityId | null) ?? DEFAULT_CITY;
 
   const [q, setQ] = useState(params.get("q") ?? "");
   const deferredQ = useDeferredValue(q);
 
-  // Sync ?q= back to the URL but don't push history on every keystroke.
+  // Keep the latest params reachable inside the debounce timeout so it
+  // doesn't overwrite filters set after the user stopped typing.
+  const paramsRef = useRef(params);
+  paramsRef.current = params;
+
   useEffect(() => {
+    const currentQ = paramsRef.current.get("q") ?? "";
+    if (deferredQ === currentQ) return;
     const t = setTimeout(() => {
-      const next = new URLSearchParams(params.toString());
+      const next = new URLSearchParams(paramsRef.current.toString());
       if (deferredQ) next.set("q", deferredQ);
       else next.delete("q");
       const qs = next.toString();
-      const newUrl = qs ? `${pathname}?${qs}` : pathname;
-      router.replace(newUrl, { scroll: false });
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
     }, 200);
     return () => clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [deferredQ]);
+  }, [deferredQ, pathname, router]);
 
   const venueCity = useMemo(() => {
     const map = new Map(venues.map((v) => [v.slug, v.city]));
     return (slug: string) => map.get(slug);
   }, [venues]);
+
+  const currentCity = CITIES.find((c) => c.id === city) ?? CITIES[0];
+  const cityVenues = useMemo(
+    () =>
+      venues
+        .filter((v) => v.city === currentCity.venueCity)
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    [venues, currentCity.venueCity],
+  );
 
   const filtered = useMemo(
     () =>
@@ -72,30 +87,41 @@ export default function Browse({ events, venues }: Props) {
           cat: cat ?? undefined,
           when: when ?? undefined,
           price: price ?? undefined,
-          city: CITIES.find((c) => c.id === city)?.venueCity,
+          venue: venue ?? undefined,
+          city: currentCity.venueCity,
         },
         venueCity,
       ),
-    [events, deferredQ, cat, when, price, city, venueCity],
+    [events, deferredQ, cat, when, price, venue, currentCity.venueCity, venueCity],
   );
 
   function setParam(key: string, value: string | null) {
     const next = new URLSearchParams(params.toString());
     if (value) next.set(key, value);
     else next.delete(key);
+    // Switching city invalidates any pinned venue
+    if (key === "city") next.delete("venue");
     const qs = next.toString();
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
   }
 
-  const cityLabel = CITIES.find((c) => c.id === city)?.label ?? "Milan";
+  function clearAll() {
+    setQ("");
+    router.replace(pathname, { scroll: false });
+  }
+
   const activeCount =
-    (cat ? 1 : 0) + (when ? 1 : 0) + (price ? 1 : 0) + (q.trim() ? 1 : 0);
+    (cat ? 1 : 0) +
+    (when ? 1 : 0) +
+    (price ? 1 : 0) +
+    (venue ? 1 : 0) +
+    (q.trim() ? 1 : 0);
 
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
       <section className="mb-8 sm:mb-10">
         <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight leading-tight max-w-2xl">
-          What&apos;s on in {cityLabel}.
+          What&apos;s on in {currentCity.label}.
         </h1>
         <p className="mt-3 text-(--color-muted) max-w-xl">
           Theater, opera, ballet and dance. One place to browse what&apos;s on
@@ -115,49 +141,58 @@ export default function Browse({ events, venues }: Props) {
         />
       </div>
 
-      <div className="space-y-2 mb-6">
+      <div className="space-y-2 mb-3">
         <PillRow
           ariaLabel="Filter by category"
-          options={[{ id: null, label: "All" }, ...CATEGORIES.map((c) => ({ id: c.id, label: c.label }))]}
+          options={[
+            { id: null, label: "All" },
+            ...CATEGORIES.map((c) => ({ id: c.id, label: c.label })),
+          ]}
           value={cat}
           onChange={(v) => setParam("cat", v)}
         />
         <PillRow
           ariaLabel="Filter by date"
-          options={[{ id: null, label: "Any date" }, ...WHEN_OPTIONS.map((w) => ({ id: w.id, label: w.label }))]}
+          options={[
+            { id: null, label: "Any date" },
+            ...WHEN_OPTIONS.map((w) => ({ id: w.id, label: w.label })),
+          ]}
           value={when}
           onChange={(v) => setParam("when", v)}
         />
         <PillRow
           ariaLabel="Filter by price"
-          options={[{ id: null, label: "Any price" }, ...PRICE_OPTIONS.map((p) => ({ id: p.id, label: p.label }))]}
+          options={[
+            { id: null, label: "Any price" },
+            ...PRICE_OPTIONS.map((p) => ({ id: p.id, label: p.label })),
+          ]}
           value={price}
           onChange={(v) => setParam("price", v)}
         />
       </div>
 
-      {activeCount > 0 && filtered.length === 0 && (
-        <p className="text-sm text-(--color-muted) mb-4">
-          No shows match.{" "}
+      <div className="mb-6 flex items-center gap-3">
+        <VenueFilter
+          venues={cityVenues}
+          value={venue}
+          onChange={(slug) => setParam("venue", slug)}
+        />
+        {activeCount > 0 && (
           <button
             type="button"
-            onClick={() => {
-              setQ("");
-              router.replace(pathname, { scroll: false });
-            }}
-            className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            onClick={clearAll}
+            className="text-sm text-(--color-muted) underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
           >
-            Clear filters
+            Clear all
           </button>
-          .
-        </p>
-      )}
+        )}
+      </div>
 
       <EventGrid
         events={filtered}
         emptyHint={
           events.length === 0
-            ? `No events in ${cityLabel} yet.`
+            ? `No events in ${currentCity.label} yet.`
             : "Nothing matches that filter. Try clearing it."
         }
       />
