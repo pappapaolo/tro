@@ -146,12 +146,29 @@ export async function scrape(): Promise<ScrapedEvent[]> {
     const id = makeId(VENUE_SLUG, show.title, start);
     const ticketUrl = absoluteUrl(BASE, show.link) ?? CALENDAR_URL;
 
+    // Fetch the show's detail page for the long synopsis. Piccolo
+    // renders show body copy in `<div class="field__item">` blocks;
+    // we pick the longest as the description (other field__item blocks
+    // are short metadata fields like venue, length, dates).
+    let description: string | undefined;
+    try {
+      const detailHtml = await fetchHtml(ticketUrl, {
+        retries: 1,
+        timeoutMs: 12000,
+      });
+      description = extractLongestFieldItem(detailHtml);
+    } catch {
+      // Detail fetch failures fall through; the event still lists with
+      // title, image and performances.
+    }
+
     out.push({
       id,
       slug: `${slugify(show.title)}-${id}`,
       title: show.title,
       subtitle: show.theatre,
       category: inferCategory(show.title, "theater"),
+      description,
       image: show.image,
       venueSlug: VENUE_SLUG,
       performances: perfs,
@@ -160,8 +177,28 @@ export async function scrape(): Promise<ScrapedEvent[]> {
     });
   }
 
+  const withDesc = out.filter((e) => e.description).length;
   console.log(
-    `[piccolo] ${out.length} events (${[...shows.values()].reduce((s, x) => s + x.performances.length, 0)} performances)`,
+    `[piccolo] ${out.length} events (${[...shows.values()].reduce((s, x) => s + x.performances.length, 0)} performances, ${withDesc} with description)`,
   );
   return out;
+}
+
+/**
+ * Piccolo's Drupal renderer wraps every field in `<div class="field__item">`.
+ * The synopsis is always the longest of those — short ones are metadata
+ * fields (venue name, length, dates, etc). Picking the longest is a
+ * heuristic that's held up across the site so far.
+ */
+function extractLongestFieldItem(html: string): string | undefined {
+  const $ = cheerio.load(html);
+  let longest = "";
+  $(".field__item").each((_, el) => {
+    const text = $(el).text().replace(/\s+/g, " ").trim();
+    if (text.length > longest.length) longest = text;
+  });
+  if (longest.length < 60) return undefined;
+  // Cap at 1500 chars — long enough for any real synopsis, short
+  // enough that the event JSON stays readable.
+  return longest.slice(0, 1500);
 }

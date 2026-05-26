@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllEvents, getAllVenues } from "@/lib/events";
+import { allCityCategoryPairs } from "@/lib/routes";
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tro-eight.vercel.app";
 
@@ -51,6 +52,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "daily" as const,
       priority: 0.8,
+    })),
+    // Clean-URL category × city landing pages — /milano/teatro,
+    // /roma/opera, etc. Higher priority than the guides because they
+    // ARE the listing (live catalogue, not just editorial copy).
+    ...allCityCategoryPairs().map(({ city, category }) => ({
+      url: `${BASE}/${city}/${category}`,
+      lastModified: now,
+      changeFrequency: "daily" as const,
+      priority: 0.9,
     })),
   ];
 

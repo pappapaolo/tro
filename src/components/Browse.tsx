@@ -18,22 +18,43 @@ import FilterDropdown from "./FilterDropdown";
 interface Props {
   events: Event[];
   venues: Venue[];
+  /**
+   * Optional initial filters from the route (e.g. /[city]/[category]
+   * landing pages). Query-param values take precedence so the user can
+   * still narrow the page interactively — but absent a query param,
+   * these win over the global DEFAULT_CITY.
+   */
+  initialCity?: CityId;
+  initialCategory?: Category;
+  /**
+   * When Browse is rendered under a landing page that already has its
+   * own keyword-rich H1, set this so we don't emit a second one.
+   */
+  hideHeading?: boolean;
 }
 
 type SortKey = "featured" | "date";
 
-export default function Browse({ events, venues }: Props) {
+export default function Browse({
+  events,
+  venues,
+  initialCity,
+  initialCategory,
+  hideHeading = false,
+}: Props) {
   const { t } = useT();
   const router = useRouter();
   const pathname = usePathname();
   const params = useSearchParams();
 
   const q = params.get("q") ?? "";
-  const cat = (params.get("cat") as Category | null) ?? null;
+  const cat =
+    (params.get("cat") as Category | null) ?? initialCategory ?? null;
   const when = (params.get("when") as WhenFilter | null) ?? null;
   const price = (params.get("price") as PriceFilter | null) ?? null;
   const venue = params.get("venue") ?? null;
-  const city = (params.get("city") as CityId | null) ?? DEFAULT_CITY;
+  const city =
+    (params.get("city") as CityId | null) ?? initialCity ?? DEFAULT_CITY;
   const sort: SortKey = params.get("sort") === "date" ? "date" : "featured";
 
   const venueCity = useMemo(() => {
@@ -115,15 +136,21 @@ export default function Browse({ events, venues }: Props) {
       : t("browse.results.many", { n: filtered.length });
 
   return (
-    <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
-      <section className="mb-8 sm:mb-10">
-        <h1 className="font-display text-4xl sm:text-6xl leading-[1.05] max-w-3xl">
-          {t("browse.heading", { city: cityLabel })}
-        </h1>
-        <p className="mt-3 text-(--color-muted) max-w-xl">
-          {t("browse.tagline")}
-        </p>
-      </section>
+    <div
+      className={`mx-auto max-w-[1200px] px-4 sm:px-6 pb-16 ${
+        hideHeading ? "pt-4 sm:pt-6" : "pt-8 sm:pt-12"
+      }`}
+    >
+      {!hideHeading && (
+        <section className="mb-8 sm:mb-10">
+          <h1 className="font-display text-4xl sm:text-6xl leading-[1.05] max-w-3xl">
+            {t("browse.heading", { city: cityLabel })}
+          </h1>
+          <p className="mt-3 text-(--color-muted) max-w-xl">
+            {t("browse.tagline")}
+          </p>
+        </section>
+      )}
 
       <PillRow
         ariaLabel="Filter by category"
@@ -208,7 +235,7 @@ export default function Browse({ events, venues }: Props) {
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-8">
           <li>
             <Link
-              href="/?cat=theater&city=milan"
+              href="/milano/teatro"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.theaterMilan")}
@@ -216,7 +243,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=theater&city=rome"
+              href="/roma/teatro"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.theaterRome")}
@@ -224,7 +251,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=opera&city=milan"
+              href="/milano/opera"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.operaMilan")}
@@ -232,7 +259,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=opera&city=rome"
+              href="/roma/opera"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.operaRome")}
@@ -240,7 +267,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=ballet&city=milan"
+              href="/milano/balletto"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.balletMilan")}
@@ -248,7 +275,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=ballet&city=rome"
+              href="/roma/balletto"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.balletRome")}
@@ -256,7 +283,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=dance&city=milan"
+              href="/milano/danza"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.danceMilan")}
@@ -264,7 +291,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=dance&city=rome"
+              href="/roma/danza"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.danceRome")}
@@ -272,7 +299,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=concert&city=milan"
+              href="/milano/concerti"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.concertMilan")}
@@ -280,7 +307,7 @@ export default function Browse({ events, venues }: Props) {
           </li>
           <li>
             <Link
-              href="/?cat=concert&city=rome"
+              href="/roma/concerti"
               className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
             >
               {t("seo.link.concertRome")}

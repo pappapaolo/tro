@@ -57,6 +57,8 @@ const TRANSLATIONS = {
     "card.editorsPick": "Editor's pick",
     "card.through": "Through {date}",
     "card.performances.many": "{n} performances",
+    "showtimes.moreDates": "+ {n} more dates",
+    "showtimes.heading": "All performances",
 
     // Event detail
     "event.when": "When",
@@ -174,6 +176,8 @@ const TRANSLATIONS = {
     "card.editorsPick": "Scelto da tro",
     "card.through": "Fino al {date}",
     "card.performances.many": "{n} repliche",
+    "showtimes.moreDates": "+ altre {n} date",
+    "showtimes.heading": "Tutte le repliche",
 
     "event.when": "Quando",
     "event.where": "Dove",

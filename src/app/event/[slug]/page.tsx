@@ -9,10 +9,11 @@ import {
   getVenueBySlug,
   getAllEvents,
 } from "@/lib/events";
-import { formatDateBadge, formatDateLong } from "@/lib/format";
+import { formatDateBadge } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 import EventGrid from "@/components/EventGrid";
 import EventActions from "@/components/EventActions";
+import Showtimes from "@/components/Showtimes";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -75,7 +76,51 @@ export default async function EventPage({ params }: PageProps) {
   const first = event.performances[0]?.start;
   const last = event.performances[event.performances.length - 1];
 
-  // schema.org Event — helps Google surface the show in event-rich results
+  // schema.org Event — helps Google surface the show in event-rich
+  // results. When a show has multiple performances we expose them as
+  // subEvent[] so each date can show as a separate sitelink in Google's
+  // event card. The parent Event carries the overall run (first start →
+  // last end), the children carry the individual performances.
+  const placeLd = venue
+    ? {
+        "@type": "Place",
+        name: venue.name,
+        address: venue.address
+          ? {
+              "@type": "PostalAddress",
+              streetAddress: venue.address,
+              addressLocality: venue.city,
+              addressCountry: "IT",
+            }
+          : undefined,
+      }
+    : undefined;
+  const offerLd =
+    event.priceFrom != null
+      ? {
+          "@type": "Offer",
+          price: event.priceFrom,
+          priceCurrency: event.priceCurrency ?? "EUR",
+          url: event.ticketUrl,
+          availability: "https://schema.org/InStock",
+        }
+      : event.ticketUrl
+      ? { "@type": "Offer", url: event.ticketUrl }
+      : undefined;
+  const subEvents =
+    event.performances.length > 1
+      ? event.performances.map((p) => ({
+          "@type": "Event",
+          name: event.title,
+          startDate: p.start,
+          endDate: p.end ?? p.start,
+          eventStatus: "https://schema.org/EventScheduled",
+          eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+          location: placeLd,
+          offers: offerLd,
+        }))
+      : undefined;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -86,35 +131,12 @@ export default async function EventPage({ params }: PageProps) {
     endDate: last?.end ?? last?.start,
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    location: venue
-      ? {
-          "@type": "Place",
-          name: venue.name,
-          address: venue.address
-            ? {
-                "@type": "PostalAddress",
-                streetAddress: venue.address,
-                addressLocality: venue.city,
-                addressCountry: "IT",
-              }
-            : undefined,
-        }
-      : undefined,
-    offers:
-      event.priceFrom != null
-        ? {
-            "@type": "Offer",
-            price: event.priceFrom,
-            priceCurrency: event.priceCurrency ?? "EUR",
-            url: event.ticketUrl,
-            availability: "https://schema.org/InStock",
-          }
-        : event.ticketUrl
-        ? { "@type": "Offer", url: event.ticketUrl }
-        : undefined,
+    location: placeLd,
+    offers: offerLd,
     organizer: venue
       ? { "@type": "Organization", name: venue.name, url: venue.website }
       : undefined,
+    subEvent: subEvents,
   };
 
   return (
@@ -183,19 +205,10 @@ export default async function EventPage({ params }: PageProps) {
             </div>
           )}
 
-          {event.performances.length > 1 && (
-            <section className="mt-10">
-              <h2 className="text-sm font-medium tracking-wider uppercase text-(--color-muted) mb-3">
-                All performances
-              </h2>
-              <ul className="divide-y divide-(--color-line) border-y border-(--color-line)">
-                {event.performances.map((p, i) => (
-                  <li key={i} className="py-3 text-sm">
-                    {formatDateLong(p.start)}
-                  </li>
-                ))}
-              </ul>
-            </section>
+          {event.performances.length > 0 && (
+            <div className="mt-10">
+              <Showtimes performances={event.performances} variant="full" />
+            </div>
           )}
 
           {venue && (

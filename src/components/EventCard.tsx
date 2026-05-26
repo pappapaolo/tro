@@ -14,6 +14,7 @@ import {
 } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 import SaveButton from "./SaveButton";
+import Showtimes from "./Showtimes";
 import { useT } from "./I18nProvider";
 
 interface Props {
@@ -118,12 +119,18 @@ export default function EventCard({ event }: Props) {
           <span className="truncate">{venue?.name ?? "—"}</span>
           {price && <span className="shrink-0 text-black/70">{price}</span>}
         </div>
-        {(through || showsCount > 1) && (
-          <div className="text-xs text-(--color-muted)">
-            {through}
-            {through && showsCount > 1 && " · "}
-            {showsCount > 1 && t("card.performances.many", { n: showsCount })}
+        {showsCount > 1 ? (
+          <div className="pt-1">
+            <Showtimes
+              performances={event.performances}
+              variant="compact"
+              compactLimit={2}
+            />
           </div>
+        ) : (
+          through && (
+            <div className="text-xs text-(--color-muted)">{through}</div>
+          )
         )}
       </div>
     </Link>
