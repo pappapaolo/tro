@@ -21,9 +21,21 @@ export async function generateMetadata({
   const { slug } = await params;
   const venue = getVenueBySlug(slug);
   if (!venue) return {};
+  const description = `What's on at ${venue.name} in ${venue.city}. Upcoming theater, opera, ballet and dance, with links to the venue's own ticket pages.`;
   return {
     title: venue.name,
-    description: `What's on at ${venue.name} in ${venue.city}.`,
+    description,
+    alternates: { canonical: `/venue/${venue.slug}` },
+    openGraph: {
+      type: "website",
+      title: venue.name,
+      description,
+    },
+    twitter: {
+      card: "summary",
+      title: venue.name,
+      description,
+    },
   };
 }
 
@@ -33,8 +45,29 @@ export default async function VenuePage({ params }: PageProps) {
   if (!venue) notFound();
   const events = getEventsByVenue(slug);
 
+  // schema.org Place — better organic ranking on venue searches
+  const placeLd = {
+    "@context": "https://schema.org",
+    "@type": "PerformingArtsTheater",
+    name: venue.name,
+    address: venue.address
+      ? {
+          "@type": "PostalAddress",
+          streetAddress: venue.address,
+          addressLocality: venue.city,
+          addressCountry: "IT",
+        }
+      : undefined,
+    url: venue.website,
+    sameAs: venue.website ? [venue.website] : undefined,
+  };
+
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-10 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(placeLd) }}
+      />
       <header className="mb-10 sm:mb-12 max-w-2xl">
         <h1 className="font-display text-4xl sm:text-6xl leading-[1.05]">
           {venue.name}

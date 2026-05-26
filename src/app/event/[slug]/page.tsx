@@ -29,13 +29,39 @@ export async function generateMetadata({
   const event = getEventBySlug(slug);
   if (!event) return {};
   const venue = getVenueBySlug(event.venueSlug);
-  // opengraph-image.tsx generates the share card automatically; just
-  // set title/description for the OG and Twitter <meta> tags.
+  const subtitle = event.subtitle ? ` — ${event.subtitle}` : "";
+  const where = venue ? ` at ${venue.name}` : "";
+  const dateBit = event.performances[0]?.start
+    ? ` (${new Date(event.performances[0].start).toLocaleDateString("en-GB", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        timeZone: "UTC",
+      })})`
+    : "";
+  const description =
+    event.description?.slice(0, 200) ??
+    `${event.title}${subtitle}${where}${dateBit}. Live listing on tro.`;
+
+  // opengraph-image.tsx generates the share card automatically. Setting
+  // alternates.canonical is what makes the per-event URL the SEO-canonical
+  // one (the ticket URL is on the venue's site).
   return {
-    title: event.title,
-    description:
-      event.description?.slice(0, 200) ??
-      `${event.title} at ${venue?.name ?? "Milan"}.`,
+    title: `${event.title}${where}`,
+    description,
+    alternates: {
+      canonical: `/event/${event.slug}`,
+    },
+    openGraph: {
+      type: "article",
+      title: event.title,
+      description,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: event.title,
+      description,
+    },
   };
 }
 

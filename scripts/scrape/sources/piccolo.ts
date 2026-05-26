@@ -102,7 +102,13 @@ export async function scrape(): Promise<ScrapedEvent[]> {
 
       const theatre = cleanText(r.find(".theatre-item").text());
       const imgSrc = r.find("img").attr("src");
-      const image = absoluteUrl(BASE, imgSrc);
+      // Piccolo's calendar serves 72x72 thumbnails via Drupal image styles.
+      // Strip the style transform + itok query to get the full-res hero
+      // (same URL that og:image points at on the detail page).
+      const fullRes = imgSrc
+        ?.replace(/\/styles\/[^/]+\/public\//, "/")
+        .replace(/\?itok=[^&]*/, "");
+      const image = absoluteUrl(BASE, fullRes);
 
       const key = link;
       if (!shows.has(key)) {
