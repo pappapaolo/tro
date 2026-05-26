@@ -15,6 +15,7 @@ import {
 import { illustrationForCategory } from "@/lib/illustrations";
 import SaveButton from "./SaveButton";
 import Showtimes from "./Showtimes";
+import TagChips from "./TagChips";
 import { useT } from "./I18nProvider";
 
 interface Props {
@@ -114,6 +115,11 @@ export default function EventCard({ event }: Props) {
           <p className="text-sm text-(--color-muted) line-clamp-1">
             {subtitle}
           </p>
+        )}
+        {event.tags && event.tags.length > 0 && (
+          <div className="pt-0.5">
+            <TagChips tags={event.tags} variant="card" limit={3} />
+          </div>
         )}
         <div className="flex items-baseline justify-between gap-2 text-sm text-(--color-muted)">
           <span className="truncate">{venue?.name ?? "—"}</span>

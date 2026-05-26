@@ -14,6 +14,7 @@ import { illustrationForCategory } from "@/lib/illustrations";
 import EventGrid from "@/components/EventGrid";
 import EventActions from "@/components/EventActions";
 import Showtimes from "@/components/Showtimes";
+import TagChips from "@/components/TagChips";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -188,6 +189,12 @@ export default async function EventPage({ params }: PageProps) {
             <p className="mt-2 text-lg text-(--color-muted)">
               {event.subtitle}
             </p>
+          )}
+
+          {event.tags && event.tags.length > 0 && (
+            <div className="mt-4">
+              <TagChips tags={event.tags} variant="detail" limit={6} />
+            </div>
           )}
 
           <p className="mt-6 max-w-[680px] text-[15px] leading-[1.75] text-(--color-muted)">

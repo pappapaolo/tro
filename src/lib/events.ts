@@ -1,8 +1,16 @@
 import eventsData from "@/data/events.json";
 import venuesData from "@/data/venues.json";
 import type { Event, Venue, Category } from "./types";
+import { deriveTags } from "./tags";
 
-const allEvents = eventsData as Event[];
+// We compute tags once at module load time so EventCard / Showtimes /
+// search filter don't have to redo the regex work on every render.
+// The downside: the tag vocabulary only updates at deploy time, which
+// is fine because tags.ts is part of the source bundle anyway.
+const allEvents: Event[] = (eventsData as Event[]).map((e) => ({
+  ...e,
+  tags: e.tags && e.tags.length > 0 ? e.tags : deriveTags(e),
+}));
 const allVenues = venuesData as Venue[];
 
 const venueBySlug = new Map(allVenues.map((v) => [v.slug, v]));

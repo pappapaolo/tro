@@ -46,6 +46,13 @@ export interface Event {
    * Used to sort the grid and badge top picks.
    */
   rank?: number;
+  /**
+   * Genre / style slugs (e.g. "commedia", "classico", "puccini"). Auto-
+   * derived at runtime from title + subtitle + description via the
+   * patterns in lib/tags.ts. The data file may also pre-populate this
+   * field; if so, the static value wins.
+   */
+  tags?: string[];
   source: {
     venue: string;
     url: string;

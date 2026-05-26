@@ -1,4 +1,5 @@
 import type { Event } from "./types";
+import { tagLabel, tagsMatchingQuery } from "./tags";
 
 export type WhenFilter = "tonight" | "weekend" | "week" | "month";
 export type PriceFilter = "free" | "lt20" | "lt50" | "50plus";
@@ -61,6 +62,27 @@ function matchesQuery(
   if (e.description?.toLowerCase().includes(q)) return true;
   const v = venueCity(e.venueSlug);
   if (v?.toLowerCase().includes(q)) return true;
+
+  // Tag-aware search: typing "commedia" / "classical" / etc. maps to
+  // tag slugs and matches events that carry those tags. We check both
+  // (a) does the event's own tag list contain a tag whose IT or EN
+  // label contains the query, and (b) does the query directly hit a
+  // tag definition that the event has.
+  if (e.tags && e.tags.length > 0) {
+    // Direct label match — fast path for typing the exact tag name.
+    for (const slug of e.tags) {
+      if (tagLabel(slug, "it").toLowerCase().includes(q)) return true;
+      if (tagLabel(slug, "en").toLowerCase().includes(q)) return true;
+      if (slug.includes(q)) return true;
+    }
+    // Fuzzy fallback: query matches a tag definition (e.g. "comedy"
+    // → tag with label "Commedia"), and the event carries that tag.
+    const matchedTags = tagsMatchingQuery(q);
+    if (matchedTags.length > 0) {
+      const tagSet = new Set(e.tags);
+      if (matchedTags.some((t) => tagSet.has(t.slug))) return true;
+    }
+  }
   return false;
 }
 
