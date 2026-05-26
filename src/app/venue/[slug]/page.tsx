@@ -89,10 +89,49 @@ export default async function VenuePage({ params }: PageProps) {
         )}
       </header>
 
+      <p className="mb-8 text-[15px] leading-[1.75] text-(--color-muted) max-w-2xl">
+        Browse upcoming performances at {venue.name}
+        {venue.city ? ` in ${venue.city}` : ""}. tro tracks the official
+        programme so you can see every show in one place — dates, prices, and a
+        direct link to the venue&apos;s own ticket page. No markup, no
+        middleman.
+      </p>
+
       <EventGrid
         events={events}
         emptyHint="No upcoming shows for this venue yet."
       />
+
+      <section className="mt-20 pt-10 border-t border-(--color-line) text-[15px] leading-[1.75] text-(--color-muted) max-w-3xl">
+        <h2 className="font-display text-2xl sm:text-3xl text-black mb-4">
+          About {venue.name}
+        </h2>
+        <p className="mb-4">
+          {venue.name} is one of the venues tracked on tro
+          {venue.city ? `, located in ${venue.city}` : ""}. We pull the
+          official programme directly from the venue&apos;s site and refresh
+          regularly, so the listings above stay up to date with what the box
+          office is actually selling.
+        </p>
+        <p>
+          Looking for something different? Explore other theaters, opera houses
+          and concert halls on the{" "}
+          <a
+            href="/"
+            className="underline underline-offset-4 hover:no-underline"
+          >
+            tro home page
+          </a>
+          , or read more about what tro is on the{" "}
+          <a
+            href="/about"
+            className="underline underline-offset-4 hover:no-underline"
+          >
+            about page
+          </a>
+          .
+        </p>
+      </section>
     </div>
   );
 }

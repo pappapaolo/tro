@@ -86,6 +86,37 @@ const TRANSLATIONS = {
     "footer.tagline": "what's on in Milan",
     "footer.about": "About",
     "footer.github": "GitHub",
+
+    // About page
+    "about.title": "About tro",
+    "about.p1":
+      "tro is an aggregator for the performing arts in Milan and Rome — theater, opera, ballet, dance and concerts. Today every venue has its own site, its own calendar and its own ticketing flow. Finding what's on tonight means clicking through fifteen tabs. tro puts it in one place.",
+    "about.p2":
+      "We don't sell tickets. Each event links out to the venue's own ticket page, so you pay the venue directly. No markup, no middleman.",
+    "about.listingsHeading": "How the listings get here",
+    "about.listingsP1Pre":
+      "Most events are scraped from venue websites — the same listings the venues publish themselves. We refresh regularly. If something is wrong or missing, ",
+    "about.listingsLink": "open an issue",
+    "about.listingsP1Post": ".",
+    "about.roadmapHeading": "Roadmap",
+    "about.roadmap.venues": "More venues, beyond the initial set.",
+    "about.roadmap.sync": "Saved events that sync across your devices.",
+    "about.roadmap.cities": "More cities — Florence, Naples, Turin.",
+    "about.roadmap.native":
+      "Native iOS app (today it's a PWA — works the same once installed).",
+
+    // SEO copy
+    "seo.home.heading": "What's on in {city} this week",
+    "seo.home.p1":
+      "tro is the easiest way to find theater, opera, ballet, dance and concerts in {city}. We pull live listings from the city's major stages — La Scala, Piccolo Teatro, Teatro alla Scala, Teatro dell'Opera di Roma, Auditorium Parco della Musica and more — into one calendar, so you can stop chopping between venue websites and just pick something to do tonight.",
+    "seo.home.p2":
+      "Browse by date, price or category. Filter for shows under €20, free events, this weekend only — or sort by what's coming up soonest. Every show on tro links straight back to the venue's official ticket page: we don't resell, we don't mark up, we don't take a cut.",
+    "seo.home.p3":
+      "New venues and shows are added every week. Save the ones you like to your device, share them with friends, or drop them straight into your calendar with one tap.",
+    "seo.venue.intro":
+      "Browse upcoming performances at {venue}. tro tracks the official programme for {venue} so you can see every show in one place, with dates, prices and direct links to the venue's own ticket pages.",
+    "seo.event.intro":
+      "Looking for {title} tickets{where}? Below you'll find the full performance schedule, official ticket links and everything you need to know before going.",
   },
   it: {
     "nav.about": "Info",
@@ -104,7 +135,7 @@ const TRANSLATIONS = {
     "cat.concert": "Concerto",
     "cat.other": "Altro",
 
-    "browse.heading": "trova il tuo prossimo spettacolo.",
+    "browse.heading": "Trova il tuo prossimo spettacolo.",
     "browse.tagline":
       "Teatro, opera, balletto e concerti. Tutto in un unico posto.",
     "browse.filters.all": "Tutti",
@@ -158,6 +189,35 @@ const TRANSLATIONS = {
     "footer.tagline": "cosa c'è a Milano",
     "footer.about": "Info",
     "footer.github": "GitHub",
+
+    "about.title": "Cos'è tro",
+    "about.p1":
+      "tro è un aggregatore di spettacoli dal vivo a Milano e a Roma — teatro, opera, balletto, danza e concerti. Oggi ogni teatro ha il suo sito, il suo calendario e il suo sistema di biglietteria. Per scoprire cosa c'è stasera bisogna aprire quindici schede. tro raccoglie tutto in un unico posto.",
+    "about.p2":
+      "Non vendiamo biglietti. Ogni spettacolo rimanda direttamente alla pagina ufficiale del teatro, così paghi il teatro direttamente. Niente commissioni, niente intermediari.",
+    "about.listingsHeading": "Come arrivano gli spettacoli",
+    "about.listingsP1Pre":
+      "La maggior parte degli eventi viene raccolta automaticamente dai siti dei teatri — gli stessi listini che i teatri pubblicano da sé. Aggiorniamo regolarmente. Se qualcosa non torna o manca, ",
+    "about.listingsLink": "apri una segnalazione",
+    "about.listingsP1Post": ".",
+    "about.roadmapHeading": "Cosa stiamo facendo",
+    "about.roadmap.venues": "Più teatri, oltre a quelli iniziali.",
+    "about.roadmap.sync": "Spettacoli salvati che si sincronizzano fra i tuoi dispositivi.",
+    "about.roadmap.cities": "Più città — Firenze, Napoli, Torino.",
+    "about.roadmap.native":
+      "App iOS nativa (oggi è una PWA — una volta installata funziona allo stesso modo).",
+
+    "seo.home.heading": "Cosa c'è in scena a {city} questa settimana",
+    "seo.home.p1":
+      "tro è il modo più semplice per trovare teatro, opera, balletto, danza e concerti a {city}. Raccogliamo i cartelloni live dei principali palcoscenici della città — La Scala, Piccolo Teatro, Teatro dell'Opera di Roma, Auditorium Parco della Musica e altri — in un unico calendario, così smetti di rimbalzare tra i siti dei teatri e scegli direttamente cosa fare stasera.",
+    "seo.home.p2":
+      "Sfoglia per data, prezzo o categoria. Filtra gli spettacoli sotto i €20, gli eventi gratuiti, solo quelli del weekend — oppure ordinali per data più vicina. Ogni spettacolo su tro rimanda direttamente alla biglietteria ufficiale del teatro: non rivendiamo, non aggiungiamo commissioni, non prendiamo percentuali.",
+    "seo.home.p3":
+      "Aggiungiamo nuovi teatri e spettacoli ogni settimana. Salva quelli che ti piacciono sul tuo dispositivo, condividili con gli amici o aggiungili al calendario con un tap.",
+    "seo.venue.intro":
+      "Sfoglia i prossimi spettacoli al {venue}. tro segue il cartellone ufficiale del {venue} così puoi vedere tutti gli appuntamenti in un colpo solo, con date, prezzi e link diretti alla biglietteria del teatro.",
+    "seo.event.intro":
+      "Cerchi i biglietti per {title}{where}? Qui sotto trovi tutte le repliche, i link ufficiali per acquistare e tutto quello che serve sapere prima di andare.",
   },
 } as const satisfies Record<Locale, Record<string, string>>;
 

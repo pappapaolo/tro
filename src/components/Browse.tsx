@@ -22,7 +22,7 @@ interface Props {
 type SortKey = "featured" | "date";
 
 export default function Browse({ events, venues }: Props) {
-  const { t, locale } = useT();
+  const { t } = useT();
   const router = useRouter();
   const pathname = usePathname();
   const params = useSearchParams();
@@ -113,37 +113,11 @@ export default function Browse({ events, venues }: Props) {
       ? t("browse.results.one")
       : t("browse.results.many", { n: filtered.length });
 
-  // Italian hero treats the "tro" inside "trova" as the brand — the "o"
-  // becomes the same red disc as the logo, no hole. Done with a sibling
-  // sr-only span so the heading still reads "trova" to screen readers.
-  const heading =
-    locale === "it" ? (
-      <>
-        tr
-        <span className="sr-only">o</span>
-        <span
-          aria-hidden="true"
-          className="inline-block rounded-full bg-(--color-accent)"
-          style={{
-            width: "0.62em",
-            height: "0.62em",
-            verticalAlign: "baseline",
-            position: "relative",
-            bottom: "-0.02em",
-            marginInline: "0.02em",
-          }}
-        />
-        va il tuo prossimo spettacolo.
-      </>
-    ) : (
-      t("browse.heading", { city: cityLabel })
-    );
-
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
       <section className="mb-8 sm:mb-10">
         <h1 className="font-display text-4xl sm:text-6xl leading-[1.05] max-w-3xl">
-          {heading}
+          {t("browse.heading", { city: cityLabel })}
         </h1>
         <p className="mt-3 text-(--color-muted) max-w-xl">
           {t("browse.tagline")}
@@ -218,6 +192,15 @@ export default function Browse({ events, venues }: Props) {
             : t("browse.empty.noMatch")
         }
       />
+
+      <section className="mt-20 pt-10 border-t border-(--color-line) text-[15px] leading-[1.75] text-(--color-muted) max-w-3xl">
+        <h2 className="font-display text-2xl sm:text-3xl text-black mb-4">
+          {t("seo.home.heading", { city: cityLabel })}
+        </h2>
+        <p className="mb-4">{t("seo.home.p1", { city: cityLabel })}</p>
+        <p className="mb-4">{t("seo.home.p2")}</p>
+        <p>{t("seo.home.p3")}</p>
+      </section>
     </div>
   );
 }

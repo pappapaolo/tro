@@ -22,6 +22,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "**.auditorium.com" },
       { protocol: "https", hostname: "**.operaroma.it" },
       { protocol: "https", hostname: "**.teatrodiroma.net" },
+      { protocol: "https", hostname: "**.exactdn.com" },
+      { protocol: "https", hostname: "teatrocarcano.com" },
+      { protocol: "https", hostname: "teatrofilodrammatici.eu" },
     ],
   },
 };

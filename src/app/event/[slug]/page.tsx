@@ -168,6 +168,15 @@ export default async function EventPage({ params }: PageProps) {
             </p>
           )}
 
+          <p className="mt-6 max-w-[680px] text-[15px] leading-[1.75] text-(--color-muted)">
+            Looking for {event.title} tickets
+            {venue ? ` at ${venue.name}` : ""}
+            {venue?.city ? ` in ${venue.city}` : ""}? Below you&apos;ll find
+            the full performance schedule, official ticket links and
+            everything you need to know before going. tro never resells —
+            every ticket link goes straight to {venue?.name ?? "the venue"}.
+          </p>
+
           {event.description && (
             <div className="mt-8 max-w-[680px] text-[17px] leading-[1.7] text-black/90 whitespace-pre-line">
               {event.description}
