@@ -117,6 +117,18 @@ const TRANSLATIONS = {
       "Browse upcoming performances at {venue}. tro tracks the official programme for {venue} so you can see every show in one place, with dates, prices and direct links to the venue's own ticket pages.",
     "seo.event.intro":
       "Looking for {title} tickets{where}? Below you'll find the full performance schedule, official ticket links and everything you need to know before going.",
+    "seo.browse.heading": "Browse by category and city",
+    "seo.guides.heading": "Read more",
+    "seo.link.theaterMilan": "Theater shows in Milan",
+    "seo.link.theaterRome": "Theater shows in Rome",
+    "seo.link.operaMilan": "Opera in Milan",
+    "seo.link.operaRome": "Opera in Rome",
+    "seo.link.balletMilan": "Ballet in Milan",
+    "seo.link.balletRome": "Ballet in Rome",
+    "seo.link.danceMilan": "Dance in Milan",
+    "seo.link.danceRome": "Dance in Rome",
+    "seo.link.concertMilan": "Concerts in Milan",
+    "seo.link.concertRome": "Concerts in Rome",
   },
   it: {
     "nav.about": "Info",
@@ -218,6 +230,18 @@ const TRANSLATIONS = {
       "Sfoglia i prossimi spettacoli al {venue}. tro segue il cartellone ufficiale del {venue} così puoi vedere tutti gli appuntamenti in un colpo solo, con date, prezzi e link diretti alla biglietteria del teatro.",
     "seo.event.intro":
       "Cerchi i biglietti per {title}{where}? Qui sotto trovi tutte le repliche, i link ufficiali per acquistare e tutto quello che serve sapere prima di andare.",
+    "seo.browse.heading": "Sfoglia per categoria e città",
+    "seo.guides.heading": "Approfondisci",
+    "seo.link.theaterMilan": "Spettacoli di teatro a Milano",
+    "seo.link.theaterRome": "Spettacoli di teatro a Roma",
+    "seo.link.operaMilan": "Opera lirica a Milano",
+    "seo.link.operaRome": "Opera lirica a Roma",
+    "seo.link.balletMilan": "Balletto a Milano",
+    "seo.link.balletRome": "Balletto a Roma",
+    "seo.link.danceMilan": "Spettacoli di danza a Milano",
+    "seo.link.danceRome": "Spettacoli di danza a Roma",
+    "seo.link.concertMilan": "Concerti a Milano",
+    "seo.link.concertRome": "Concerti a Roma",
   },
 } as const satisfies Record<Locale, Record<string, string>>;
 

@@ -34,6 +34,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    // Italian-language category × city landing pages — the ones we
+    // actively want to rank for ("spettacoli teatro milano", "opera lirica
+    // roma", etc.). Listings refresh nightly so changeFrequency is daily.
+    ...[
+      "spettacoli-teatro-milano",
+      "spettacoli-teatro-roma",
+      "opera-lirica-milano",
+      "opera-lirica-roma",
+      "balletto-milano",
+      "balletto-roma",
+      "concerti-milano",
+      "concerti-roma",
+    ].map((slug) => ({
+      url: `${BASE}/guides/${slug}`,
+      lastModified: now,
+      changeFrequency: "daily" as const,
+      priority: 0.8,
+    })),
   ];
 
   const events: MetadataRoute.Sitemap = getAllEvents().map((e) => ({

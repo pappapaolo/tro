@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import Link from "next/link";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Event, Venue } from "@/lib/types";
 import { CATEGORIES, type Category } from "@/lib/types";
@@ -199,7 +200,163 @@ export default function Browse({ events, venues }: Props) {
         </h2>
         <p className="mb-4">{t("seo.home.p1", { city: cityLabel })}</p>
         <p className="mb-4">{t("seo.home.p2")}</p>
-        <p>{t("seo.home.p3")}</p>
+        <p className="mb-8">{t("seo.home.p3")}</p>
+
+        <h3 className="font-display text-xl text-black mt-10 mb-4">
+          {t("seo.browse.heading")}
+        </h3>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-8">
+          <li>
+            <Link
+              href="/?cat=theater&city=milan"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.theaterMilan")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=theater&city=rome"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.theaterRome")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=opera&city=milan"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.operaMilan")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=opera&city=rome"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.operaRome")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=ballet&city=milan"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.balletMilan")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=ballet&city=rome"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.balletRome")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=dance&city=milan"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.danceMilan")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=dance&city=rome"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.danceRome")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=concert&city=milan"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.concertMilan")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/?cat=concert&city=rome"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              {t("seo.link.concertRome")}
+            </Link>
+          </li>
+        </ul>
+
+        <h3 className="font-display text-xl text-black mt-10 mb-4">
+          {t("seo.guides.heading")}
+        </h3>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+          <li>
+            <Link
+              href="/guides/spettacoli-teatro-milano"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Spettacoli di teatro a Milano
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/spettacoli-teatro-roma"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Spettacoli di teatro a Roma
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/opera-lirica-milano"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Opera lirica a Milano
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/opera-lirica-roma"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Opera lirica a Roma
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/balletto-milano"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Balletto a Milano
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/balletto-roma"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Balletto a Roma
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/concerti-milano"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Concerti a Milano
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guides/concerti-roma"
+              className="underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
+            >
+              Concerti a Roma
+            </Link>
+          </li>
+        </ul>
       </section>
     </div>
   );
