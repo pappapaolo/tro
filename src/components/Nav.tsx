@@ -37,6 +37,21 @@ export default function Nav() {
           </div>
         </Suspense>
         <Link
+          href="/saved"
+          aria-label="Saved shows"
+          className="shrink-0 inline-flex h-9 w-9 items-center justify-center rounded-full hover:bg-black/5 transition-colors"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden>
+            <path
+              d="M12 21s-7-4.35-7-10.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 7 4.5C19 16.65 12 21 12 21z"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </Link>
+        <Link
           href="/about"
           className="hidden md:inline-block shrink-0 rounded-full px-3 py-1.5 text-sm text-(--color-muted) hover:bg-black/5 hover:text-black transition-colors"
         >

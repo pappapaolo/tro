@@ -11,6 +11,7 @@ import {
   isMultiDay,
 } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
+import SaveButton from "./SaveButton";
 
 interface Props {
   event: Event;
@@ -65,6 +66,9 @@ export default function EventCard({ event }: Props) {
             {categoryLabel}
           </span>
         )}
+        <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition-opacity">
+          <SaveButton eventId={event.id} />
+        </div>
       </div>
 
       <div className="mt-3 space-y-1">

@@ -12,6 +12,7 @@ import {
 import { formatDateBadge, formatDateLong, formatPrice } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 import EventGrid from "@/components/EventGrid";
+import SaveButton from "@/components/SaveButton";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -28,12 +29,13 @@ export async function generateMetadata({
   const event = getEventBySlug(slug);
   if (!event) return {};
   const venue = getVenueBySlug(event.venueSlug);
+  // opengraph-image.tsx generates the share card automatically; just
+  // set title/description for the OG and Twitter <meta> tags.
   return {
     title: event.title,
     description:
       event.description?.slice(0, 200) ??
       `${event.title} at ${venue?.name ?? "Milan"}.`,
-    openGraph: event.image ? { images: [event.image] } : undefined,
   };
 }
 
@@ -45,10 +47,58 @@ export default async function EventPage({ params }: PageProps) {
   const venue = getVenueBySlug(event.venueSlug);
   const related = getRelatedEvents(event, 6);
   const first = event.performances[0]?.start;
+  const last = event.performances[event.performances.length - 1];
   const price = formatPrice(event.priceFrom, event.priceCurrency);
+
+  // schema.org Event — helps Google surface the show in event-rich results
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    name: event.title,
+    description: event.description?.slice(0, 500),
+    image: event.image ? [event.image] : undefined,
+    startDate: first,
+    endDate: last?.end ?? last?.start,
+    eventStatus: "https://schema.org/EventScheduled",
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    location: venue
+      ? {
+          "@type": "Place",
+          name: venue.name,
+          address: venue.address
+            ? {
+                "@type": "PostalAddress",
+                streetAddress: venue.address,
+                addressLocality: venue.city,
+                addressCountry: "IT",
+              }
+            : undefined,
+        }
+      : undefined,
+    offers:
+      event.priceFrom != null
+        ? {
+            "@type": "Offer",
+            price: event.priceFrom,
+            priceCurrency: event.priceCurrency ?? "EUR",
+            url: event.ticketUrl,
+            availability: "https://schema.org/InStock",
+          }
+        : event.ticketUrl
+        ? { "@type": "Offer", url: event.ticketUrl }
+        : undefined,
+    organizer: venue
+      ? { "@type": "Organization", name: venue.name, url: venue.website }
+      : undefined,
+  };
 
   return (
     <article className="mx-auto max-w-[1100px] px-4 sm:px-6 pt-8 pb-16">
+      <script
+        type="application/ld+json"
+        // Server-rendered, no XSS risk — content from our own data file.
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="relative aspect-[16/9] sm:aspect-[16/7] w-full overflow-hidden bg-white ring-1 ring-(--color-line) rounded-xl">
         {event.image ? (
           <Image
@@ -172,6 +222,7 @@ export default async function EventPage({ params }: PageProps) {
                 Get tickets
               </a>
             )}
+            <SaveButton eventId={event.id} label="full" className="w-full justify-center" />
             <p className="text-xs text-(--color-muted) leading-relaxed">
               tro links to the venue. Tickets are sold and fulfilled by{" "}
               {venue?.name ?? "the venue"}.

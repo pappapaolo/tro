@@ -2,6 +2,7 @@ import { writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { scrape as scrapeScala } from "./sources/scala";
+import { scrape as scrapePiccolo } from "./sources/piccolo";
 import { scrape as scrapeParenti } from "./sources/parenti";
 import { scrape as scrapeElfo } from "./sources/elfo";
 import { scrape as scrapeManzoni } from "./sources/manzoni";
@@ -15,6 +16,7 @@ const OUTPUT = join(here, "..", "..", "src", "data", "events.json");
 
 const SOURCES: { name: string; run: () => Promise<ScrapedEvent[]> }[] = [
   { name: "scala", run: scrapeScala },
+  { name: "piccolo", run: scrapePiccolo },
   { name: "parenti", run: scrapeParenti },
   { name: "elfo", run: scrapeElfo },
   { name: "manzoni", run: scrapeManzoni },
