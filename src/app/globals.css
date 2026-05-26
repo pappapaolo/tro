@@ -9,6 +9,7 @@
   --color-accent: #db2d2e;
   --font-sans: var(--font-onest), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-orelega), Georgia, "Times New Roman", serif;
 }
 
 a {

@@ -36,7 +36,7 @@ export default async function VenuePage({ params }: PageProps) {
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-10 pb-16">
       <header className="mb-10 sm:mb-12 max-w-2xl">
-        <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight">
+        <h1 className="font-display text-4xl sm:text-6xl leading-[1.05]">
           {venue.name}
         </h1>
         {venue.address && (

@@ -10,11 +10,12 @@ export default function Nav() {
       <div className="mx-auto flex h-16 max-w-[1200px] items-center gap-3 sm:gap-4 px-4 sm:px-6">
         <Link href="/" aria-label="tro home" className="flex items-center shrink-0">
           <Image
-            src="/logo.svg"
+            src="/logo.png"
             alt="tro"
-            width={68}
-            height={35}
+            width={600}
+            height={267}
             priority
+            sizes="(min-width: 640px) 80px, 70px"
             className="h-7 sm:h-8 w-auto"
           />
         </Link>

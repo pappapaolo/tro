@@ -98,7 +98,7 @@ export default function Browse({ events, venues }: Props) {
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
       <section className="mb-8 sm:mb-10">
-        <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight leading-tight max-w-2xl">
+        <h1 className="font-display text-4xl sm:text-6xl leading-[1.05] max-w-2xl">
           What&apos;s on in {currentCity.label}.
         </h1>
         <p className="mt-3 text-(--color-muted) max-w-xl">

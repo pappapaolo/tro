@@ -84,7 +84,7 @@ export default async function EventPage({ params }: PageProps) {
               {formatDateBadge(first)}
             </div>
           )}
-          <h1 className="mt-2 text-3xl sm:text-4xl font-semibold tracking-tight leading-tight">
+          <h1 className="mt-2 font-display text-4xl sm:text-5xl leading-[1.05]">
             {event.title}
           </h1>
           {event.subtitle && (
@@ -182,7 +182,7 @@ export default async function EventPage({ params }: PageProps) {
 
       {related.length > 0 && (
         <section className="mt-20">
-          <h2 className="text-xl font-semibold mb-6">Also on in Milan</h2>
+          <h2 className="font-display text-2xl sm:text-3xl mb-6">Also on in Milan</h2>
           <EventGrid events={related} />
         </section>
       )}

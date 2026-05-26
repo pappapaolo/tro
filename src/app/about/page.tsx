@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-[680px] px-4 sm:px-6 pt-12 pb-20 text-[17px] leading-[1.7]">
-      <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-6">
+      <h1 className="font-display text-4xl sm:text-5xl leading-[1.05] mb-6">
         About tro
       </h1>
       <p className="text-(--color-muted) mb-6">
@@ -21,7 +21,7 @@ export default function AboutPage() {
         We don&apos;t sell tickets. Each event links out to the venue&apos;s own
         ticket page, so you pay the venue directly. No markup, no middleman.
       </p>
-      <h2 className="text-xl font-semibold mt-12 mb-3">How the listings get here</h2>
+      <h2 className="font-display text-2xl sm:text-3xl mt-12 mb-3">How the listings get here</h2>
       <p className="text-(--color-muted) mb-6">
         Most events are scraped from venue websites — the same listings the
         venues publish themselves. We refresh regularly. If something is wrong
@@ -36,7 +36,7 @@ export default function AboutPage() {
         </a>
         .
       </p>
-      <h2 className="text-xl font-semibold mt-12 mb-3">Roadmap</h2>
+      <h2 className="font-display text-2xl sm:text-3xl mt-12 mb-3">Roadmap</h2>
       <ul className="text-(--color-muted) list-disc pl-6 space-y-2">
         <li>More venues, beyond the initial 6.</li>
         <li>Saved events that sync across your devices.</li>

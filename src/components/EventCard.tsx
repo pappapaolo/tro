@@ -73,7 +73,7 @@ export default function EventCard({ event }: Props) {
             {formatDateBadge(first)}
           </div>
         )}
-        <h3 className="text-base font-semibold leading-snug line-clamp-2 group-hover:text-(--color-accent) transition-colors">
+        <h3 className="font-display text-lg leading-tight line-clamp-2 group-hover:text-(--color-accent) transition-colors">
           {event.title}
         </h3>
         {subtitle && (
