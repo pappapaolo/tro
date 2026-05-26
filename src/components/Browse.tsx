@@ -10,6 +10,7 @@ import {
   type WhenFilter,
 } from "@/lib/filters";
 import { CITIES, DEFAULT_CITY, type CityId } from "@/lib/cities";
+import { useT } from "./I18nProvider";
 import EventGrid from "./EventGrid";
 import FilterDropdown from "./FilterDropdown";
 
@@ -18,21 +19,10 @@ interface Props {
   venues: Venue[];
 }
 
-const WHEN_OPTIONS = [
-  { value: "tonight", label: "Tonight" },
-  { value: "weekend", label: "This weekend" },
-  { value: "week", label: "This week" },
-  { value: "month", label: "This month" },
-];
-
-const PRICE_OPTIONS = [
-  { value: "free", label: "Free" },
-  { value: "lt20", label: "Under €20" },
-  { value: "lt50", label: "Under €50" },
-  { value: "50plus", label: "€50+" },
-];
+type SortKey = "featured" | "date";
 
 export default function Browse({ events, venues }: Props) {
+  const { t } = useT();
   const router = useRouter();
   const pathname = usePathname();
   const params = useSearchParams();
@@ -43,6 +33,7 @@ export default function Browse({ events, venues }: Props) {
   const price = (params.get("price") as PriceFilter | null) ?? null;
   const venue = params.get("venue") ?? null;
   const city = (params.get("city") as CityId | null) ?? DEFAULT_CITY;
+  const sort: SortKey = params.get("sort") === "date" ? "date" : "featured";
 
   const venueCity = useMemo(() => {
     const map = new Map(venues.map((v) => [v.slug, v.city]));
@@ -50,6 +41,7 @@ export default function Browse({ events, venues }: Props) {
   }, [venues]);
 
   const currentCity = CITIES.find((c) => c.id === city) ?? CITIES[0];
+  const cityLabel = t(`city.${currentCity.id}` as never);
   const cityVenues = useMemo(
     () =>
       venues
@@ -58,22 +50,28 @@ export default function Browse({ events, venues }: Props) {
     [venues, currentCity.venueCity],
   );
 
-  const filtered = useMemo(
-    () =>
-      applyFilters(
-        events,
-        {
-          q: q,
-          cat: cat ?? undefined,
-          when: when ?? undefined,
-          price: price ?? undefined,
-          venue: venue ?? undefined,
-          city: currentCity.venueCity,
-        },
-        venueCity,
-      ),
-    [events, q, cat, when, price, venue, currentCity.venueCity, venueCity],
-  );
+  const filtered = useMemo(() => {
+    const f = applyFilters(
+      events,
+      {
+        q,
+        cat: cat ?? undefined,
+        when: when ?? undefined,
+        price: price ?? undefined,
+        venue: venue ?? undefined,
+        city: currentCity.venueCity,
+      },
+      venueCity,
+    );
+    if (sort === "date") {
+      return [...f].sort(
+        (a, b) =>
+          new Date(a.performances[0]?.start ?? 0).getTime() -
+          new Date(b.performances[0]?.start ?? 0).getTime(),
+      );
+    }
+    return f; // events are already in rank-desc order from events.ts
+  }, [events, q, cat, when, price, venue, currentCity.venueCity, venueCity, sort]);
 
   function setParam(key: string, value: string | null) {
     const next = new URLSearchParams(params.toString());
@@ -95,45 +93,64 @@ export default function Browse({ events, venues }: Props) {
     (venue ? 1 : 0) +
     (q.trim() ? 1 : 0);
 
+  const catLabel = (id: Category) => t(`cat.${id}` as never);
+
+  const whenOptions = [
+    { value: "tonight", label: t("browse.filters.tonight") },
+    { value: "weekend", label: t("browse.filters.weekend") },
+    { value: "week", label: t("browse.filters.week") },
+    { value: "month", label: t("browse.filters.month") },
+  ];
+  const priceOptions = [
+    { value: "free", label: t("browse.filters.free") },
+    { value: "lt20", label: t("browse.filters.lt20") },
+    { value: "lt50", label: t("browse.filters.lt50") },
+    { value: "50plus", label: t("browse.filters.50plus") },
+  ];
+
+  const resultLabel =
+    filtered.length === 1
+      ? t("browse.results.one")
+      : t("browse.results.many", { n: filtered.length });
+
   return (
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
       <section className="mb-8 sm:mb-10">
         <h1 className="font-display text-4xl sm:text-6xl leading-[1.05] max-w-2xl">
-          What&apos;s on in {currentCity.label}.
+          {t("browse.heading", { city: cityLabel })}
         </h1>
         <p className="mt-3 text-(--color-muted) max-w-xl">
-          Theater, opera, ballet and dance. Featured shows ranked by venue
-          prestige, premieres and brand-name productions.
+          {t("browse.tagline")}
         </p>
       </section>
 
       <PillRow
         ariaLabel="Filter by category"
         options={[
-          { id: null, label: "All" },
-          ...CATEGORIES.map((c) => ({ id: c.id, label: c.label })),
+          { id: null, label: t("browse.filters.all") },
+          ...CATEGORIES.map((c) => ({ id: c.id, label: catLabel(c.id) })),
         ]}
         value={cat}
         onChange={(v) => setParam("cat", v)}
       />
 
-      <div className="mt-3 mb-8 flex flex-wrap items-center gap-2">
+      <div className="mt-3 mb-6 flex flex-wrap items-center gap-2">
         <FilterDropdown
-          options={WHEN_OPTIONS}
+          options={whenOptions}
           value={when}
-          emptyLabel="Any date"
+          emptyLabel={t("browse.filters.anyDate")}
           onChange={(v) => setParam("when", v)}
         />
         <FilterDropdown
           options={cityVenues.map((v) => ({ value: v.slug, label: v.name }))}
           value={venue}
-          emptyLabel="Any venue"
+          emptyLabel={t("browse.filters.anyVenue")}
           onChange={(v) => setParam("venue", v)}
         />
         <FilterDropdown
-          options={PRICE_OPTIONS}
+          options={priceOptions}
           value={price}
-          emptyLabel="Any price"
+          emptyLabel={t("browse.filters.anyPrice")}
           onChange={(v) => setParam("price", v)}
         />
         {activeCount > 0 && (
@@ -142,9 +159,26 @@ export default function Browse({ events, venues }: Props) {
             onClick={clearAll}
             className="ml-1 text-sm text-(--color-muted) underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
           >
-            Clear all
+            {t("browse.clearAll")}
           </button>
         )}
+      </div>
+
+      <div className="mb-6 flex items-center justify-between gap-4 text-sm">
+        <div className="text-(--color-muted)">{resultLabel}</div>
+        <div className="flex items-center gap-1 text-(--color-muted)">
+          <SortPill
+            active={sort === "featured"}
+            onClick={() => setParam("sort", null)}
+            label={t("browse.sort.featured")}
+          />
+          <span className="text-(--color-line)">|</span>
+          <SortPill
+            active={sort === "date"}
+            onClick={() => setParam("sort", "date")}
+            label={t("browse.sort.date")}
+          />
+        </div>
       </div>
 
       <EventGrid
@@ -152,13 +186,35 @@ export default function Browse({ events, venues }: Props) {
         emptyCategory={cat ?? undefined}
         emptyHint={
           events.length === 0
-            ? `No events in ${currentCity.label} yet.`
+            ? t("browse.empty.noEvents", { city: cityLabel })
             : cat
-            ? `No ${CATEGORIES.find((c) => c.id === cat)?.label.toLowerCase()} matches that filter.`
-            : "Nothing matches that filter. Try clearing it."
+            ? t("browse.empty.noMatchCat", { category: catLabel(cat).toLowerCase() })
+            : t("browse.empty.noMatch")
         }
       />
     </div>
+  );
+}
+
+function SortPill({
+  active,
+  label,
+  onClick,
+}: {
+  active: boolean;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`px-2 py-1 transition-colors ${
+        active ? "text-black font-medium" : "hover:text-black"
+      }`}
+    >
+      {label}
+    </button>
   );
 }
 

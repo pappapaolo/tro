@@ -1,10 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { Suspense } from "react";
 import CitySwitcher from "./CitySwitcher";
+import LanguageSwitcher from "./LanguageSwitcher";
 import SearchInput from "./SearchInput";
+import { useT } from "./I18nProvider";
 
 export default function Nav() {
+  const { t } = useT();
   return (
     <header className="sticky top-0 z-40 w-full border-b border-(--color-line) bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
       <div className="mx-auto flex h-16 max-w-[1200px] items-center gap-3 sm:gap-4 px-4 sm:px-6">
@@ -38,7 +43,7 @@ export default function Nav() {
         </Suspense>
         <Link
           href="/saved"
-          aria-label="Saved shows"
+          aria-label={t("nav.savedAria")}
           className="shrink-0 inline-flex h-9 w-9 items-center justify-center rounded-full hover:bg-black/5 transition-colors"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden>
@@ -51,11 +56,12 @@ export default function Nav() {
             />
           </svg>
         </Link>
+        <LanguageSwitcher />
         <Link
           href="/about"
           className="hidden md:inline-block shrink-0 rounded-full px-3 py-1.5 text-sm text-(--color-muted) hover:bg-black/5 hover:text-black transition-colors"
         >
-          About
+          {t("nav.about")}
         </Link>
       </div>
       <Suspense fallback={null}>

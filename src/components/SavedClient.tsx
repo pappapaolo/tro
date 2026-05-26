@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Event, Venue } from "@/lib/types";
 import EventGrid from "./EventGrid";
 import { onSavedChange, readSaved } from "@/lib/saved";
+import { useT } from "./I18nProvider";
 
 interface Props {
   events: Event[];
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export default function SavedClient({ events }: Props) {
+  const { t } = useT();
   const [saved, setSaved] = useState<Set<string>>(() => new Set());
   const [hydrated, setHydrated] = useState(false);
 
@@ -30,21 +32,21 @@ export default function SavedClient({ events }: Props) {
     <div className="mx-auto max-w-[1200px] px-4 sm:px-6 pt-8 sm:pt-12 pb-16">
       <section className="mb-8 sm:mb-10">
         <h1 className="font-display text-4xl sm:text-6xl leading-[1.05]">
-          Saved
+          {t("saved.heading")}
         </h1>
         <p className="mt-3 text-(--color-muted) max-w-xl">
-          Shows you&apos;ve hearted. Saved on this device only — for now.
+          {t("saved.tagline")}
         </p>
       </section>
 
       {hydrated && visible.length === 0 ? (
         <div className="border border-(--color-line) rounded-2xl py-16 px-4 text-center text-(--color-muted) flex flex-col items-center gap-4">
-          <p>You haven&apos;t saved anything yet.</p>
+          <p>{t("saved.empty")}</p>
           <Link
             href="/"
             className="text-sm underline underline-offset-4 hover:no-underline hover:text-(--color-accent)"
           >
-            Browse what&apos;s on
+            {t("saved.browse")}
           </Link>
         </div>
       ) : (

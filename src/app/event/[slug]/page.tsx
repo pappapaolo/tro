@@ -9,10 +9,10 @@ import {
   getVenueBySlug,
   getAllEvents,
 } from "@/lib/events";
-import { formatDateBadge, formatDateLong, formatPrice } from "@/lib/format";
+import { formatDateBadge, formatDateLong } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 import EventGrid from "@/components/EventGrid";
-import SaveButton from "@/components/SaveButton";
+import EventActions from "@/components/EventActions";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -48,7 +48,6 @@ export default async function EventPage({ params }: PageProps) {
   const related = getRelatedEvents(event, 6);
   const first = event.performances[0]?.start;
   const last = event.performances[event.performances.length - 1];
-  const price = formatPrice(event.priceFrom, event.priceCurrency);
 
   // schema.org Event — helps Google surface the show in event-rich results
   const jsonLd = {
@@ -185,58 +184,21 @@ export default async function EventPage({ params }: PageProps) {
         </div>
 
         <aside className="lg:sticky lg:top-24 lg:self-start space-y-4">
-          <div className="border border-(--color-line) rounded-xl p-5 space-y-4">
-            <div className="space-y-1">
-              <div className="text-xs uppercase tracking-wider text-(--color-muted)">
-                When
-              </div>
-              {first && (
-                <div className="text-sm font-medium">
-                  {formatDateLong(first)}
-                </div>
-              )}
-            </div>
-            {venue && (
-              <div className="space-y-1">
-                <div className="text-xs uppercase tracking-wider text-(--color-muted)">
-                  Where
-                </div>
-                <div className="text-sm font-medium">{venue.name}</div>
-              </div>
-            )}
-            {price && (
-              <div className="space-y-1">
-                <div className="text-xs uppercase tracking-wider text-(--color-muted)">
-                  Price
-                </div>
-                <div className="text-sm font-medium">{price}</div>
-              </div>
-            )}
-            {event.ticketUrl && (
-              <a
-                href={event.ticketUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full rounded-full bg-black text-white text-center font-medium py-3 hover:bg-black/85 transition"
-              >
-                Get tickets
-              </a>
-            )}
-            <SaveButton eventId={event.id} label="full" className="w-full justify-center" />
-            <p className="text-xs text-(--color-muted) leading-relaxed">
-              tro links to the venue. Tickets are sold and fulfilled by{" "}
-              {venue?.name ?? "the venue"}.
-            </p>
-          </div>
+          <EventActions event={event} venue={venue} />
         </aside>
       </div>
 
       {related.length > 0 && (
-        <section className="mt-20">
-          <h2 className="font-display text-2xl sm:text-3xl mb-6">Also on in Milan</h2>
+        <section className="mt-20 mb-24 lg:mb-0">
+          <h2 className="font-display text-2xl sm:text-3xl mb-6">
+            More shows nearby
+          </h2>
           <EventGrid events={related} />
         </section>
       )}
+
+      {/* Mobile sticky bottom bar */}
+      <EventActions event={event} venue={venue} variant="sticky" />
     </article>
   );
 }

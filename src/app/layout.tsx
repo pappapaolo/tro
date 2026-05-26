@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Onest, Orelega_One } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { I18nProvider } from "@/components/I18nProvider";
 import "./globals.css";
 
 const onest = Onest({
@@ -49,9 +51,12 @@ export default function RootLayout({
       className={`${onest.variable} ${orelega.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-black">
-        <Nav />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <I18nProvider>
+          <Nav />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );

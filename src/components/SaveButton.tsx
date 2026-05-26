@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type MouseEvent } from "react";
 import { isSaved, onSavedChange, toggleSaved } from "@/lib/saved";
+import { useT } from "./I18nProvider";
 
 interface Props {
   eventId: string;
@@ -14,6 +15,7 @@ export default function SaveButton({
   label = "icon",
   className = "",
 }: Props) {
+  const { t } = useT();
   const [saved, setSaved] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -35,26 +37,24 @@ export default function SaveButton({
       height="18"
       viewBox="0 0 24 24"
       aria-hidden
-      className={saved ? "fill-(--color-accent) stroke-(--color-accent)" : "stroke-current"}
       style={{ fill: saved ? "currentColor" : "none" }}
     >
       <path
         d="M12 21s-7-4.35-7-10.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 7 4.5C19 16.65 12 21 12 21z"
+        stroke="currentColor"
         strokeWidth="2"
         strokeLinejoin="round"
       />
     </svg>
   );
 
-  // Pre-mount render is "not saved" — avoids a hydration flash for the
-  // opposite state.
   if (label === "full") {
     return (
       <button
         type="button"
         onClick={handleClick}
         aria-pressed={saved}
-        aria-label={saved ? "Remove from saved" : "Save for later"}
+        aria-label={saved ? t("save.ariaRemove") : t("save.ariaSave")}
         className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
           saved
             ? "border-(--color-accent) text-(--color-accent)"
@@ -62,7 +62,7 @@ export default function SaveButton({
         } ${className}`}
       >
         {icon}
-        {mounted ? (saved ? "Saved" : "Save") : "Save"}
+        {mounted ? (saved ? t("save.saved") : t("save.save")) : t("save.save")}
       </button>
     );
   }
@@ -72,8 +72,10 @@ export default function SaveButton({
       type="button"
       onClick={handleClick}
       aria-pressed={saved}
-      aria-label={saved ? "Remove from saved" : "Save for later"}
-      className={`inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/95 ring-1 ring-black/10 text-black hover:bg-white transition-colors ${className}`}
+      aria-label={saved ? t("save.ariaRemove") : t("save.ariaSave")}
+      className={`inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/95 ring-1 ring-black/10 transition-colors ${
+        saved ? "text-(--color-accent)" : "text-black hover:bg-white"
+      } ${className}`}
     >
       {icon}
     </button>

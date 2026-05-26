@@ -7,6 +7,11 @@ import { scrape as scrapeParenti } from "./sources/parenti";
 import { scrape as scrapeElfo } from "./sources/elfo";
 import { scrape as scrapeManzoni } from "./sources/manzoni";
 import { scrape as scrapeAuditorium } from "./sources/auditorium";
+import { scrape as scrapeArcimboldi } from "./sources/arcimboldi";
+import { scrape as scrapeCarcano } from "./sources/carcano";
+import { scrape as scrapeFilodrammatici } from "./sources/filodrammatici";
+import { scrape as scrapeNazionale } from "./sources/nazionale";
+import { scrape as scrapeOutoff } from "./sources/outoff";
 import { scrape as scrapeManual } from "./sources/manual";
 import { computeRank } from "./lib/rank";
 import type { ScrapedEvent } from "./lib/normalize";
@@ -20,7 +25,12 @@ const SOURCES: { name: string; run: () => Promise<ScrapedEvent[]> }[] = [
   { name: "parenti", run: scrapeParenti },
   { name: "elfo", run: scrapeElfo },
   { name: "manzoni", run: scrapeManzoni },
+  { name: "carcano", run: scrapeCarcano },
+  { name: "filodrammatici", run: scrapeFilodrammatici },
+  { name: "nazionale", run: scrapeNazionale },
+  { name: "outoff", run: scrapeOutoff },
   { name: "auditorium", run: scrapeAuditorium },
+  { name: "arcimboldi", run: scrapeArcimboldi },
   { name: "manual", run: scrapeManual },
 ];
 

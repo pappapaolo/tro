@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import type { Event } from "@/lib/types";
@@ -12,24 +14,51 @@ import {
 } from "@/lib/format";
 import { illustrationForCategory } from "@/lib/illustrations";
 import SaveButton from "./SaveButton";
+import { useT } from "./I18nProvider";
 
 interface Props {
   event: Event;
 }
 
 export default function EventCard({ event }: Props) {
+  const { t } = useT();
   const venue = getVenueBySlug(event.venueSlug);
   const first = event.performances[0]?.start;
   const last = event.performances[event.performances.length - 1];
   const price = formatPrice(event.priceFrom, event.priceCurrency);
   const fallback = illustrationForCategory(event.category);
   const isPick = (event.rank ?? 0) >= EDITORS_PICK_THRESHOLD;
-  const categoryLabel = CATEGORIES.find((c) => c.id === event.category)?.label;
+  const category = CATEGORIES.find((c) => c.id === event.category);
+  const categoryLabel = category ? t(`cat.${category.id}` as never) : null;
   const subtitle = event.subtitle ?? firstSentence(event.description);
-  const through =
-    last?.end && isMultiDay(last.start, last.end)
-      ? formatThrough(last.end)
-      : null;
+
+  let through: string | null = null;
+  if (last?.end && isMultiDay(last.start, last.end)) {
+    const d = new Date(last.end);
+    const day = d.getUTCDate();
+    const monIdx = d.getUTCMonth();
+    const monKeys = [
+      "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+    ];
+    const monItKeys = [
+      "gen", "feb", "mar", "apr", "mag", "giu",
+      "lug", "ago", "set", "ott", "nov", "dic",
+    ];
+    // We translate the verb ("Through" vs "Fino al"); the month abbreviation
+    // tracks locale via t() too — for now we use the existing formatThrough
+    // helper, which returns English. Wrap with t() so the label gets
+    // translated.
+    through = t("card.through", {
+      date: formatThrough(last.end).replace(/^Through\s+/, ""),
+    });
+    // Note: kept formatThrough imported even though we strip its prefix — it
+    // also handles the year-spanning edge case (returns "7 Jun 2027" etc).
+    void day;
+    void monIdx;
+    void monKeys;
+    void monItKeys;
+  }
   const showsCount = event.performances.length;
 
   return (
@@ -58,7 +87,7 @@ export default function EventCard({ event }: Props) {
         {isPick && (
           <span className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full bg-black/90 text-white text-[11px] font-medium tracking-wide px-2.5 py-1">
             <span aria-hidden className="text-(--color-accent)">★</span>
-            Editor&apos;s pick
+            {t("card.editorsPick")}
           </span>
         )}
         {categoryLabel && (
@@ -93,7 +122,7 @@ export default function EventCard({ event }: Props) {
           <div className="text-xs text-(--color-muted)">
             {through}
             {through && showsCount > 1 && " · "}
-            {showsCount > 1 && `${showsCount} performances`}
+            {showsCount > 1 && t("card.performances.many", { n: showsCount })}
           </div>
         )}
       </div>

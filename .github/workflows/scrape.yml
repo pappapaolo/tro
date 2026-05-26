@@ -29,6 +29,10 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Install Playwright Chromium
+        # Needed for the Arcimboldi scraper, which sits behind Cloudflare.
+        run: npx playwright install --with-deps chromium
+
       - name: Scrape
         run: npm run scrape
 
