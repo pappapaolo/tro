@@ -222,14 +222,14 @@ export default function Browse({
       />
 
       <section className="mt-20 pt-10 border-t border-(--color-line) text-[15px] leading-[1.75] text-(--color-muted) max-w-3xl">
-        <h2 className="font-display text-2xl sm:text-3xl text-black mb-4">
+        <h2 className="font-display text-2xl sm:text-3xl text-fg mb-4">
           {t("seo.home.heading", { city: cityLabel })}
         </h2>
         <p className="mb-4">{t("seo.home.p1", { city: cityLabel })}</p>
         <p className="mb-4">{t("seo.home.p2")}</p>
         <p className="mb-8">{t("seo.home.p3")}</p>
 
-        <h3 className="font-display text-xl text-black mt-10 mb-4">
+        <h3 className="font-display text-xl text-fg mt-10 mb-4">
           {t("seo.browse.heading")}
         </h3>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-8">
@@ -315,7 +315,7 @@ export default function Browse({
           </li>
         </ul>
 
-        <h3 className="font-display text-xl text-black mt-10 mb-4">
+        <h3 className="font-display text-xl text-fg mt-10 mb-4">
           {t("seo.guides.heading")}
         </h3>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
@@ -403,7 +403,7 @@ function SortPill({
       type="button"
       onClick={onClick}
       className={`px-2 py-1 transition-colors ${
-        active ? "text-black font-medium" : "hover:text-black"
+        active ? "text-fg font-medium" : "hover:text-fg"
       }`}
     >
       {label}
@@ -424,9 +424,9 @@ function PillRow<T extends string | null>({
 }) {
   const pillBase =
     "shrink-0 rounded-full px-4 py-1.5 text-sm transition-colors border";
-  const active = "bg-black text-white border-black";
+  const active = "bg-fg text-bg border-fg";
   const inactive =
-    "bg-white text-black border-(--color-line) hover:border-black/60";
+    "bg-bg text-fg border-(--color-line) hover:border-fg/60";
   return (
     <div
       role="radiogroup"

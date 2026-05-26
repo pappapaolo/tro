@@ -12,6 +12,29 @@
   --font-display: var(--font-orelega), Georgia, "Times New Roman", serif;
 }
 
+/* Auto dark mode. Every surface/text colour in the app resolves to one of
+   the --color-* tokens above (components use bg-bg / text-fg / border-line
+   etc., never literal black/white), so overriding the tokens here is all it
+   takes to flip the whole UI when the OS is in dark mode. color-scheme tells
+   the browser to render native form controls, scrollbars and the like dark
+   too. */
+:root {
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-bg: #0b0b0c;
+    --color-fg: #f2f2f2;
+    --color-muted: #9aa0aa;
+    --color-line: #26262b;
+    --color-line-strong: #3a3a42;
+    /* Brightened a touch so the red stays legible on a dark surface. */
+    --color-accent: #ff5c5c;
+  }
+}
+
 a {
   transition: color 120ms ease;
 }

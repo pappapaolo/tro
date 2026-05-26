@@ -15,6 +15,11 @@ import EventGrid from "@/components/EventGrid";
 import EventActions from "@/components/EventActions";
 import Showtimes from "@/components/Showtimes";
 import TagChips from "@/components/TagChips";
+import {
+  EditorsPickBadge,
+  RelatedHeading,
+  VenueHeading,
+} from "@/components/EventDetailHeadings";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -147,7 +152,7 @@ export default async function EventPage({ params }: PageProps) {
         // Server-rendered, no XSS risk — content from our own data file.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="relative aspect-[16/9] sm:aspect-[16/7] w-full overflow-hidden bg-white ring-1 ring-(--color-line) rounded-xl">
+      <div className="relative aspect-[16/9] sm:aspect-[16/7] w-full overflow-hidden bg-bg ring-1 ring-(--color-line) rounded-xl">
         {event.image ? (
           <Image
             src={event.image}
@@ -167,18 +172,13 @@ export default async function EventPage({ params }: PageProps) {
             className="object-contain p-10 sm:p-16"
           />
         )}
-        {(event.rank ?? 0) >= EDITORS_PICK_THRESHOLD && (
-          <span className="absolute top-4 left-4 inline-flex items-center gap-1 rounded-full bg-black/90 text-white text-xs font-medium tracking-wide px-3 py-1.5">
-            <span aria-hidden className="text-(--color-accent)">★</span>
-            Editor&apos;s pick
-          </span>
-        )}
+        {(event.rank ?? 0) >= EDITORS_PICK_THRESHOLD && <EditorsPickBadge />}
       </div>
 
       <div className="mt-8 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-10">
         <div>
           {first && (
-            <div className="text-sm font-medium tracking-wider text-black/80">
+            <div className="text-sm font-medium tracking-wider text-fg/80">
               {formatDateBadge(first)}
             </div>
           )}
@@ -207,7 +207,7 @@ export default async function EventPage({ params }: PageProps) {
           </p>
 
           {event.description && (
-            <div className="mt-8 max-w-[680px] text-[17px] leading-[1.7] text-black/90 whitespace-pre-line">
+            <div className="mt-8 max-w-[680px] text-[17px] leading-[1.7] text-fg/90 whitespace-pre-line">
               {event.description}
             </div>
           )}
@@ -220,12 +220,10 @@ export default async function EventPage({ params }: PageProps) {
 
           {venue && (
             <section className="mt-10">
-              <h2 className="text-sm font-medium tracking-wider uppercase text-(--color-muted) mb-3">
-                Venue
-              </h2>
+              <VenueHeading />
               <Link
                 href={`/venue/${venue.slug}`}
-                className="block border border-(--color-line) rounded-lg p-4 hover:border-black/40 transition"
+                className="block border border-(--color-line) rounded-lg p-4 hover:border-fg/40 transition"
               >
                 <div className="font-semibold">{venue.name}</div>
                 {venue.address && (
@@ -245,9 +243,7 @@ export default async function EventPage({ params }: PageProps) {
 
       {related.length > 0 && (
         <section className="mt-20 mb-24 lg:mb-0">
-          <h2 className="font-display text-2xl sm:text-3xl mb-6">
-            More shows nearby
-          </h2>
+          <RelatedHeading />
           <EventGrid events={related} />
         </section>
       )}

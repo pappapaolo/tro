@@ -68,7 +68,7 @@ export default function EventCard({ event }: Props) {
       href={`/event/${event.slug}`}
       className="group block focus:outline-none"
     >
-      <div className="relative aspect-square w-full overflow-hidden bg-white rounded-lg ring-1 ring-(--color-line) group-hover:ring-black/60 transition">
+      <div className="relative aspect-square w-full overflow-hidden bg-bg rounded-lg ring-1 ring-(--color-line) group-hover:ring-fg/60 transition">
         {event.image ? (
           <Image
             src={event.image}
@@ -87,13 +87,13 @@ export default function EventCard({ event }: Props) {
           />
         )}
         {isPick && (
-          <span className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full bg-black/90 text-white text-[11px] font-medium tracking-wide px-2.5 py-1">
+          <span className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full bg-fg/90 text-bg text-[11px] font-medium tracking-wide px-2.5 py-1">
             <span aria-hidden className="text-(--color-accent)">★</span>
             {t("card.editorsPick")}
           </span>
         )}
         {categoryLabel && (
-          <span className="absolute top-3 right-3 rounded-full bg-white/95 text-black text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 ring-1 ring-black/10">
+          <span className="absolute top-3 right-3 rounded-full bg-bg/95 text-fg text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 ring-1 ring-fg/10">
             {categoryLabel}
           </span>
         )}
@@ -104,7 +104,7 @@ export default function EventCard({ event }: Props) {
 
       <div className="mt-3 space-y-1">
         {first && (
-          <div className="text-xs font-medium tracking-wider text-black/80">
+          <div className="text-xs font-medium tracking-wider text-fg/80">
             {formatDateBadge(first)}
           </div>
         )}
@@ -123,7 +123,7 @@ export default function EventCard({ event }: Props) {
         )}
         <div className="flex items-baseline justify-between gap-2 text-sm text-(--color-muted)">
           <span className="truncate">{venue?.name ?? "—"}</span>
-          {price && <span className="shrink-0 text-black/70">{price}</span>}
+          {price && <span className="shrink-0 text-fg/70">{price}</span>}
         </div>
         {showsCount > 1 ? (
           <div className="pt-1">

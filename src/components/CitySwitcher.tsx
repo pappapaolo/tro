@@ -43,7 +43,7 @@ export default function CitySwitcher() {
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
-        className="flex items-center gap-1 rounded-full px-3 py-1 hover:bg-black/5 transition-colors"
+        className="flex items-center gap-1 rounded-full px-3 py-1 hover:bg-fg/5 transition-colors"
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t("nav.cityAria")}
@@ -62,7 +62,7 @@ export default function CitySwitcher() {
       {open && (
         <ul
           role="listbox"
-          className="absolute top-full left-0 mt-2 min-w-[180px] rounded-xl border border-(--color-line) bg-white shadow-lg overflow-hidden z-50"
+          className="absolute top-full left-0 mt-2 min-w-[180px] rounded-xl border border-(--color-line) bg-bg shadow-lg overflow-hidden z-50"
         >
           {CITIES.map((c) => (
             <li key={c.id}>
@@ -71,7 +71,7 @@ export default function CitySwitcher() {
                 role="option"
                 aria-selected={c.id === current}
                 onClick={() => select(c.id)}
-                className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-black/5 ${
+                className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-fg/5 ${
                   c.id === current ? "font-medium" : ""
                 }`}
               >

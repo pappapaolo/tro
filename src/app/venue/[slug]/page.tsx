@@ -103,7 +103,7 @@ export default async function VenuePage({ params }: PageProps) {
       />
 
       <section className="mt-20 pt-10 border-t border-(--color-line) text-[15px] leading-[1.75] text-(--color-muted) max-w-3xl">
-        <h2 className="font-display text-2xl sm:text-3xl text-black mb-4">
+        <h2 className="font-display text-2xl sm:text-3xl text-fg mb-4">
           About {venue.name}
         </h2>
         <p className="mb-4">

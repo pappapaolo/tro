@@ -109,7 +109,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#ffffff",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b0b0c" },
+  ],
   width: "device-width",
   initialScale: 1,
 };
@@ -124,7 +127,7 @@ export default function RootLayout({
       lang="en"
       className={`${onest.variable} ${orelega.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white text-black">
+      <body className="min-h-full flex flex-col bg-bg text-fg">
         <I18nProvider>
           <Nav />
           <main className="flex-1">{children}</main>

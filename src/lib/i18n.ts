@@ -67,6 +67,7 @@ const TRANSLATIONS = {
     "event.getTickets": "Get tickets",
     "event.allPerformances": "All performances",
     "event.venue": "Venue",
+    "event.related": "More shows nearby",
     "event.alsoOn": "Also on in {city}",
     "event.tropolicy":
       "tro links to the venue. Tickets are sold and fulfilled by {venue}.",
@@ -185,6 +186,7 @@ const TRANSLATIONS = {
     "event.getTickets": "Acquista biglietti",
     "event.allPerformances": "Tutte le repliche",
     "event.venue": "Teatro",
+    "event.related": "Spettacoli nelle vicinanze",
     "event.alsoOn": "Anche a {city}",
     "event.tropolicy":
       "tro rimanda al teatro. I biglietti sono venduti da {venue}.",

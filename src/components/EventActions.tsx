@@ -49,10 +49,10 @@ export default function EventActions({
 
   if (variant === "sticky") {
     return (
-      <div className="lg:hidden fixed bottom-0 inset-x-0 z-30 border-t border-(--color-line) bg-white/95 backdrop-blur px-4 py-3 flex items-center gap-3">
+      <div className="lg:hidden fixed bottom-0 inset-x-0 z-30 border-t border-(--color-line) bg-bg/95 backdrop-blur px-4 py-3 flex items-center gap-3">
         <div className="flex-1 min-w-0">
           {price ? (
-            <div className="text-sm font-medium text-black/80 truncate">
+            <div className="text-sm font-medium text-fg/80 truncate">
               {price}
             </div>
           ) : (
@@ -65,7 +65,7 @@ export default function EventActions({
           type="button"
           onClick={handleShare}
           aria-label={t("event.share")}
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-(--color-line) text-black hover:bg-black/5"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-(--color-line) text-fg hover:bg-fg/5"
         >
           <ShareIcon />
         </button>
@@ -75,7 +75,7 @@ export default function EventActions({
             href={event.ticketUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 max-w-[240px] rounded-full bg-black text-white text-center font-medium py-3 hover:bg-black/85 transition"
+            className="flex-1 max-w-[240px] rounded-full bg-fg text-bg text-center font-medium py-3 hover:bg-fg/85 transition"
           >
             {t("event.getTickets")}
           </a>
@@ -115,7 +115,7 @@ export default function EventActions({
           href={event.ticketUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full rounded-full bg-black text-white text-center font-medium py-3 hover:bg-black/85 transition"
+          className="block w-full rounded-full bg-fg text-bg text-center font-medium py-3 hover:bg-fg/85 transition"
         >
           {t("event.getTickets")}
         </a>
@@ -125,7 +125,7 @@ export default function EventActions({
         <button
           type="button"
           onClick={handleShare}
-          className="inline-flex items-center justify-center gap-2 rounded-full border border-(--color-line) px-4 py-2 text-sm font-medium hover:border-black/60 transition-colors"
+          className="inline-flex items-center justify-center gap-2 rounded-full border border-(--color-line) px-4 py-2 text-sm font-medium hover:border-fg/60 transition-colors"
         >
           <ShareIcon />
           {copied ? t("event.shareCopied") : t("event.share")}
@@ -133,7 +133,7 @@ export default function EventActions({
         <button
           type="button"
           onClick={() => downloadIcs(event, venue)}
-          className="col-span-2 inline-flex items-center justify-center gap-2 rounded-full border border-(--color-line) px-4 py-2 text-sm font-medium hover:border-black/60 transition-colors"
+          className="col-span-2 inline-flex items-center justify-center gap-2 rounded-full border border-(--color-line) px-4 py-2 text-sm font-medium hover:border-fg/60 transition-colors"
         >
           <CalendarIcon />
           {t("event.addToCalendar")}

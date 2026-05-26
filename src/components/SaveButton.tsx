@@ -44,7 +44,7 @@ export default function SaveButton({
         className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
           saved
             ? "border-(--color-accent) text-(--color-accent)"
-            : "border-(--color-line) text-black hover:border-black/60"
+            : "border-(--color-line) text-fg hover:border-fg/60"
         } ${className}`}
       >
         {icon}
@@ -59,8 +59,8 @@ export default function SaveButton({
       onClick={handleClick}
       aria-pressed={saved}
       aria-label={saved ? t("save.ariaRemove") : t("save.ariaSave")}
-      className={`inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/95 ring-1 ring-black/10 transition-colors ${
-        saved ? "text-(--color-accent)" : "text-black hover:bg-white"
+      className={`inline-flex h-9 w-9 items-center justify-center rounded-full bg-bg/95 ring-1 ring-fg/10 transition-colors ${
+        saved ? "text-(--color-accent)" : "text-fg hover:bg-bg"
       } ${className}`}
     >
       {icon}

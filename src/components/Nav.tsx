@@ -12,7 +12,7 @@ import { useT } from "./I18nProvider";
 export default function Nav() {
   const { t } = useT();
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-(--color-line) bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-40 w-full border-b border-(--color-line) bg-bg/95 backdrop-blur supports-[backdrop-filter]:bg-bg/80">
       <div className="mx-auto flex h-16 max-w-[1200px] items-center gap-3 sm:gap-4 px-4 sm:px-6">
         <Link href="/" aria-label="tro home" className="flex items-center shrink-0">
           <Image
@@ -22,7 +22,11 @@ export default function Nav() {
             height={267}
             priority
             sizes="(min-width: 640px) 80px, 70px"
-            className="h-7 sm:h-8 w-auto"
+            // The logo is a black wordmark + red dot on transparency, so it
+            // vanishes on a dark header. invert flips the black to white; the
+            // paired hue-rotate(180deg) sends the red round-trip back to red
+            // (invert alone would leave it cyan).
+            className="h-7 sm:h-8 w-auto dark:invert dark:hue-rotate-180"
           />
         </Link>
         <Suspense
@@ -45,14 +49,14 @@ export default function Nav() {
         <Link
           href="/saved"
           aria-label={t("nav.savedAria")}
-          className="shrink-0 inline-flex h-9 w-9 items-center justify-center rounded-full hover:bg-black/5 transition-colors"
+          className="shrink-0 inline-flex h-9 w-9 items-center justify-center rounded-full hover:bg-fg/5 transition-colors"
         >
           <HeartIcon />
         </Link>
         <LanguageSwitcher />
         <Link
           href="/about"
-          className="hidden md:inline-block shrink-0 rounded-full px-3 py-1.5 text-sm text-(--color-muted) hover:bg-black/5 hover:text-black transition-colors"
+          className="hidden md:inline-block shrink-0 rounded-full px-3 py-1.5 text-sm text-(--color-muted) hover:bg-fg/5 hover:text-fg transition-colors"
         >
           {t("nav.about")}
         </Link>

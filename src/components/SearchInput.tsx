@@ -58,7 +58,7 @@ export default function SearchInput() {
         value={q}
         onChange={(e) => setQ(e.target.value)}
         placeholder={t("nav.searchPlaceholder")}
-        className="w-full h-10 pl-10 pr-3 rounded-full border border-(--color-line) bg-white text-sm placeholder:text-(--color-muted) focus:outline-none focus:border-black transition-colors"
+        className="w-full h-10 pl-10 pr-3 rounded-full border border-(--color-line) bg-bg text-sm placeholder:text-(--color-muted) focus:outline-none focus:border-fg transition-colors"
         aria-label={t("nav.searchPlaceholder")}
       />
     </div>

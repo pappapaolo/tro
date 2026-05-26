@@ -32,14 +32,14 @@ export default function LanguageSwitcher() {
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t("nav.languageAria")}
-        className="shrink-0 inline-flex h-9 items-center justify-center rounded-full px-2.5 text-xs font-semibold uppercase tracking-wider hover:bg-black/5 transition-colors"
+        className="shrink-0 inline-flex h-9 items-center justify-center rounded-full px-2.5 text-xs font-semibold uppercase tracking-wider hover:bg-fg/5 transition-colors"
       >
         {locale.toUpperCase()}
       </button>
       {open && (
         <ul
           role="listbox"
-          className="absolute top-full right-0 mt-2 min-w-[160px] rounded-xl border border-(--color-line) bg-white shadow-lg overflow-hidden z-50"
+          className="absolute top-full right-0 mt-2 min-w-[160px] rounded-xl border border-(--color-line) bg-bg shadow-lg overflow-hidden z-50"
         >
           {LOCALES.map((l) => (
             <li key={l.id}>
@@ -48,7 +48,7 @@ export default function LanguageSwitcher() {
                 role="option"
                 aria-selected={l.id === locale}
                 onClick={() => select(l.id)}
-                className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-black/5 ${
+                className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-fg/5 ${
                   l.id === locale ? "font-medium" : ""
                 }`}
               >

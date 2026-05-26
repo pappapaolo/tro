@@ -46,8 +46,8 @@ export default function FilterDropdown({
         aria-expanded={open}
         className={`inline-flex max-w-full items-center gap-2 rounded-full border px-4 py-1.5 text-sm transition-colors ${
           active
-            ? "border-black bg-black text-white"
-            : "border-(--color-line) bg-white text-black hover:border-black/60"
+            ? "border-fg bg-fg text-bg"
+            : "border-(--color-line) bg-bg text-fg hover:border-fg/60"
         }`}
       >
         <span className="truncate">{label}</span>
@@ -69,7 +69,7 @@ export default function FilterDropdown({
       {open && (
         <ul
           role="listbox"
-          className="absolute top-full left-0 z-30 mt-2 min-w-[220px] max-h-[60vh] overflow-auto rounded-xl border border-(--color-line) bg-white shadow-lg"
+          className="absolute top-full left-0 z-30 mt-2 min-w-[220px] max-h-[60vh] overflow-auto rounded-xl border border-(--color-line) bg-bg shadow-lg"
         >
           <li>
             <button
@@ -80,7 +80,7 @@ export default function FilterDropdown({
                 onChange(null);
                 setOpen(false);
               }}
-              className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-black/5 ${
+              className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-fg/5 ${
                 value === null ? "font-medium" : ""
               }`}
             >
@@ -100,7 +100,7 @@ export default function FilterDropdown({
                   onChange(opt.value);
                   setOpen(false);
                 }}
-                className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-black/5 ${
+                className={`flex w-full items-center justify-between gap-2 px-4 py-2.5 text-left text-sm hover:bg-fg/5 ${
                   opt.value === value ? "font-medium" : ""
                 }`}
               >

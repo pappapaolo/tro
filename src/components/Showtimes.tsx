@@ -68,7 +68,7 @@ export default function Showtimes({
           </div>
         ))}
         {remainder > 0 && (
-          <div className="text-black/60">
+          <div className="text-fg/60">
             {t("showtimes.moreDates", { n: remainder })}
           </div>
         )}

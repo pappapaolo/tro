@@ -261,7 +261,7 @@ export default async function GuidePage({ params }: PageProps) {
       <h1 className="font-display text-4xl sm:text-5xl leading-[1.05] mb-5">
         {guide.title}
       </h1>
-      <p className="text-[17px] leading-[1.7] text-black/90 mb-10">
+      <p className="text-[17px] leading-[1.7] text-fg/90 mb-10">
         {guide.intro}
       </p>
 
@@ -272,7 +272,7 @@ export default async function GuidePage({ params }: PageProps) {
         </section>
       )}
 
-      <section className="space-y-5 text-[17px] leading-[1.7] text-black/85">
+      <section className="space-y-5 text-[17px] leading-[1.7] text-fg/85">
         {guide.outroParagraphs.map((p, i) => (
           <p key={i} dangerouslySetInnerHTML={renderMarkdownish(p)} />
         ))}
