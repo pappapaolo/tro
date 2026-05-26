@@ -29,9 +29,9 @@ const TRANSLATIONS = {
     "cat.other": "Other",
 
     // Browse
-    "browse.heading": "What's on in {city}.",
+    "browse.heading": "Find your next show.",
     "browse.tagline":
-      "Theater, opera, ballet and dance. Featured shows ranked by venue prestige, premieres and brand-name productions.",
+      "Theater, opera, ballet and concerts. All in one place.",
     "browse.filters.all": "All",
     "browse.filters.anyDate": "Any date",
     "browse.filters.anyVenue": "Any venue",
@@ -104,9 +104,9 @@ const TRANSLATIONS = {
     "cat.concert": "Concerto",
     "cat.other": "Altro",
 
-    "browse.heading": "Cosa c'è a {city}.",
+    "browse.heading": "trova il tuo prossimo spettacolo.",
     "browse.tagline":
-      "Teatro, opera, balletto e danza. Spettacoli selezionati per prestigio del teatro, prime e produzioni di grandi firme.",
+      "Teatro, opera, balletto e concerti. Tutto in un unico posto.",
     "browse.filters.all": "Tutti",
     "browse.filters.anyDate": "Qualsiasi data",
     "browse.filters.anyVenue": "Qualsiasi teatro",
@@ -128,7 +128,7 @@ const TRANSLATIONS = {
     "browse.empty.noMatchCat": "Nessuno spettacolo di {category} corrisponde.",
     "browse.empty.noMatch": "Nessun risultato. Prova a togliere i filtri.",
 
-    "card.editorsPick": "Scelto",
+    "card.editorsPick": "Scelto da tro",
     "card.through": "Fino al {date}",
     "card.performances.many": "{n} repliche",
 
