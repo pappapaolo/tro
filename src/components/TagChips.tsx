@@ -37,7 +37,7 @@ export default function TagChips({
       ? "text-xs px-2.5 py-1"
       : "text-[10px] px-2 py-[3px]";
 
-  const baseCls = `inline-flex shrink-0 items-center rounded-full bg-black/[0.04] text-black/70 ${sizeCls}`;
+  const baseCls = `inline-flex shrink-0 items-center rounded-full bg-fg/[0.04] text-fg/70 ${sizeCls}`;
 
   return (
     <div className="flex flex-wrap gap-1.5">
@@ -58,7 +58,7 @@ export default function TagChips({
           <Link
             key={slug}
             href={`/?q=${encodeURIComponent(label)}`}
-            className={`${baseCls} hover:bg-black/10 hover:text-black transition-colors`}
+            className={`${baseCls} hover:bg-fg/10 hover:text-fg transition-colors`}
           >
             {label}
           </Link>
