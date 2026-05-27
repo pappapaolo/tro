@@ -1,23 +1,362 @@
 [
   {
-    "id": "9fb4b8648f",
-    "slug": "balanchine-bausch-stravinsky-9fb4b8648f",
+    "id": "65863a8899",
+    "slug": "nabucodonosor-65863a8899",
+    "title": "Nabucodonosor",
+    "category": "opera",
+    "description": "The opera Nabucco by Giuseppe Verdi at La Scala Scala from 16 May to 9 June 2026. The conductor is Riccardo Chailly. The staging is by Alessandro Talevi.",
+    "image": "https://www.teatroallascala.org/static/upload/nab/nabucodonosor-2026.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-16T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-19T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-22T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-26T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-29T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-31T12:30:00.000Z"
+      },
+      {
+        "start": "2026-06-04T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-06T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-09T18:00:00.000Z",
+        "end": "2026-06-09T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/nabucodonosor.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 90
+  },
+  {
+    "id": "438102e497",
+    "slug": "carmen-438102e497",
+    "title": "Carmen",
+    "category": "opera",
+    "description": "The opera Carmen by Georges Bizet at La Scala from 8 to 27 June 2026. The conductor is Myung-Whun Chung. The staging is by Damiano Michieletto.",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-737737badg-ph-brescia-e-amisano---teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-08T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-10T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-12T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-16T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-18T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-20T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-22T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-23T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-25T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-27T18:00:00.000Z",
+        "end": "2026-06-27T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/carmen.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 90
+  },
+  {
+    "id": "6cfec0d59a",
+    "slug": "faust-6cfec0d59a",
+    "title": "Faust",
+    "category": "opera",
+    "description": "Opera Faust by Charles Gounod at La Scala from 20 October to 8 November 2026. The conductor is Daniele Rustioni. The staging is by Johannes Erath. In the cast Vittorio Grigolo, Marina Rebeka, Alex Esposito, Marcela Rahal and Ernesto Petti",
+    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-davide-cerati-4resize.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-20T17:30:00.000Z"
+      },
+      {
+        "start": "2026-10-24T17:30:00.000Z"
+      },
+      {
+        "start": "2026-10-27T18:30:00.000Z"
+      },
+      {
+        "start": "2026-10-29T18:30:00.000Z"
+      },
+      {
+        "start": "2026-11-03T18:30:00.000Z"
+      },
+      {
+        "start": "2026-11-05T18:30:00.000Z"
+      },
+      {
+        "start": "2026-11-08T18:30:00.000Z",
+        "end": "2026-11-08T21:30:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/faust.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 90
+  },
+  {
+    "id": "b2ca7e85c5",
+    "slug": "balanchine-bausch-stravinsky-b2ca7e85c5",
     "title": "Balanchine Bausch Stravinsky",
     "category": "ballet",
+    "description": "The ballets Apollo by George Balanchine and Le Sacre du printemps by Pina Bausch at La Scala from 7 to 21 November 2026. Music by Igor Stravinsky",
     "image": "https://www.teatroallascala.org/static/upload/bal/balanchine-bausch-collage-immagine-sezione.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-11-07T20:00:00.000Z"
+        "start": "2026-11-07T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-11T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-12T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-13T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-14T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-15T13:30:00.000Z"
+      },
+      {
+        "start": "2026-11-18T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-19T13:30:00.000Z"
+      },
+      {
+        "start": "2026-11-19T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-21T19:00:00.000Z",
+        "end": "2026-11-21T22:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/balanchine-bausch-stravinsky.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
     "rank": 90
+  },
+  {
+    "id": "00e404cbac",
+    "slug": "lucia-di-lammermoor-00e404cbac",
+    "title": "Lucia di Lammermoor",
+    "category": "opera",
+    "description": "The opera Lucia di Lammermoor by Gaetano Donizetti at La Scala from 26 June to 17 July 2026. The conductor is Speranza Scappucci. The staging is by Yannis Kokkos. In the cast Rosa Feola, Pene Pati , Boris Pinkhasovich and Michele Pertusi.",
+    "image": "https://www.teatroallascala.org/static/upload/luc/lucia-201_0h3a5728--ph-brescia-e-amisano--teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-26T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-30T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-03T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-06T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-09T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-14T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-17T18:00:00.000Z",
+        "end": "2026-07-17T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/lucia-di-lammermoor.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 87
+  },
+  {
+    "id": "230cc33ef2",
+    "slug": "don-quixote-230cc33ef2",
+    "title": "Don Quixote",
+    "category": "ballet",
+    "description": "The ballet Don Quixote by Rudolf Nureyev at La Scala from 2 to 16 July 2026",
+    "image": "https://www.teatroallascala.org/static/upload/don/don-chisciotte-nicoletta-manni--ph-brescia-e-amisano-teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-07-02T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-04T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-07T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-08T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-10T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-13T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-15T18:00:00.000Z"
+      },
+      {
+        "start": "2026-07-16T18:00:00.000Z",
+        "end": "2026-07-16T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/don-quixote.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 87
+  },
+  {
+    "id": "33fb5e0669",
+    "slug": "l-elisir-d-amore-33fb5e0669",
+    "title": "L’elisir d’amore",
+    "category": "opera",
+    "description": "Orchestra and Lyric Opera Soloists of the Teatro alla Scala Academy in the opera L’elisir d’amore by Gaetano Donizetti, at La Scala from 5 to 16 September 2026. The conductor is Marco Alibrando. The staging is by Maria Mauti",
+    "image": "https://www.teatroallascala.org/static/upload/mar/marco-alibrando-dal-sito-tartiere.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-05T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-08T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-10T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-12T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-14T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-16T18:00:00.000Z",
+        "end": "2026-09-16T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/l-elisir-d-amore.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 87
+  },
+  {
+    "id": "1c2066f0b4",
+    "slug": "la-traviata-1c2066f0b4",
+    "title": "La traviata",
+    "category": "opera",
+    "description": "The opera La traviata di Giuseppe Verdi at La Scala from 19 September to 15 October 2026. The conductor is Michele Gamba. The staging is by Liliana Cavani with the costumes by Dante Ferretti. In the cast Nadine Sierra, Piero Pretti / Iván Ayón Rivas, Boris Pinkhasovich / Amartuvshin Enkhbat",
+    "image": "https://www.teatroallascala.org/static/upload/648/648712badg-ph-brescia-e-amisano---tas.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-19T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-23T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-26T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-28T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-30T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-02T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-03T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-06T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-08T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-10T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-12T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-15T18:00:00.000Z",
+        "end": "2026-10-15T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/la-traviata.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 87
   },
   {
     "id": "d695b7c2b6",
@@ -39,7 +378,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-05-26T10:08:52.838Z"
+      "scrapedAt": "2026-05-27T09:47:09.110Z"
     },
     "rank": 85
   },
@@ -63,7 +402,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-05-26T10:08:52.838Z"
+      "scrapedAt": "2026-05-27T09:47:09.110Z"
     },
     "rank": 85
   },
@@ -87,730 +426,741 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-05-26T10:08:52.838Z"
+      "scrapedAt": "2026-05-27T09:47:09.110Z"
     },
     "rank": 85
   },
   {
-    "id": "928e118231",
-    "slug": "nabucodonosor-928e118231",
-    "title": "Nabucodonosor",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/nab/nabucodonosor-2026.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/nabucodonosor.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "4e51e3c22e",
-    "slug": "alice-s-adventures-in-wonderland-4e51e3c22e",
+    "id": "189af94964",
+    "slug": "alice-s-adventures-in-wonderland-189af94964",
     "title": "Alice’s Adventures in Wonderland",
     "category": "ballet",
+    "description": "The ballet Alice’s Adventures in Wonderland by Christopher Wheeldon at La Scala from 21 to 30 May 2026",
     "image": "https://www.teatroallascala.org/static/upload/ali/alice-s-adventures-in-wonderland-foto-promo----agnese-di-clemente--ph-brescia-e-amisano.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-05-21T20:00:00.000Z"
+        "start": "2026-05-21T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-23T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-24T12:30:00.000Z"
+      },
+      {
+        "start": "2026-05-24T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-27T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-28T18:00:00.000Z"
+      },
+      {
+        "start": "2026-05-30T18:00:00.000Z",
+        "end": "2026-05-30T21:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/alice-s-adventures-in-wonderland.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
     "rank": 83
   },
   {
-    "id": "a8598e6dab",
-    "slug": "carmen-a8598e6dab",
-    "title": "Carmen",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-737737badg-ph-brescia-e-amisano---teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-08T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/carmen.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "933da3a993",
-    "slug": "lucia-di-lammermoor-933da3a993",
-    "title": "Lucia di Lammermoor",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/luc/lucia-201_0h3a5728--ph-brescia-e-amisano--teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-26T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/lucia-di-lammermoor.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "64cbb83f76",
-    "slug": "don-quixote-64cbb83f76",
-    "title": "Don Quixote",
-    "category": "ballet",
-    "image": "https://www.teatroallascala.org/static/upload/don/don-chisciotte-nicoletta-manni--ph-brescia-e-amisano-teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-07-02T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/don-quixote.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "14cf4692fb",
-    "slug": "l-elisir-d-amore-14cf4692fb",
-    "title": "L’elisir d’amore",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/mar/marco-alibrando-dal-sito-tartiere.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-09-05T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/l-elisir-d-amore.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "2b67f9788f",
-    "slug": "la-traviata-2b67f9788f",
-    "title": "La traviata",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/648/648712badg-ph-brescia-e-amisano---tas.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-09-19T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/la-traviata.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "01be7f2f69",
-    "slug": "giselle-01be7f2f69",
+    "id": "0b7110cba9",
+    "slug": "giselle-0b7110cba9",
     "title": "Giselle",
     "category": "ballet",
+    "description": "The ballet Giselle at La Scala from 1 to 23 October 2026. Choreography by Jean Coralli – Jules Perrot",
     "image": "https://www.teatroallascala.org/static/upload/x-0/x-0h3a2453-martina-arduino-marco-agostino-ph-brescia-e-amisano---teatro-alla-scala.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-01T20:00:00.000Z"
+        "start": "2026-10-01T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-05T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-07T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-09T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-13T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-17T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-19T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-21T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-22T18:00:00.000Z"
+      },
+      {
+        "start": "2026-10-23T18:00:00.000Z",
+        "end": "2026-10-23T21:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/ballet/giselle.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
     "rank": 83
   },
   {
-    "id": "00c06950d1",
-    "slug": "faust-00c06950d1",
-    "title": "Faust",
-    "category": "opera",
-    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-davide-cerati-4resize.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-20T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/opera/faust.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 83
-  },
-  {
-    "id": "b9b087a178",
-    "slug": "francesco-meli-luca-salsi-b9b087a178",
+    "id": "130e1ac611",
+    "slug": "francesco-meli-luca-salsi-130e1ac611",
     "title": "Francesco Meli / Luca Salsi",
     "category": "concert",
+    "description": "At Teatro alla Scala on 21 June 2026, the vocal recital of Francesco Meli and Luca Salsi. Accompanied by pianist Nelson Calzi. The programme features music by Giuseppe Verdi.",
     "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-06-21T20:00:00.000Z"
+        "start": "2026-06-21T18:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/francesco-meli-luca-salsi.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
     "rank": 80
   },
   {
-    "id": "6e38c1339e",
-    "slug": "verdi-requiem-mass-riccardo-chailly-6e38c1339e",
-    "title": "Verdi: Requiem Mass / Riccardo Chailly",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-7-maggio---ix-di-beethoven-diretta-da-riccardo-chailly-096a9611-ph-brescia-e-amisano---teatro-alla-scala.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-28T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/exceptional-concerts/teatro-alla-scala-orchestra-chorus-requiem-verdi-chailly.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 80
-  },
-  {
-    "id": "b6abb95dc7",
-    "slug": "riccardo-chailly-bruckner-9-b6abb95dc7",
-    "title": "Riccardo Chailly / Bruckner 9",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-riccardo-chailly-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-11-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/riccardo-chailly-bruckner-9.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 80
-  },
-  {
-    "id": "56528bfc6d",
-    "slug": "workshop-for-expecting-families-carmen-56528bfc6d",
-    "title": "Workshop for expecting families: Carmen",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/ope/opera-meno-9-sezione.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/workshops-in-the-theatre-s-foyer/opera-meno9-carmen.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 77
-  },
-  {
-    "id": "4663b0bae3",
-    "slug": "orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festiva-4663b0bae3",
-    "title": "Orchestra Sinfonica Nazionale della Rai, Michele Gamba, Minh-Tam Nguyen - 35° Festival Milano Musica",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/18-/18-05_osnrai-scala-07mag23-web-studiohanninen-_mgl7031.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-18T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festival-milano-musica.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 77
-  },
-  {
-    "id": "43da89ed50",
-    "slug": "myung-whun-chung-beethoven-brahms-43da89ed50",
-    "title": "Myung-Whun Chung / Beethoven / Brahms",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-11T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/myung-whun-chung.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 77
-  },
-  {
-    "id": "e93d13d411",
-    "slug": "daniele-rustioni-e93d13d411",
-    "title": "Daniele Rustioni",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-09-22T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/daniele-rustioni.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 77
-  },
-  {
-    "id": "092e32704d",
-    "slug": "rudolf-buchbinder-092e32704d",
+    "id": "95aa921b81",
+    "slug": "rudolf-buchbinder-95aa921b81",
     "title": "Rudolf Buchbinder",
     "category": "concert",
+    "description": "As part of the Great Pianists Season, Rudolf Buchbinder performs at Teatro alla Scala on 4 October 2026.",
     "image": "https://www.teatroallascala.org/static/upload/202/2023-rudolf-buchbinder-ok.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-04T20:00:00.000Z"
+        "start": "2026-10-04T18:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/rudolf-buchbinder.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 77
+    "rank": 80
   },
   {
-    "id": "dd13af6da8",
-    "slug": "l-elisir-d-amore-for-children-dd13af6da8",
-    "title": "L'elisir d'amore for children",
+    "id": "40a4a95456",
+    "slug": "verdi-requiem-mass-riccardo-chailly-40a4a95456",
+    "title": "Verdi: Requiem Mass / Riccardo Chailly",
+    "category": "concert",
+    "description": "At Teatro alla Scala on 28 and 30 October 2026, Giuseppe Verdi’s Messa da Requiem conducted by Riccardo Chailly. Featuring Anna Netrebko, Ekaterina Gubanova, Fabio Sartori, and Michele Pertusi, with the Orchestra and Chorus of Teatro alla Scala.",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-7-maggio---ix-di-beethoven-diretta-da-riccardo-chailly-096a9611-ph-brescia-e-amisano---teatro-alla-scala.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-28T19:00:00.000Z"
+      },
+      {
+        "start": "2026-10-30T19:00:00.000Z",
+        "end": "2026-10-30T22:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/exceptional-concerts/teatro-alla-scala-orchestra-chorus-requiem-verdi-chailly.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 80
+  },
+  {
+    "id": "a697f7d020",
+    "slug": "riccardo-chailly-bruckner-9-a697f7d020",
+    "title": "Riccardo Chailly / Bruckner 9",
+    "category": "concert",
+    "description": "As part of the Teatro alla Scala Symphony Season, Riccardo Chailly conducts Anton Bruckner’s Symphony No. 9 on 16, 17, and 20 November 2026.",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-riccardo-chailly-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-11-16T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-17T19:00:00.000Z"
+      },
+      {
+        "start": "2026-11-20T19:00:00.000Z",
+        "end": "2026-11-20T22:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/riccardo-chailly-bruckner-9.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 80
+  },
+  {
+    "id": "81dbe17489",
+    "slug": "workshop-for-expecting-families-carmen-81dbe17489",
+    "title": "Workshop for expecting families: Carmen",
     "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "image": "https://www.teatroallascala.org/static/upload/ope/opera-meno-9-sezione.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-24T20:00:00.000Z"
+        "start": "2026-05-16T08:00:00.000Z"
+      },
+      {
+        "start": "2026-05-30T08:00:00.000Z",
+        "end": "2026-05-30T11:00:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/great-operas-for-children/l-elisir-d-amore-for-children.html",
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/workshops-in-the-theatre-s-foyer/opera-meno9-carmen.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
     "rank": 77
   },
   {
-    "id": "f7b9c5e77f",
-    "slug": "benjamin-bernheim-f7b9c5e77f",
-    "title": "Benjamin Bernheim",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/ben/benjamin-bernheim-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-11-22T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/benjamin-bernheim.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 77
-  },
-  {
-    "id": "c2bd8d71d2",
-    "slug": "piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel-c2bd8d71d2",
-    "title": "Piano City Milano | Giuseppe Guarrera, \"Homage to Alfred Brendel\"",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 73
-  },
-  {
-    "id": "28936f1192",
-    "slug": "arcadi-volodos-28936f1192",
+    "id": "ac7ae25cc6",
+    "slug": "arcadi-volodos-ac7ae25cc6",
     "title": "Arcadi Volodos",
     "category": "concert",
+    "description": "As part of the Great Pianists Season, Arcadi Volodos performs at Teatro alla Scala on 17 May 2026.",
     "image": "https://www.teatroallascala.org/static/upload/arc/arcadi-volodos-ok.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-05-17T20:00:00.000Z"
+        "start": "2026-05-17T18:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/arcadi-volodos.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "032d5b70d6",
-    "slug": "piano-city-milano-daniele-martinelli-032d5b70d6",
-    "title": "Piano City Milano | Daniele Martinelli",
+    "id": "814c2038cd",
+    "slug": "orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festiva-814c2038cd",
+    "title": "Orchestra Sinfonica Nazionale della Rai, Michele Gamba, Minh-Tam Nguyen - 35° Festival Milano Musica",
     "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "image": "https://www.teatroallascala.org/static/upload/18-/18-05_osnrai-scala-07mag23-web-studiohanninen-_mgl7031.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-05-17T20:00:00.000Z"
+        "start": "2026-05-18T18:00:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-daniele-martinelli.html",
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/orchestra-sinfonica-nazionale-della-rai-michele-gamba-minh-tam-nguyen-35-festival-milano-musica.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "cfbe194ca8",
-    "slug": "alda-caiello-and-quartetto-nous-35-festival-milano-musica-cfbe194ca8",
-    "title": "Alda Caiello and Quartetto Noûs - 35° Festival Milano Musica",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/mil/milanomusica26-quartettonous-scala-24apr26-web-studiohanninen-_gl_3124.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-05-18T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/alda-caiello-and-quartetto-nous.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 73
-  },
-  {
-    "id": "70bf567a94",
-    "slug": "percussionists-of-teatro-alla-scala-70bf567a94",
+    "id": "758df0e592",
+    "slug": "percussionists-of-teatro-alla-scala-758df0e592",
     "title": "Percussionists of Teatro alla Scala",
     "category": "concert",
+    "description": "Music Chamber concerto of Teatro alla Scala Percussionist at \"Arturo Toscanini\" Boxes Foyer on 31 May 2026",
     "image": "https://www.teatroallascala.org/static/upload/536/536383mbdg-ph-marco-brescia--teatro-alla-scala.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-05-31T20:00:00.000Z"
+        "start": "2026-05-31T09:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/percussionists-of-teatro-alla-scala-31-may-2026.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "052a3457a5",
-    "slug": "jakub-jozef-orlinski-michal-biel-052a3457a5",
-    "title": "Jakub Józef Orliński / Michal Biel",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/jak/jakub-jozef-orli-ski-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-07T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/jakub-josef-orlinski.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 73
-  },
-  {
-    "id": "13098aad19",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-13098aad19",
+    "id": "bf8b9bae13",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-bf8b9bae13",
     "title": "Members of the Teatro alla Scala Orchestra",
     "category": "concert",
+    "description": "Chamber music concert at \"Arturo Toscanini\" Boxes Foyer on 7 June 2026",
     "image": "https://www.teatroallascala.org/static/upload/536/536375mbdg-ph-marco-brescia--teatro-alla-scala.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-06-07T20:00:00.000Z"
+        "start": "2026-06-07T09:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-teatro-alla-scala-orchestra-7-june-2026.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "0d2c7b794a",
-    "slug": "mimi-teo-and-the-fantastic-raft-0d2c7b794a",
+    "id": "1282a28296",
+    "slug": "mimi-teo-and-the-fantastic-raft-1282a28296",
     "title": "Mimì & Teo and… The Fantastic Raft",
     "category": "other",
+    "description": "Among the Concerts for Children, Mimì & Teo and… The Fantastic Raft",
     "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-06-07T20:00:00.000Z"
+        "start": "2026-06-07T13:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-fantastic-raft.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "25890f402b",
-    "slug": "treble-voices-chorus-of-the-teatro-alla-scala-academy-25890f402b",
-    "title": "Treble Voices Chorus of the Teatro alla Scala Academy",
-    "category": "other",
-    "image": "https://www.teatroallascala.org/static/upload/cor/coro-voci-bianche_vito-daniele-fontana_080522_mg_2671.png",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-13T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/treble-voices-chorus-of-the-teatro-alla-scala-academy.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 73
-  },
-  {
-    "id": "e6863661d7",
-    "slug": "private-evening-lyric-opera-soloists-of-the-teatro-alla-scala-academy-and-teatro-e6863661d7",
-    "title": "PRIVATE EVENING - Lyric Opera soloists of the Teatro alla Scala Academy and Teatro alla Scala Academy Orchestra",
+    "id": "13ba74ee0e",
+    "slug": "myung-whun-chung-beethoven-brahms-13ba74ee0e",
+    "title": "Myung-Whun Chung / Beethoven / Brahms",
     "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "description": "As part of the Teatro alla Scala Symphony Season, Myung-Whun Chung conducts the Filarmonica della Scala on 11, 15, and 17 June 2026. The program features works by Ludwig van Beethoven and Johannes Brahms.",
+    "image": "https://www.teatroallascala.org/static/upload/202/2024-myung-whun-chung-ok.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-06-14T20:00:00.000Z"
+        "start": "2026-06-11T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-15T18:00:00.000Z"
+      },
+      {
+        "start": "2026-06-17T18:00:00.000Z",
+        "end": "2026-06-17T21:00:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/academy-concerts/lyric-opera-soloists-of-teatro-alla-scala-academy-and-teatro-alla-scala-academy-orchestra-14-june-2025.html",
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/myung-whun-chung.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "bb818d3cab",
-    "slug": "mimi-teo-and-the-magic-horn-bb818d3cab",
+    "id": "b2a89ec382",
+    "slug": "daniele-rustioni-b2a89ec382",
+    "title": "Daniele Rustioni",
+    "category": "concert",
+    "description": "As part of the Teatro alla Scala Symphony Season, Daniele Rustioni conducts the La Scala Orchestra and Chorus on 22, 24, and 25 September 2026. The program features works by Johannes Brahms and Hector Berlioz.",
+    "image": "https://www.teatroallascala.org/static/upload/dan/daniele-rustioni-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-09-22T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-24T18:00:00.000Z"
+      },
+      {
+        "start": "2026-09-25T18:00:00.000Z",
+        "end": "2026-09-25T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/symphony-concerts/daniele-rustioni.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "d10372f0c9",
+    "slug": "mimi-teo-and-the-magic-horn-d10372f0c9",
     "title": "Mimì & Teo and… The Magic Horn",
     "category": "other",
+    "description": "Among the Concerts for Children, Mimì & Teo and… The magic horn at Teatro alla Scala",
     "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-04T20:00:00.000Z"
+        "start": "2026-10-04T13:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-magic-horn.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "bae7803806",
-    "slug": "symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring-bae7803806",
-    "title": "Symphonieorchester des Bayerischen Rundfunks / The Rite of Spring",
-    "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/201/2015-sir-simon-rattle-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-11T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/guest-orchestras/symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
-    },
-    "rank": 73
-  },
-  {
-    "id": "752663dc5e",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-752663dc5e",
+    "id": "2e5c7b2d65",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-2e5c7b2d65",
     "title": "Members of the Teatro alla Scala Orchestra",
     "category": "concert",
+    "description": "Music Chamber concer at \"Arturo Toscanini\" Boxes Foyer on 11 October 2026",
     "image": "https://www.teatroallascala.org/static/upload/561/561771badg---ph-brescia-e-amisano---teatro-alla-scala.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-11T20:00:00.000Z"
+        "start": "2026-10-11T09:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-the-teatro-alla-scala-orchestra-11-october-2026.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "b3081c900c",
-    "slug": "impressions-on-ravel-and-debussy-b3081c900c",
-    "title": "Impressions… on Ravel and Debussy",
+    "id": "bcd32a0960",
+    "slug": "symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring-bcd32a0960",
+    "title": "Symphonieorchester des Bayerischen Rundfunks / The Rite of Spring",
     "category": "concert",
-    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "description": "Guest at Teatro alla Scala on 11 October 2026: the Symphonieorchester des Bayerischen Rundfunks conducted by Sir Simon Rattle. The programme features Funeral Song, Op. 5 and The Rite of Spring by Igor Stravinsky.",
+    "image": "https://www.teatroallascala.org/static/upload/201/2015-sir-simon-rattle-ok.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-19T20:00:00.000Z"
+        "start": "2026-10-11T18:00:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/invitation-to-la-scala/impressions-on-ravel-debussy-20261019.html",
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/guest-orchestras/symphonieorchester-des-bayerischen-rundfunks-the-rite-of-spring.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "f29d2db9aa",
-    "slug": "mimi-teo-and-the-jazz-robot-f29d2db9aa",
-    "title": "Mimì & Teo and… The Jazz Robot!",
+    "id": "99f53dd1d7",
+    "slug": "l-elisir-d-amore-for-children-99f53dd1d7",
+    "title": "L'elisir d'amore for children",
     "category": "other",
+    "description": "For the Great Performances for Children and Families series, L’elisir d’amore for Kids will be on stage at La Scala from 24 October to 6 December 2026",
     "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-10-25T20:00:00.000Z"
+        "start": "2026-10-24T09:00:00.000Z"
+      },
+      {
+        "start": "2026-10-28T10:00:00.000Z"
+      },
+      {
+        "start": "2026-10-28T13:30:00.000Z"
+      },
+      {
+        "start": "2026-11-23T10:00:00.000Z"
+      },
+      {
+        "start": "2026-11-23T13:30:00.000Z"
+      },
+      {
+        "start": "2026-11-30T10:00:00.000Z"
+      },
+      {
+        "start": "2026-11-30T13:30:00.000Z"
+      },
+      {
+        "start": "2026-12-06T10:00:00.000Z"
+      },
+      {
+        "start": "2026-12-06T14:00:00.000Z",
+        "end": "2026-12-06T17:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/great-operas-for-children/l-elisir-d-amore-for-children.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "91a57cf333",
+    "slug": "mimi-teo-and-the-jazz-robot-91a57cf333",
+    "title": "Mimì & Teo and… The Jazz Robot!",
+    "category": "other",
+    "description": "Among the Concerts for Children, Mimì & Teo and… THE JAZZ ROBOT!",
+    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-25T14:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-jazz-robot.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
-    "rank": 73
+    "rank": 77
   },
   {
-    "id": "5533d15a63",
-    "slug": "members-of-the-teatro-alla-scala-orchestra-5533d15a63",
+    "id": "8f0c6b7094",
+    "slug": "members-of-the-teatro-alla-scala-orchestra-8f0c6b7094",
     "title": "Members of the Teatro alla Scala Orchestra",
     "category": "concert",
+    "description": "Music Chamber concert at \"Arturo Toscanini\" Boxes Foyer on 15 November 2016",
     "image": "https://www.teatroallascala.org/static/upload/011/011_gn1a1491--ph-brescia-e-amisano--teatro-alla-scala.png",
     "venueSlug": "teatro-alla-scala",
     "performances": [
       {
-        "start": "2026-11-15T20:00:00.000Z"
+        "start": "2026-11-15T10:00:00.000Z"
       }
     ],
     "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/chamber-music-at-toscanini-boxes-foyer/members-of-teatro-alla-scala-orchestra-15-november-2026.html",
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-05-26T10:08:30.763Z"
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "cd430135b0",
+    "slug": "benjamin-bernheim-cd430135b0",
+    "title": "Benjamin Bernheim",
+    "category": "concert",
+    "description": "At Teatro alla Scala on 22 November 2026, the vocal recital by Benjamin Bernheim. Accompanied by pianist Mathieu Pordoy.",
+    "image": "https://www.teatroallascala.org/static/upload/ben/benjamin-bernheim-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-11-22T19:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/benjamin-bernheim.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 77
+  },
+  {
+    "id": "577b7cdc20",
+    "slug": "piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel-577b7cdc20",
+    "title": "Piano City Milano | Giuseppe Guarrera, \"Homage to Alfred Brendel\"",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-16T15:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-giuseppe-guarrera-homage-to-alfred-brendel.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
     },
     "rank": 73
   },
   {
-    "id": "79bd98073e",
-    "slug": "parini-secondo-e-electropical-79bd98073e",
-    "title": "Parini Secondo e Electropicàl",
-    "subtitle": "Sagrato Teatro Strehler",
+    "id": "c11a798826",
+    "slug": "piano-city-milano-daniele-martinelli-c11a798826",
+    "title": "Piano City Milano | Daniele Martinelli",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-17T15:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/piano-city-milano-daniele-martinelli.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "8afd75117d",
+    "slug": "alda-caiello-and-quartetto-nous-35-festival-milano-musica-8afd75117d",
+    "title": "Alda Caiello and Quartetto Noûs - 35° Festival Milano Musica",
+    "category": "concert",
+    "image": "https://www.teatroallascala.org/static/upload/mil/milanomusica26-quartettonous-scala-24apr26-web-studiohanninen-_gl_3124.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-05-18T16:30:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/visiting-italian-musical-institutions/alda-caiello-and-quartetto-nous.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "8cefc8b072",
+    "slug": "jakub-jozef-orlinski-michal-biel-8cefc8b072",
+    "title": "Jakub Józef Orliński / Michal Biel",
+    "category": "concert",
+    "description": "At Teatro alla Scala on 7 June 2026, the vocal recital of Jakub Józef Orliński. Accompanied by pianist Michal Biel.",
+    "image": "https://www.teatroallascala.org/static/upload/jak/jakub-jozef-orli-ski-ok.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-07T18:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/jakub-josef-orlinski.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "ade5ea53f7",
+    "slug": "treble-voices-chorus-of-the-teatro-alla-scala-academy-ade5ea53f7",
+    "title": "Treble Voices Chorus of the Teatro alla Scala Academy",
+    "category": "other",
+    "description": "Tra i Concerti per i Bambini va in scena il Concerto del Coro di Voci Bianche dell’Accademia Teatro alla Scala.",
+    "image": "https://www.teatroallascala.org/static/upload/cor/coro-voci-bianche_vito-daniele-fontana_080522_mg_2671.png",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-13T13:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/treble-voices-chorus-of-the-teatro-alla-scala-academy.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "657fc8367c",
+    "slug": "private-evening-lyric-opera-soloists-of-the-teatro-alla-scala-academy-and-teatro-657fc8367c",
+    "title": "PRIVATE EVENING - Lyric Opera soloists of the Teatro alla Scala Academy and Teatro alla Scala Academy Orchestra",
+    "category": "concert",
+    "description": "Lyric Opera soloists of Teatro alla Scala Academy and Teatro alla Scala Academy Orchestra in concert on 14 June 2026",
+    "image": "https://www.teatroallascala.org/static/upload/alt/altra-foto-foyer.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-06-14T18:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/academy-concerts/lyric-opera-soloists-of-teatro-alla-scala-academy-and-teatro-alla-scala-academy-orchestra-14-june-2025.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "489afe80bd",
+    "slug": "impressions-on-ravel-and-debussy-489afe80bd",
+    "title": "Impressions… on Ravel and Debussy",
+    "category": "concert",
+    "description": "Among the events of \"Invititation to La Scala\", the concert Impressions… on Ravel and Debussy dedicated to Maurice Ravel and Claude Debussy and Jean Cras",
+    "image": "https://www.teatroallascala.org/static/upload/fol/folla.jpg",
+    "venueSlug": "teatro-alla-scala",
+    "performances": [
+      {
+        "start": "2026-10-19T14:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/invitation-to-la-scala/impressions-on-ravel-debussy-20261019.html",
+    "source": {
+      "venue": "Teatro alla Scala",
+      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
+      "scrapedAt": "2026-05-27T09:35:59.517Z"
+    },
+    "rank": 73
+  },
+  {
+    "id": "36f84f6ce2",
+    "slug": "la-cultura-e-la-citta-itinerario-tra-le-istituzioni-simbolo-della-cultura-milane-36f84f6ce2",
+    "title": "La cultura e la città. Itinerario tra le istituzioni simbolo della cultura milanese",
+    "subtitle": "Triennale Milano | Sagrato Teatro Strehler | Pinacoteca di Brera | Teatro alla Scala",
     "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Electropical_Parini_Secondo.jpg",
+    "description": "In occasione del Piccolo Day, un Walk_Talk che unisce le istituzioni pubbliche che con la loro azione hanno contrassegnato la rinascita di Milano nel dopoguerra e costituiscono tutt’oggi una vera e propria “cittadella” della cultura. Il cammino intreccia il racconto di luoghi, presentazioni e incontri alle letture a cura di allieve e allievi della Scuola di Teatro “Luca Ronconi”. 14 maggio 2026 Triennale Milano | Sagrato Teatro Strehler | Pinacoteca di Brera | Teatro alla Scala Si parte alle 11 alla Triennale, nello spazio Cuore – Centro studi, archivi, ricerca, con i saluti istituzionali del nostro Presidente Piergaetano Marchetti e della Direttrice Generale di Triennale Milano Carla Morogallo, seguiti dalla presentazione a cura di Andrea Foffa della mostra Alphabet di Edward Barber e Jay Osgerby.Dopo una sosta per il pranzo presso il bar LaPiazza sul Sagrato del Teatro Strehler, anche questa accompagnata dalle letture di allieve e allievi come le altre tappe, il percorso continua alle 15 alla Pinacoteca di Brera con gli interventi di Angelo Crespi e Chiara Rostagno e la presentazione del Pantheon degli illustri.Alle 17, nel Ridotto Toscanini del Teatro alla Scala, la presentazione del nuovo volume, pubblicato in coedizione con il Saggiatore e curato da Flavia Foradini — quarto della serie dedicata a Giorgio Strehler, dopo Lettere agli italiani, Shakespeare, Goldoni, Brecht e Un teatro necessario — Giorgio Strehler, “L’Opera da tre soldi” di Brecht. Riflessioni, note di regi",
+    "image": "https://www.piccoloteatro.org/sites/default/files/2026-04/Hero_walk_talk_piccolo_day_1.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
       {
-        "start": "2026-05-12T20:00:00.000Z"
+        "start": "2026-05-14T11:00:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/electropical-e-parini-secondo",
+    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026/la-cultura-e-la-citta-itinerario-tra-le-istituzioni-simbolo-della-cultura",
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 72
+  },
+  {
+    "id": "a2223490f0",
+    "slug": "philosophie-de-boudoir-a2223490f0",
+    "title": "Philosophie de Boudoir",
+    "subtitle": "Sagrato Teatro Strehler",
+    "category": "theater",
+    "description": "Giovedì 21 maggio alle 21 e venerdi 22 maggio alle 22, una performance che intreccia, con ironia e grazia, la potenza emotiva del melodramma – da Mozart a Verdi – alla seduzione provocatoria e dissacrante del burlesque contemporaneo. 21 - 22 maggio 2026 Sagrato Teatro Strehler C’è un filo sottile che attraversa i secoli e unisce il teatro d’opera al burlesque: il desiderio. Non come scandalo, ma come forza primaria dell’animo umano, ciò che muove, trasforma, rivela. Philosophie de Boudoir è una breve performance che percorre questo filo con ironia e grazia, intrecciando la potenza emotiva del melodramma – da Mozart a Verdi – alla seduzione provocatoria e dissacrante del burlesque contemporaneo. Il lavoro entra in risonanza con Orgasmo di Niccolò Fettarappa: se lo spettacolo interroga il corpo e il piacere come spazio di affermazione e complessità, Philosophie de Boudoir ne restituisce una variazione scenica, tra musica, ironia e presenza. Un invito a riscoprire il piacere come categoria estetica e il desiderio come atto creativo.A cura di Burlesque School Milano con Viviana Nebuloni, Mina Cooper, Miss Joelle D’Amour, Lucas Dudemont e le allieve di Burlesque School MilanoIngresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati C’è un filo sottile che attraversa i secoli e unisce il teatro d’opera al burlesque: il desiderio. Non come scandalo, ma come forza primaria dell’animo umano, ciò che muove, trasf",
+    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Philosophie_de_Boudoir.jpg",
+    "venueSlug": "piccolo-teatro",
+    "performances": [
+      {
+        "start": "2026-05-21T21:00:00.000Z"
+      },
+      {
+        "start": "2026-05-22T22:00:00.000Z",
+        "end": "2026-05-22T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/philosophie-de-boudoir",
+    "source": {
+      "venue": "Piccolo Teatro di Milano",
+      "url": "https://www.piccoloteatro.org/it/calendar",
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
+    },
+    "rank": 72
   },
   {
     "id": "ac480d6789",
@@ -818,6 +1168,7 @@
     "title": "Teatro Aperto",
     "subtitle": "Teatro Grassi",
     "category": "theater",
+    "description": "Nell’ambito del Piccolo Day, una visita guidata del Teatro Grassi sulle tracce dell’inaugurazione del 14 maggio 1947. 14 maggio 2026 Teatro Grassi Visita guidata della sede storica del Piccolo, a cura dell’Ufficio Promozione pubblico e attività culturali, sulle tracce dell’inaugurazione del 14 maggio 1947, quando per la prima volta si aprì il sipario della sala di via Rovello, con L’albergo dei poveri di Gor’kij, per la regia di Giorgio Strehler. Dalle origini dello storico Palazzo del Broletto, alla nascita del primo teatro stabile pubblico italiano, il racconto del luogo conduce le spettatrici e gli spettatori alla scoperta degli spazi. Ingresso gratuito con prenotazione obbligatoria su piccoloteatro.org, presso la biglietteria Teatro Strehler e tramite biglietteria telefonica Visita guidata della sede storica del Piccolo, a cura dell’Ufficio Promozione pubblico e attività culturali, sulle tracce dell’inaugurazione del 14 maggio 1947, quando per la prima volta si aprì il sipario della sala di via Rovello, con L’albergo dei poveri di Gor’kij, per la regia di Giorgio Strehler. Dalle origini dello storico Palazzo del Broletto, alla nascita del primo teatro stabile pubblico italiano, il racconto del luogo conduce le spettatrici e gli spettatori alla scoperta degli spazi. Ingresso gratuito con prenotazione obbligatoria su piccoloteatro.org, presso la biglietteria Teatro Strehler e tramite biglietteria telefonica",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-04/Hero_teatro%20aperto%20Piccolo%20Day.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -833,30 +1184,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
-  },
-  {
-    "id": "36f84f6ce2",
-    "slug": "la-cultura-e-la-citta-itinerario-tra-le-istituzioni-simbolo-della-cultura-milane-36f84f6ce2",
-    "title": "La cultura e la città. Itinerario tra le istituzioni simbolo della cultura milanese",
-    "subtitle": "Triennale Milano | Sagrato Teatro Strehler | Pinacoteca di Brera | Teatro alla Scala",
-    "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-04/Hero_walk_talk_piccolo_day_1.jpg",
-    "venueSlug": "piccolo-teatro",
-    "performances": [
-      {
-        "start": "2026-05-14T11:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026/la-cultura-e-la-citta-itinerario-tra-le-istituzioni-simbolo-della-cultura",
-    "source": {
-      "venue": "Piccolo Teatro di Milano",
-      "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
-    },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "9b656ab1c9",
@@ -864,6 +1194,7 @@
     "title": "By Heart",
     "subtitle": "Teatro Grassi",
     "category": "theater",
+    "description": "Una donna anziana sta perdendo la vista e cerca un ultimo libro da imparare a memoria. A partire da un episodio personale, Tiago Rodrigues dà vita a uno spettacolo che celebra il valore della trasmissione come atto di resistenza, scambio invisibile di parole e idee che solo l’atto del memorizzare può innescare. 14 - 16 maggio 2026 Teatro Grassi Drammaturgo, regista e dal 2022 direttore del Festival d’Avignon, Tiago Rodrigues scrive By Heart nel 2013, quando la nonna gli confida di stare perdendo la vista e gli chiede di suggerirle un ultimo libro da imparare a memoria, per quando non potrà più leggere.Da questo spunto personale, l’autore portoghese crea uno spettacolo sull’importanza della trasmissione, sul senso della condivisione di un comune bagaglio culturale, sul contrabbando invisibile di parole e idee che solo la memorizzazione di un testo può consentire. Ogni sera Rodrigues invita sul palcoscenico dieci spettatrici e spettatori: l’obiettivo è imparare insieme una poesia a memoria (by heart, appunto), senza alcuna preparazione e davanti a tutto il resto del pubblico.Sull’onda di un racconto che intreccia pubblico e privato, realtà e finzione, Rodrigues impiega un sonetto di Shakespeare e brani di opere di George Steiner, Iosif Brodskij e Ray Bradbury in un vero e proprio programma di addestramento alla resistenza, destinato a concludersi solo quando quei dieci nuovi “soldati” avranno appreso il testo a memoria…Una lotta condotta attraverso l’arte e l’impegno politico, ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2025-10/Hero_By_Heart.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -879,9 +1210,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "f4906b6cb7",
@@ -889,6 +1220,7 @@
     "title": "Lasagna Lounge DJ SET",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Giovedì 14 maggio dalle 21, sabato 23 maggio dalle 18.30 e giovedì 28 maggio dalle 19.30, Lasagna Lounge, DJ SET resident di LaPiazza, dà vita a un viaggio dentro la library music e le colonne sonore italiane degli anni ’60 e ’70. 14 - 28 maggio 2026 Sagrato Teatro Strehler Uno dei due DJ resident di LaPiazza, Lasagna Lounge è un viaggio dentro la library music e le colonne sonore italiane degli anni ’60 e ’70: da Piero Piccioni a Piero Umiliani, da Armando Trovajoli a Sandro Brugnolini, fino a Ennio Morricone. Un paesaggio sonoro caldo e immersivo che accompagna il momento più bello delle giornate primaverili: il tramonto.Due traiettorie diverse che si incontrano nello stesso gesto: fare della musica un innesco leggero ma potente, capace di tenere insieme corpi, tempi e presenze, e trasformare la piazza in un luogo da abitare, anche oltre la scena.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Uno dei due DJ resident di LaPiazza, Lasagna Lounge è un viaggio dentro la library music e le colonne sonore italiane degli anni ’60 e ’70: da Piero Piccioni a Piero Umiliani, da Armando Trovajoli a Sandro Brugnolini, fino a Ennio Morricone. Un paesaggio sonoro caldo e immersivo che accompagna il momento più bello delle giornate primaverili: il tramonto.Due traiettorie diverse che si incontrano nello stesso gesto: fare della musica un innesco leggero ma potente, capace di tenere insieme corpi, tempi e ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Lasagna_Lounge.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -907,9 +1239,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "73f3765845",
@@ -917,6 +1249,7 @@
     "title": "We Africans United & Refugees Welcome Italia",
     "subtitle": "Teatro Strehler - Scatola Magica",
     "category": "theater",
+    "description": "Venerdì 15 maggio alle 18, un incontro che richiama La Distance di Tiago Rodrigues, per aprire uno spazio di confronto a partire dal laboratorio di lingua e scambio culturale realizzato con Vitality Social. 15 maggio 2026 Teatro Strehler - Scatola Magica Un incontro ideato da We Africans United, in collaborazione con Refugees Welcome Italia, per aprire uno spazio di confronto a partire da un laboratorio di lingua e scambio culturale realizzato con Vitality Social. Qui, le nuove generazioni cresciute in Italia insegnano l’italiano a chi è arrivato da poco, ricevendo in cambio storie, lingue e culture. Un’occasione per fermarsi, ascoltare e costruire uno spazio comune. Modera Sarah Kamsu, giornalista e fondatrice di We Africans United.In collaborazione con Black History Month Milano e Nalini Vidoolah MootoosamyIngresso libero Un incontro ideato da We Africans United, in collaborazione con Refugees Welcome Italia, per aprire uno spazio di confronto a partire da un laboratorio di lingua e scambio culturale realizzato con Vitality Social. Qui, le nuove generazioni cresciute in Italia insegnano l’italiano a chi è arrivato da poco, ricevendo in cambio storie, lingue e culture. Un’occasione per fermarsi, ascoltare e costruire uno spazio comune. Modera Sarah Kamsu, giornalista e fondatrice di We Africans United.In collaborazione con Black History Month Milano e Nalini Vidoolah MootoosamyIngresso libero",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/We_are_africans_united.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -928,9 +1261,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "4c0894d628",
@@ -938,6 +1271,7 @@
     "title": "Kelly B DJ SET",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Venerdì 15 maggio alle 19, il DJ SET di Kelly B esplora i legami transatlantici attraverso i suoni del Sud Globale, intreccia i ritmi tradizionali afro-diasporici con le sonorità percussive più innovative del club. 15 maggio 2026 Sagrato Teatro Strehler KELLY B è una DJ e artista con base a Milano che esplora i legami transatlantici attraverso i suoni del Sud Globale. Nei suoi set intreccia ritmi tradizionali afro-diasporici con le sonorità percussive più innovative del club, accostandoli a jazz, house e breakbeat, dando forma a paesaggi sonori immersivi che attraversano storie, geografie e appartenenze.Un attraversamento musicale che mette in relazione distanze e immaginari, generando connessioni e possibilità di incontro nello spazio condiviso della piazza, in risonanza con La Distance di Tiago Rodrigues.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati KELLY B è una DJ e artista con base a Milano che esplora i legami transatlantici attraverso i suoni del Sud Globale. Nei suoi set intreccia ritmi tradizionali afro-diasporici con le sonorità percussive più innovative del club, accostandoli a jazz, house e breakbeat, dando forma a paesaggi sonori immersivi che attraversano storie, geografie e appartenenze.Un attraversamento musicale che mette in relazione distanze e immaginari, generando connessioni e possibilità di incontro nello spazio condiviso della piazza, in risonanza con La Distance di Ti",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Kelly_B.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -949,9 +1283,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "d28b8bfbed",
@@ -959,6 +1293,7 @@
     "title": "Valentina",
     "subtitle": "Teatro Strehler",
     "category": "theater",
+    "description": "Una donna si trasferisce dalla Romania alla Francia, accompagnata dalla figlia di nove anni, per tentare di curare un problema cardiaco… Mescolando realismo e poesia, Caroline Guiela Nguyen racconta la fiaba moderna di una bambina divisa tra due culture, in bilico tra due lingue, alle prese con segreti familiari e con la difficoltà di tradurli. O di tacerli per sempre. 15 - 17 maggio 2026 Teatro Strehler Una sera, di ritorno da scuola, Valentina scopre un biglietto sul tavolo. È stato scritto in francese dal medico, per sua madre, che però non parla quella lingua. Bisogna tradurre. Valentina è lì, di fronte alla madre, con in bocca una verità indicibile: una notizia che potrebbe spezzarle il cuore e scatenare un incendio nelle loro vite… La verità, la si impone o la si nasconde, la si cerca o la si soffoca. È questo il nodo attorno a cui ruota la nuova creazione, una poetica fiaba contemporanea, di Caroline Guiela Nguyen.«Avevo voglia di lavorare sulla figura dell’interprete – spiega la regista franco-vietnamita, che al Piccolo aveva già presentato FRATERNITÉ, Conte fantastique, SAIGON e la coproduzione LACRIMA – perché sono da sempre convinta che sia un mestiere rivelatore del nostro mondo contemporaneo e della sua attuale geografia. È un gesto che mi sembra molto vicino al teatro, poiché anche lì si tratta di tradurre la parola dell’altro. Ci si trova al centro del discorso, ma bisogna anche sapersi cancellare. Anche la mia realtà familiare ha fatto sì che fosse un interpre",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-03/Hero_Valentina.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -977,9 +1312,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "3db8ac1e9f",
@@ -987,6 +1322,7 @@
     "title": "La Distance",
     "subtitle": "Teatro Studio Melato",
     "category": "theater",
+    "description": "Anno 2077. Gli abitanti del pianeta Terra vivono in condizioni di estrema precarietà, in balìa delle conseguenze del surriscaldamento climatico. Un padre e una figlia – lui che ha scelto di restare nel nostro mondo, lei in esilio sul pianeta rosso – intrattengono una serie di lunghe telefonate. 15 - 16 maggio 2026 Teatro Studio Melato In uno scenario distopico – ma purtroppo plausibile – Tiago Rodrigues esplora tanto le conseguenze delle nostre scelte, quanto la possibilità di comunicare tra diverse generazioni. «Penso che l’umanità sia arrivata a un punto della propria storia – spiega il regista –in cui non possiamo più aspettarci che le generazioni future abbiano vite migliori rispetto alle nostre, un’aspirazione che per secoli è stata alla base delle organizzazioni sociali e politiche».L’autore e regista mette a confronto due universi lontanissimi, affidando i dialoghi ad Adiama Diop e a Alison Dechamps. Con ciascuno dei due che occupa metà del palco, padre e figlia non possono mai guardarsi negli occhi: come due corpi celesti, seguono orbite che li avvicinano e li separano in un moto incessante. Il pubblico, invece, riesce a scorgerli alternativamente, grazie alla rotazione del palco, che richiama il moto ellittico dei pianeti e che ispira anche le scelte di luci e suoni dello spettacolo.Spettacolo in lingua francese, con sovratitoli in italiano a cura di Chiara Elefante e sovratitoli in inglese a cura di Daniel Hahn Durata: 1 ora e 25 minuti senza intervallo Per saperne ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2025-10/Hero_La_Distance.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1002,9 +1338,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "3e5b7ff4df",
@@ -1012,6 +1348,7 @@
     "title": "Where you gonna run to?",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Sabato 16 maggio alle 11, un laboratorio coreografico a cielo aperto a cura di Chiara Taviani che si intreccia con By Heart di Tiago Rodrigues, e alle 19, un’azione collettiva per corpi liberi con i partecipanti del laboratorio. 16 maggio 2026 Sagrato Teatro Strehler Dalle 11 alle 13 il Sagrato del Teatro Strehler si apre a un laboratorio coreografico a cielo aperto, un tempo di pratica condivisa in cui esplorare dinamiche fisiche capaci di generare energia, ascolto e relazione tra i corpi.Questa ricerca prende forma alle 19 in Where You Gonna Run To?, un’azione collettiva per corpi liberi che si configura come una pratica coreografica centrata sull’energia: intesa come vitalità, forza generativa e motore di inclusione. Un’energia che attraversa i corpi, la collettività e lo spazio, trasformandoli e attivando una dinamica condivisa capace di ridefinire le relazioni tra le persone e l’ambiente.Il lavoro entra in risonanza con By Heart di Tiago Rodrigues, che mette al centro il gesto della trasmissione come atto di resistenza: imparare insieme, condividere, far circolare parole e memoria come pratica collettiva.Come nello spettacolo, anche qui il sapere passa da corpo a corpo, da presenza a presenza, generando una comunità temporanea fondata sull’esperienza diretta.Ingresso libero con prenotazione obbligatoria scrivendo a training@maremilano.orgIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Dalle 11 alle 13 i",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Where_you_gonna_run_to.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1027,9 +1364,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "03df2b4cda",
@@ -1037,6 +1374,7 @@
     "title": "Incontro con Tiago Rodrigues in dialogo con Graziano Graziani",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Sabato 16 maggio alle 17, sul Sagrato del Teatro Strehler, Tiago Rodrigues in conversazione con Graziano Graziani. 16 maggio 2026 Sagrato Teatro Strehler Drammaturgo, regista e dal 2022 direttore del Festival d’Avignon, Tiago Rodrigues (classe 1977) è nostro Artista associato e fra i protagonisti del Festival Presente Indicativo | Milano Crocevia con gli spettacoli By Heart e La Distance. Rodrigues è attore, regista, autore, produttore, nonché fondatore – nel 2003, con Magda Bizarro – della compagnia Mundo Perfeito. Tra i suoi lavori più importanti, premiati con numerosi riconoscimenti in Portogallo – dove, dal 2015 al 2021, è stato direttore artistico del Teatro Nacional D. Maria II di Lisbona – e all’estero: By Heart (2013), António e Cléopatra (2014), Bovary (2014) e Sopro (2017).I suoi spettacoli più recenti sono Catarina e a beleza de matar fascistas (2020), La Cerisaie (Festival d’Avignon, 2021), Chœur des Amants (2021), e Dans la mesure de l’impossible (2022), realizzato per la Comédie de Genève, in coproduzione con il Piccolo, e presentato al Teatro Strehler in occasione della prima edizione del Festival Presente Indicativo.In quella circostanza, il Piccolo ha pubblicato, in collaborazione con il Saggiatore, il volume Teatro, con le versioni italiane a cura di Vincenzo Arsillo, di tre testi cardine della sua produzione: Catarina e la bellezza d’ammazzar fascisti, Coro degli amanti e Nella misura dell’impossibile. Nel maggio 2024 – anno in cui allestisce anche Hécube, ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Hero_Incontro_con_Tiago_Rodrigues.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1048,29 +1386,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
-  },
-  {
-    "id": "13f0ef6105",
-    "slug": "incontro-con-caroline-guiela-nguyen-13f0ef6105",
-    "title": "Incontro con Caroline Guiela Nguyen",
-    "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Caroline_Guiela_Nguyen.jpg",
-    "venueSlug": "piccolo-teatro",
-    "performances": [
-      {
-        "start": "2026-05-16T21:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/incontro-con-caroline-guiela-nguyen",
-    "source": {
-      "venue": "Piccolo Teatro di Milano",
-      "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
-    },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "56c856fc03",
@@ -1078,6 +1396,7 @@
     "title": "Buba DJ SET",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Sabato 16 maggio dalle 22.30, il DJ SET di Buba, la cui ricerca musicale parte dalla scena elettronica britannica e dall’impatto culturale delle comunità afro-caraibiche sull’identità urbana del Regno Unito. 16 maggio 2026 Sagrato Teatro Strehler LaPiazza si apre a un tempo più informale e condiviso con il DJ SET di Buba, DJ con base a Milano, la cui ricerca musicale parte dalla scena elettronica britannica e dall’impatto culturale delle comunità afro-caraibiche sull’identità urbana del Regno Unito. I suoi set attraversano UK Garage, funk, house ed elettronica sperimentale, costruendo un paesaggio sonoro fatto di attraversamenti, contaminazioni e nuove appartenenze.A cura di Black History Month Milano in collaborazione con Nalini Vidoolah MootoosamyIngresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati LaPiazza si apre a un tempo più informale e condiviso con il DJ SET di Buba, DJ con base a Milano, la cui ricerca musicale parte dalla scena elettronica britannica e dall’impatto culturale delle comunità afro-caraibiche sull’identità urbana del Regno Unito. I suoi set attraversano UK Garage, funk, house ed elettronica sperimentale, costruendo un paesaggio sonoro fatto di attraversamenti, contaminazioni e nuove appartenenze.A cura di Black History Month Milano in collaborazione con Nalini Vidoolah MootoosamyIngresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/DJ_Buba.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1089,9 +1408,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "1ea3bbd1e5",
@@ -1099,6 +1418,7 @@
     "title": "Babele",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Domenica 17 maggio alle 18, un reading multilingue che esplora il rapporto intimo e quotidiano con la lingua italiana. 17 maggio 2026 Sagrato Teatro Strehler Babele è un reading multilingue (italiano, cinese, arabo, francese, spagnolo, bulgaro e creolo mauriziano) che esplora il rapporto intimo e quotidiano con la lingua italiana. Artisti e artiste di nuova generazione, cresciuti tra più lingue, condividono storie che attraversano identità e appartenenze, creando uno spazio in cui l’italiano si trasforma nel dialogo con altre lingue e culture. Il lavoro risuona con lo spettacolo Valentina di Caroline Guiela Nguyen; anche in Babele la lingua diventa uno spazio fragile e potente, in cui identità, memoria e affetti si muovono tra più mondi possibili, a cura di Nalini Vidoolah Mootoosamy. Partecipano Jada Bai, Zahia Bounab, Cheikh Tidiane Gaye, Petar Lefterov, Nalini Vidoolah Mootoosamy, Paris Pesantes Morán, Nadeesha Uyangoda, e con la partecipazione di Issouf Montell Kone, Rachid Morchad e Veronika Lukianenko, allieve e allievi della Scuola di Teatro Luca Ronconi. Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati. Babele è un reading multilingue (italiano, cinese, arabo, francese, spagnolo, bulgaro e creolo mauriziano) che esplora il rapporto intimo e quotidiano con la lingua italiana. Artisti e artiste di nuova generazione, cresciuti tra più lingue, condividono storie che attraversano identità e ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Babele.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1110,9 +1430,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "4278e8c04f",
@@ -1120,6 +1440,7 @@
     "title": "L’arte di raccontare: favola, mito e scena",
     "subtitle": "Teatro Grassi",
     "category": "theater",
+    "description": "Lunedì 18 maggio alle 18, al Teatro Grassi, Gabriele Lavia è il protagonista di L’arte di raccontare: favola, mito e scena, la Lectio Magistralis inaugurale del nostro Master di specializzazione per attrici e attori 2026 FAVOLA. 18 maggio 2026 Teatro Grassi Quello che un “allievo” si aspetta da una scuola è “imparare”, cioè avere “risposte certe” a “domande vaghe”.Ai miei attori, durante le prove, ricordo sempre il detto di Angelo Silesio: “la rosa è senza perché, fiorisce poiché fiorisce, di sé non gliene cale, non chiede d’esser vista”.Ora sostituiamo alla parola Rosa la parola Attore.“L’attore è senza perché, recita poiché recita, di sé non gliene cale, non chiede di esser visto”. Picasso diceva: “Ho impiegato due anni per dipingere come Tiziano. Tutta la vita per disegnare come un bambino.” Gabriele LaviaLa Lectio Magistralis a cura di Gabriele Lavia apre ufficialmente la prima edizione del Master di specializzazione per attrici e attori del Piccolo Teatro di Milano, coordinato dal regista Andrea Chiodi e promosso in collaborazione con Cittadellarte Biella – Fondazione Pistoletto.Prendendo le mosse dalla tradizione della “favola”, il Master è pensato come un’esperienza a tempo pieno che combina laboratori intensivi, training fisico e lezioni teoriche, tra Milano e Biella – fino alla restituzione finale pubblica del lavoro al Teatro Studio Melato a ottobre 2026 – per stimolare la commistione fra arte, danza, parola e drammaturgia.Il corpo docente è composto da tre maestri ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Hero_Lectio_Magistralis_Master_FAVOLA.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1131,9 +1452,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "ada9afdb3f",
@@ -1141,6 +1462,7 @@
     "title": "Marco Manini DJ SET",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "DJ SET resident di LaPiazza, Marco Manini è musicista e performer con un lungo attraversamento della scena indipendente italiana. 19 - 29 maggio 2026 Sagrato Teatro Strehler MARTEDì 19 MAGGIO 2026ore 18.30MERCOLEDì 20 MAGGIO 2026ore 18.30VENERDì 22 MAGGIO 2026ore 18.30MARTEDì 26 MAGGIO 2026ore 18.30MERCOLEDì 27 MAGGIO 2026ore 19.30VENERDì 29 MAGGIO 2026ore 19.30A dare continuità e ritmo a Oltre la scena | LaPiazza è uno dei DJ resident Marco Manini, attivando il Sagrato del Teatro Strehler come spazio vivo di incontro e relazione. Marco Manini, musicista e performer con un lungo attraversamento della scena indipendente italiana, porta nei suoi dj set un approccio libero e inclusivo, capace di muoversi tra generi e immaginari senza gerarchie, costruendo momenti in cui riconoscersi, cantare, ballare, stare insieme.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati MARTEDì 19 MAGGIO 2026ore 18.30MERCOLEDì 20 MAGGIO 2026ore 18.30VENERDì 22 MAGGIO 2026ore 18.30MARTEDì 26 MAGGIO 2026ore 18.30MERCOLEDì 27 MAGGIO 2026ore 19.30VENERDì 29 MAGGIO 2026ore 19.30A dare continuità e ritmo a Oltre la scena | LaPiazza è uno dei DJ resident Marco Manini, attivando il Sagrato del Teatro Strehler come spazio vivo di incontro e relazione. Marco Manini, musicista e performer con un lungo attraversamento della scena indipendente italiana, porta nei suoi dj set un approccio libero e inclusivo, capace di muoversi tra gen",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Marco_Manini.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1168,9 +1490,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "f9700c877d",
@@ -1178,6 +1500,7 @@
     "title": "Incontro con Łukasz Twarkowski in dialogo con Graziano Graziani, Camilla Lietti e Maddalena Giovannelli",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Giovedì 21 maggio alle 18, sul Sagrato del Teatro Strehler, un incontro con Łukasz Twarkowski in dialogo con Graziano Graziani, e con Camilla Lietti e Maddalena Giovannelli, curatrici di un volume monografico dedicato all’autore. 21 maggio 2026 Sagrato Teatro Strehler Classe 1983, Łukasz Twarkowski è creatore di performance multimediali che si situano all’intersezione fra teatro e arti visive. I suoi progetti contemplano una dilatazione della realtà attraverso il multimediale. Elemento fondante delle sue creazioni è l’indagine delle potenzialità e dei limiti del teatro come mezzo e veicolo della comunicazione. Grazie alla costante decostruzione della narrazione, la messa in discussione dell’abitudinarietà del pubblico e un impiego sapiente dei nuovi media, Twarkowski inventa un linguaggio drammaturgico nuovo e originale, basato sulle tecnologie multimediali e, in senso lato, digitali. In questo modo, analizza e osserva le relazioni via via sempre più complesse tra Reale, Simbolico e Inventato.I suoi spettacoli sono andati in scena nei festival e sui palcoscenici più importanti d’Europa, come Holland Festival, Odéon-Théâtre de l’Europe, Ruhrtriennale, Festival de Otoño di Madrid, Wiener Festwochen e Southbank Centre di Londra. Attualmente è artista associato a Onassis Stegi ad Atene e al Piccolo. In scena al Teatro Strehler nel maggio 2024 durante il Festival Presente Indicativo | Milano Porta Europa, Rohtko è stato il suo primo lavoro teatrale rappresentato in Italia. In ques",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Hero_Incontro_con_Lukasz_Twarkowski.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1189,80 +1512,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
-  },
-  {
-    "id": "2a1d8ab672",
-    "slug": "orgasmo-2a1d8ab672",
-    "title": "Orgasmo",
-    "subtitle": "Teatro Studio Melato",
-    "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-02/Posata_Hero_Orgasmo_1.jpg",
-    "venueSlug": "piccolo-teatro",
-    "performances": [
-      {
-        "start": "2026-05-21T19:30:00.000Z"
-      },
-      {
-        "start": "2026-05-22T20:30:00.000Z",
-        "end": "2026-05-22T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026/orgasmo-festival-presente-indicativo",
-    "source": {
-      "venue": "Piccolo Teatro di Milano",
-      "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
-    },
-    "rank": 65
-  },
-  {
-    "id": "a2223490f0",
-    "slug": "philosophie-de-boudoir-a2223490f0",
-    "title": "Philosophie de Boudoir",
-    "subtitle": "Sagrato Teatro Strehler",
-    "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Philosophie_de_Boudoir.jpg",
-    "venueSlug": "piccolo-teatro",
-    "performances": [
-      {
-        "start": "2026-05-21T21:00:00.000Z"
-      },
-      {
-        "start": "2026-05-22T22:00:00.000Z",
-        "end": "2026-05-22T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/philosophie-de-boudoir",
-    "source": {
-      "venue": "Piccolo Teatro di Milano",
-      "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
-    },
-    "rank": 65
-  },
-  {
-    "id": "a705911f60",
-    "slug": "incontro-con-niccolo-fettarappa-a705911f60",
-    "title": "Incontro con Niccolò Fettarappa",
-    "subtitle": "Teatro Studio Melato",
-    "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Niccolo_Fettarappa.jpg",
-    "venueSlug": "piccolo-teatro",
-    "performances": [
-      {
-        "start": "2026-05-21T21:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/incontro-con-niccolo-fettarappa",
-    "source": {
-      "venue": "Piccolo Teatro di Milano",
-      "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
-    },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "dd7d699158",
@@ -1270,6 +1522,7 @@
     "title": "Connecting International Audiences",
     "subtitle": "Teatro Grassi",
     "category": "theater",
+    "description": "Sabato 23 maggio alle 9.30, al Teatro Grassi, il secondo convegno dell’osservatorio Interesse Pubblico, dal titolo Connecting International Audiences: un appuntamento per riflettere sul pubblico internazionale. 23 maggio 2026 Teatro Grassi La dimensione internazionale del Festival Presente Indicativo | Milano Crocevia offre il contesto ideale per il secondo appuntamento di Interesse Pubblico, l’osservatorio triennale che ha l’obiettivo di aprire uno spazio di confronto, analisi e visione comune sul ruolo dello spettatore oggi e sulle trasformazioni nel modo di guardare, abitare e condividere il teatro.Dopo il convegno di ottobre 2025, dedicato ai pubblici della Milano che cambia, al centro della riflessione di quest’anno c’è la platea internazionale. La domanda di partenza «Chi sono oggi le tutte e i tutti del “Teatro d’Arte per Tutti”?» diventa in questo modo vettore di una riflessione più ampia, capace di valicare i confini nazionali e generare interrogativi condivisi: esiste un pubblico internazionale comune? E come si sviluppa accanto all’esperienza dei teatri, dei festival e delle molte realtà del mondo dell’arte e della cultura dalla vocazione internazionale che abitano il Vecchio continente? Chi sono e come si comportano gli individui o i gruppi che lo compongono?Accanto ai talk e agli interventi degli ospiti internazionali, sono presentati anche i risultati dell’indagine condotta da ABA – Advisory Board for the Arts tra i membri del proprio network dell’arte e della c",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Hero_Interesse_Pubblico.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1281,9 +1534,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "0873003692",
@@ -1291,6 +1544,7 @@
     "title": "ORACLE",
     "subtitle": "Teatro Strehler",
     "category": "theater",
+    "description": "Uno scienziato il cui operato ha cambiato il corso della storia, tuttavia condannato a causa del proprio orientamento sessuale: dopo lo straordinario successo di Rohtko, Łukasz Twarkowski porta in scena Alan Turing, le potenzialità dell’intelligenza artificiale e il lato oscuro della tecnologia. 23 - 24 maggio 2026 Teatro Strehler Matematico, logico e crittografo, Alan Turing è stato uno dei padri fondatori dell’informatica: decifrando il codice Enigma, ha aiutato il governo britannico a sconfiggere la Germania nazista durante la Seconda guerra mondiale, salvando così milioni di vite umane. Tuttavia, quando qualche anno più tardi fu resa nota la sua omosessualità, quello stesso governo lo condannò alla castrazione chimica.Łukasz Twarkowski – che torna al Piccolo dopo il sensazionale Rohtko presentato nell’edizione 2024 di Presente Indicativo – crea una narrazione complessa e monumentale che intreccia la biografia del geniale matematico e il contesto storico del secondo dopoguerra a un mondo digitale futuristico, quasi fuori dal tempo. Attraverso paesaggi sonori immersivi e proiezioni cinematografiche, lo spettacolo sfuma i confini tra realtà e illusione, interrogandosi su quanto la tecnologia avanzata possa diventare indistinguibile dalla magia. Visivamente sorprendente e provocatorio, ORACLE riflette sui segreti di Turing, sulle sue intuizioni profetiche e sul futuro plasmato da quell’intelligenza artificiale che egli stesso ha contribuito a immaginare.Spettacolo in lingua l",
     "image": "https://www.piccoloteatro.org/sites/default/files/2025-10/Hero_Oracle.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1306,9 +1560,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "ceaeb09a76",
@@ -1316,6 +1570,7 @@
     "title": "Turbolenta DJ SET",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Sabato 23 maggio dalle 22.30, il DJ SET di Turbolenta, in cui trovano spazio melodie tradizionali nordafricane e arabe, intrecciandosi con il linguaggio del club. 23 maggio 2026 Sagrato Teatro Strehler Le sonorità di Turbolenta nascono dall’esigenza di riunire e mettere in discussione diverse identità culturali all’interno di un’unica espressione musicale. Nei suoi set trovano spazio melodie tradizionali nordafricane e arabe, che si intrecciano al linguaggio del club, dando forma a una narrazione che attraversa memorie, appartenenze e trasformazioni. All’interno di Oltre la scena | LaPiazza, le feste segnano il tempo del festival e ne accompagnano i fine settimana, diventando momenti di condivisione ed espressività. Spazi aperti in cui incontrarsi, creare connessioni, generare relazioni e abitare insieme la gioia del presente. Una notte per stare, ballare, riconoscersi.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Le sonorità di Turbolenta nascono dall’esigenza di riunire e mettere in discussione diverse identità culturali all’interno di un’unica espressione musicale. Nei suoi set trovano spazio melodie tradizionali nordafricane e arabe, che si intrecciano al linguaggio del club, dando forma a una narrazione che attraversa memorie, appartenenze e trasformazioni. All’interno di Oltre la scena | LaPiazza, le feste segnano il tempo del festival e ne accompagnano i fine settimana, diventando mom",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Turbolenta.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1327,9 +1582,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "774be0a652",
@@ -1337,6 +1592,7 @@
     "title": "Parole e Punti",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Domenica 24 maggio alle 15.30, insieme all’Associazione Parole e Punti, uno spazio informale di incontro e condivisione che riprende la pratica del lavoro a maglia come gesto collettivo. 24 maggio 2026 Sagrato Teatro Strehler Uno spazio informale di incontro e condivisione che riprende la pratica del lavoro a maglia come gesto collettivo, capace di creare relazioni e generare supporto reciproco, anche attraverso la realizzazione di manufatti destinati a progetti sociali, insieme all’Associazione Parole e Punti.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Uno spazio informale di incontro e condivisione che riprende la pratica del lavoro a maglia come gesto collettivo, capace di creare relazioni e generare supporto reciproco, anche attraverso la realizzazione di manufatti destinati a progetti sociali, insieme all’Associazione Parole e Punti.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Parole_e_punti.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1348,9 +1604,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "d5334b1068",
@@ -1358,6 +1614,7 @@
     "title": "La Bellezza Salvata",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Domenica 24 maggio alle 16.30, La Bellezza Salvata: un concerto in due tempi che intreccia musica classica e contemporanea, dall’incontro tra Talestri e i PostAntique. 24 maggio 2026 Sagrato Teatro Strehler Dall’incontro tra Talestri e i PostAntique nasce La Bellezza Salvata, un concerto in due tempi che intreccia musica classica e contemporanea come atto di ascolto e resistenza. Le sonorità intime della viola da gamba e del clavicembalo dialogano con l’universo progressive pop dei PostAntique, in un paesaggio sonoro che attraversa fragilità e forza, ricerca di libertà e possibilità di trasformazione. Il concerto si inserisce in un percorso di sensibilizzazione e contrasto alla violenza di genere, trasformando la musica in uno spazio di consapevolezza e sostegno. Il lavoro si intreccia con Il processo Pelicot: come nello spettacolo, anche qui l’atto artistico diventa uno spazio necessario per nominare, attraversare e trasformare l’esperienza, restituendo voce, ascolto e possibilità di ricostruzione.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Dall’incontro tra Talestri e i PostAntique nasce La Bellezza Salvata, un concerto in due tempi che intreccia musica classica e contemporanea come atto di ascolto e resistenza. Le sonorità intime della viola da gamba e del clavicembalo dialogano con l’universo progressive pop dei PostAntique, in un paesaggio sonoro che attraversa fragilità e forza, rice",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/La_Bellezza_Salvata.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1369,9 +1626,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "e2afba8525",
@@ -1379,6 +1636,7 @@
     "title": "Il processo Pelicot",
     "subtitle": "Teatro Studio Melato",
     "category": "theater",
+    "description": "600 ore di processo, 51 pubblici ministeri, 20.000 fotografie e video – realizzati da Dominique Pelicot alla moglie Gisèle – e 38 avvocati impegnati per raggiungere un verdetto su oltre 200 casi di stupro tramite sottomissione chimica: Milo Rau e Servane Dècle rendono omaggio alla donna diventata simbolo della lotta contro la violenza di genere. 24 maggio 2026 Teatro Studio Melato Uno dei processi più mediatici, discussi ed emblematici del nostro tempo. Come in uno studio sociologico, ci rivela che in una città dell’Europa occidentale perfettamente “normale” – la piccola Mazan, nel sud della Francia, vicino ad Avignone – uomini del tutto “ordinari”, appartenenti a tutte le classi sociali e fasce d’età, possono essere capaci del crimine forse più estremo: lo stupro reiterato di una donna incosciente. Una donna – Gisèle Pelicot – che, tuttavia, sceglie che il processo avvenga a porte aperte: «La vergogna deve cambiare campo». È tempo di spostare il senso di colpa dalla vittima al colpevole.Portando in scena interrogatori, arringhe e commenti attorno a questo storico dibattimento, Milo Rau e Servane Dècle firmano un potente e politico atto di memoria.«Da una prospettiva sociologica o filosofica – commenta Rau – questo caso rappresenta uno studio empirico involontario sull’onnipresenza del patriarcato e della cultura dello stupro, che continuano a infiltrarsi nelle nostre vite nonostante decenni di campagne di sensibilizzazione, leggi sempre più severe e il successo del movimento",
     "image": "https://www.piccoloteatro.org/sites/default/files/2025-10/Hero_Il_processo_Pelicot.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1390,9 +1648,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "05d9d03ff3",
@@ -1400,6 +1658,7 @@
     "title": "Flusso",
     "subtitle": "Teatro Grassi",
     "category": "theater",
+    "description": "Un testo dalla natura anfibia: un monologo per due attori e un solo personaggio. Lino Guanciale porta in scena il testo poetico e vertiginoso di Christian di Furia, un viaggio nella mente e nel linguaggio, che è confessione, gioco e naufragio. In un linguaggio ironico, lirico e feroce, l’autore costruisce una navigazione poetica sul senso dell’identità e del tempo. 25 - 30 maggio 2026 Teatro Grassi Flusso, come un liquido che scorre, l’acqua di un fiume che segna la valle. Flusso di persone che transitano tutte insieme in un momento. Come il mare che si ingrossa e cresce sotto l’influenza della Luna. Flusso, come quello di coscienza: i pensieri messi in fila dalla fretta di farli uscire. Lino Guanciale porta in scena un testo dalla natura anfibia, di cui è anche interprete con Gianmarco Saurino: un monologo per due attori. Due attori, un solo personaggio. Un solo personaggio e due vite, l’uomo è il bambino che è stato e quello che è ancora. Entrambi vivono in una camera, una stanza vera e inventata, un luogo reale come le navi e i vascelli dei grandi romanzi. La sua vita è accaduta e immaginata, come una storia, che succede solo se la leggi e la dici. Il racconto si articola in parole che sciabordano come in una tempesta, fino a strabordare e a cadere tra le pagine di Moby Dick, di Pinocchio, dei miti su cui ci siamo formati.Christian di Furia scrive un testo poetico e vertiginoso, un viaggio nella mente e nel linguaggio, che è confessione, gioco e naufragio. Il protagonista ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-04/Hero_Flusso_new_0.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1427,9 +1686,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "9b10d7775a",
@@ -1437,6 +1696,7 @@
     "title": "Frottole",
     "subtitle": "Teatro Grassi – Sala lettura",
     "category": "theater",
+    "description": "Martedì 26 maggio alle ore 11, nella Sala lettura del Teatro Grassi, la masterclass di drammaturgia Frottole, a cura di Christian di Furia. 26 maggio 2026 Teatro Grassi – Sala lettura Frottole sono storie.Frottole sono bugie.Frottole sono canzoni.Se narrare vuol dire trovare forma all'idea, c'è da affrontare un impaccio non da poco: l'idea non ha forma, e non ha suono, e non ha materia.L'idea ha solo noi. Non possiamo far altro, quindi, che ricorrere alle frottole per raccontare qualcosa, appellarci all'affastellamento di fatti strani e bizzarri, alla commistione di elementi disparati, alle menzogne, alle fole: e va fatto con il rigore algido della composizione.Così da riuscire nell'impresa impossibile: dare sostanza a ciò che è indefinito.Una masterclass di drammaturgia con Christian di Furia, uno dei protagonisti del Festival Presente Indicativo | Milano Crocevia, autore di Flusso, con Lino Guanciale e Gianmarco Saurino, testo vincitore della menzione speciale “Franco Quadri” al 56° Premio Riccione per il Teatro 2021.Ingresso gratuito con prenotazione obbligatoria su piccoloteatro.org, presso la biglietteria Teatro Strehler e tramite biglietteria telefonica. Consulta gli orari di apertura della biglietteria. Frottole sono storie.Frottole sono bugie.Frottole sono canzoni.Se narrare vuol dire trovare forma all'idea, c'è da affrontare un impaccio non da poco: l'idea non ha forma, e non ha suono, e non ha materia.L'idea ha solo noi. Non possiamo far altro, quindi, che ricorrere",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Hero_Teatro_in_platea_Frottole_0.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1448,9 +1708,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "3cdba59a6f",
@@ -1458,6 +1718,7 @@
     "title": "HIT OUT",
     "subtitle": "Chiostro Nina Vinchi",
     "category": "theater",
+    "description": "La sequenza atletica delle performer del collettivo Parini Secondo trasforma il gesto sportivo del salto con la corda in un’ipnotica azione performativa: «il susseguirsi martellante dei colpi di corda è l’eco della ribellione contro quelle forze che ci vorrebbero immobili, stese a terra con gli occhi chiusi.» 26 - 27 maggio 2026 Chiostro Nina Vinchi Single-under, side-swing, double-under: la sequenza atletica delle performer del collettivo Parini Secondo attinge alla grammatica del training sportivo per restituire, nello spazio aperto del Chiostro Nina Vinchi, una travolgente partitura danzata intrecciata al ritmo ossessivo della musica elettronica. HIT OUT – nato dalla collaborazione con il musicista e sound designer Bienoise e da un intenso percorso di preparazione fisica – trasforma la pratica sportiva del salto con la corda in gesto coreografico e strumento percussivo, capace di generare, a partire dall’impatto al suolo, inaspettate possibilità timbriche.In scena, le quattro performer – Sissj Bassani, Martina Piazzi, Camilla Neri, Francesca Pizzagalli – danno vita a un’ipnotica e rigorosa scrittura del corpo, un flusso continuo di movimento, ritmo e sintetizzatori: una vera e propria hit. Durata: 20 minuti senza intervallo Biglietti 27Mag Ore 20:00 Mostra altre date Per saperne di più Programma di sala Leggi Single-under, side-swing, double-under: la sequenza atletica delle performer del collettivo Parini Secondo attinge alla grammatica del training sportivo per restituir",
     "image": "https://www.piccoloteatro.org/sites/default/files/2025-10/Hero_Hit_out.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1473,9 +1734,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "d79a6c634c",
@@ -1483,6 +1744,7 @@
     "title": "We Africans United & Refugees Welcome Italia",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Mercoledì 27 maggio alle 18.30, un incontro che richiama La Distance di Tiago Rodrigues, per aprire uno spazio di confronto a partire dal laboratorio di lingua e scambio culturale realizzato con Vitality Social. 27 maggio 2026 Sagrato Teatro Strehler Un incontro ideato da We Africans United, in collaborazione con Refugees Welcome Italia, per aprire uno spazio di confronto a partire da un laboratorio di lingua e scambio culturale realizzato con Vitality Social. Qui, le nuove generazioni cresciute in Italia insegnano l’italiano a chi è arrivato da poco, ricevendo in cambio storie, lingue e culture. Un’occasione per fermarsi, ascoltare e costruire uno spazio comune. Modera Sarah Kamsu, giornalista e fondatrice di We Africans United.In collaborazione con Black History Month Milano e Nalini Vidoolah MootoosamyIngresso gratuito con prenotazione obbligatoria su piccoloteatro.org, presso la biglietteria Teatro Strehler e tramite biglietteria telefonica. Consulta gli orari di apertura della biglietteria.In caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Biglietti 27Mag Ore 18:30 Mostra altre date Un incontro ideato da We Africans United, in collaborazione con Refugees Welcome Italia, per aprire uno spazio di confronto a partire da un laboratorio di lingua e scambio culturale realizzato con Vitality Social. Qui, le nuove generazioni cresciute in Italia insegnano l’italiano a chi è arrivato da poco, ricevendo in cambio st",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/We_are_africans_united_0.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1494,9 +1756,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "1ba3dde080",
@@ -1504,6 +1766,7 @@
     "title": "Che dolore terribile è l’amore – Work in progress",
     "subtitle": "Teatro Studio Melato",
     "category": "theater",
+    "description": "Non tutto il libro – Non dico addio, un nuovo capolavoro di Han Kang – ma schegge tra realtà e sogno, tra traumi storici e poesia. I fatti riguardano la rivolta del 1948 sull’isola di Jeju, in Corea del Sud, quando trentamila civili sono stati uccisi. Una ferita mai sanata che continua a tormentare due amiche, proprio come aveva tormentato la madre di una di loro. 27 maggio 2026 Teatro Studio Melato Un giorno Gyeong-ha riceve un messaggio dalla sua amica In-seon, che vive sull’Isola di Jeju, in Corea del Sud. Si è ferita lavorando il legno ed è stata trasportata d’urgenza sulla terraferma, ma ha lasciato a casa un uccellino che rischia di morire di fame. Nel suo romanzo Non dico addio, l’autrice Premio Nobel per la Letteratura Han Kang affronta una delle pagine più buie della storia coreana: la sanguinosa repressione della rivolta di Jeju nel 1948. Daria Deflorian attraversa e interroga questo testo perturbante condividendo con Han Kang il rifiuto di ridurre le tragedie ai meri nomi delle città e al numero dei morti. Per avvicinarsi a quel passato che si rifiuta di passare, bisognerà lasciarsi attraversare dalla fragilità dell’essere umano e da tutto quello che inevitabilmente ci tocca. Forse allora «saremo ammessi tra i fantasmi».Attraverso la ricerca di una persona cara durata tutta una vita, la vicenda esplora i modi in cui la natura brutale e totalizzante della violenza appiattisce ogni individualità, ma anche come una tenace speranza riesca a salvare una singola persona ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-04/Hero_Che_dolore_terribile_e_l_amore_New.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1515,9 +1778,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "2b6d61ffc3",
@@ -1525,6 +1788,7 @@
     "title": "Kelly B DJ SET",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Mercoledì 27 maggio alle 21.30, il DJ SET di Kelly B esplora i legami transatlantici attraverso i suoni del Sud Globale, intreccia i ritmi tradizionali afro-diasporici con le sonorità percussive più innovative del club. 27 maggio 2026 Sagrato Teatro Strehler KELLY B è una DJ e artista con base a Milano che esplora i legami transatlantici attraverso i suoni del Sud Globale. Nei suoi set intreccia ritmi tradizionali afro-diasporici con le sonorità percussive più innovative del club, accostandoli a jazz, house e breakbeat, dando forma a paesaggi sonori immersivi che attraversano storie, geografie e appartenenze.Un attraversamento musicale che mette in relazione distanze e immaginari, generando connessioni e possibilità di incontro nello spazio condiviso della piazza, in risonanza con La Distance di Tiago Rodrigues.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati KELLY B è una DJ e artista con base a Milano che esplora i legami transatlantici attraverso i suoni del Sud Globale. Nei suoi set intreccia ritmi tradizionali afro-diasporici con le sonorità percussive più innovative del club, accostandoli a jazz, house e breakbeat, dando forma a paesaggi sonori immersivi che attraversano storie, geografie e appartenenze.Un attraversamento musicale che mette in relazione distanze e immaginari, generando connessioni e possibilità di incontro nello spazio condiviso della piazza, in risonanza con La Distance ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Kelly_B_0.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1536,29 +1800,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
-  },
-  {
-    "id": "38799a2f89",
-    "slug": "incontro-con-daria-deflorian-38799a2f89",
-    "title": "Incontro con Daria Deflorian",
-    "category": "theater",
-    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Daria_Deflorian.jpg",
-    "venueSlug": "piccolo-teatro",
-    "performances": [
-      {
-        "start": "2026-05-27T21:30:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026/incontro-con-daria-deflorian",
-    "source": {
-      "venue": "Piccolo Teatro di Milano",
-      "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
-    },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "16582270d7",
@@ -1566,6 +1810,7 @@
     "title": "SLOOOOOOW",
     "subtitle": "Teatro Studio Melato",
     "category": "theater",
+    "description": "Un processo di rallentamento coreografico e musicale per interrogarsi sul rapporto tra iperproduttività e memoria. Una massa di persone incarna un tempo impossibile – da 160 a 5 bpm – per trasformare una danza caffeinica in un pretesto meditativo. 28 - 30 maggio 2026 Teatro Studio Melato SLOOOOOOW – il tempo della festa è il processo di rallentamento coreografico e musicale che Parini Secondo e Bienoise hanno innescato per accedere a uno stato di sospensione. Una massa di persone incarna il precedente lavoro della compagnia SPEEED, e lo porta verso un tempo impossibile – da 160 a 5 bpm – per trasformare una danza caffeinica in un pretesto meditativo.SPEEED (2020) e SLOOOOOOW (2026) compongono un dittico. SPEEED nacque dalla genuina fascinazione provata per la Para Para e l’Eurobeat – uno stile di danza e un genere musicale ad altissima velocità, popolari nei club di Tokyo degli anni ’90. Parini e Bienoise hanno accolto un desiderio di rinnovamento, una spinta evolutiva sorti da un lavoro che ha rappresentato il loro sodalizio artistico e presso il quale custodiscono un particolare sentimento. SLOOOOOOW ne mette in scena il disfacimento, il graduale deteriorarsi di un vecchio video YouTube rallentato, che arriva a interrogare il rapporto tra ritmo dell’iperproduttività e quello della memoria. Durata: 45 minuti senza intervallo Biglietti 28Mag Ore 19:30 A partire da €32 29Mag Ore 19:30 A partire da €18 Promo 30Mag Ore 19:30 A partire da €21 Promo Mostra altre date SLOOOOOOW – i",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-03/Hero02_SLOOOOOOW.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1584,9 +1829,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "1b8f787a68",
@@ -1594,6 +1839,7 @@
     "title": "BREL",
     "subtitle": "Teatro Strehler",
     "category": "theater",
+    "description": "Anne Teresa De Keersmaeker e il giovane coreografo e danzatore Solal Mariotte abbracciano le canzoni di Jacques Brel in un intenso duetto ispirato alla poesia, alla straordinaria presenza scenica e all’espressività gestuale dell’artista belga. 28 - 30 maggio 2026 Teatro Strehler Come danzare quel monumento della canzone che è Jacques Brel, la cui musica attraversa intere generazioni? A raccogliere questa sfida sono la coreografa Anne Teresa De Keersmaeker e il giovane danzatore e coreografo Solal Mariotte, proveniente dalla breakdance. I testi delle canzoni dell’artista belga, densi, poetici e spesso politici, la straordinaria presenza scenica, l’espressività e la potenza gestuale evocano un’intera gamma di emozioni e atmosfere che la danzatrice e il danzatore tentano di esplorare e di mettere in movimento.«Il nostro obiettivo – spiega De Keersmaeker – era trovare un punto d’incontro. Non si tratta di “appropriarsi” di Jacques Brel, ma piuttosto di chiedersi come incarnarlo, come canalizzarne l’energia. Abbiamo prestato grande attenzione anche al suo sguardo sul mondo – la giustizia sociale, l’amore, le relazioni, le donne, la vecchiaia, l’infanzia, la famiglia, l’amicizia, la complicità – e a ciò che detestava, come la violenza di cui spesso cantava. I suoi testi esplorano temi legati all’identità, al rapporto con il proprio paese, ma anche al legame genitori-figli e alla tradizione. Ci siamo impegnati a confrontarci con questi argomenti, mantenendo però una distanza necessa",
     "image": "https://www.piccoloteatro.org/sites/default/files/2025-10/Hero_Brel.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1612,9 +1858,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "e167457aed",
@@ -1622,6 +1868,7 @@
     "title": "Chez BREL Jazz Club",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Giovedì 28 maggio e venerdì 29 maggio, alle 22, un viaggio musicale che attraversa brani iconici, restituendo tutta la profondità emotiva e la forza evocativa di un repertorio senza tempo. 28 - 29 maggio 2026 Sagrato Teatro Strehler Un trio jazz per un omaggio alla grande canzone d’autore francese, che entra in risonanza con lo spettacolo BREL di Anne Teresa De Keersmaeker e Solal Mariotte. Attilio Zanchi al contrabbasso, Nadio Marenco alla fisarmonica e Patrizia Di Malta alla voce danno vita a un trio di fuoriclasse per un appassionato omaggio alla grande canzone d’autore francese. Un viaggio musicale che attraversa brani iconici come Sous le ciel de Paris, Jardin d’hiver, Que reste-t-il, La vie en rose e Ne me quitte pas, restituendo tutta la profondità emotiva e la forza evocativa di un repertorio senza tempo. A cura di Cernusco Jazz.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Un trio jazz per un omaggio alla grande canzone d’autore francese, che entra in risonanza con lo spettacolo BREL di Anne Teresa De Keersmaeker e Solal Mariotte. Attilio Zanchi al contrabbasso, Nadio Marenco alla fisarmonica e Patrizia Di Malta alla voce danno vita a un trio di fuoriclasse per un appassionato omaggio alla grande canzone d’autore francese. Un viaggio musicale che attraversa brani iconici come Sous le ciel de Paris, Jardin d’hiver, Que reste-t-il, La vie en rose e Ne me quitte pas, restituendo tutta ",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Chez_BREL_Jazz_Club.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1637,9 +1884,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "d9d6fb11b2",
@@ -1647,6 +1894,7 @@
     "title": "Stormi. Traiettorie sulla Stagione #7 e #8",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Venerdì 29 maggio alle 18, sul Sagrato del Teatro Strehler, Claudio Longhi e Mariacristina Cavecchi presentano le uscite #7 e #8 del magazine Stormi. Traiettorie sulla Stagione, dedicate al Festival Presente Indicativo | Milano Crocevia. Moderano Maddalena Giovannelli e Camilla Lietti. 29 maggio 2026 Sagrato Teatro Strehler Alfabeto e codice, tempo e icona: quattro parole che attraversano il teatro come forme della memoria e del linguaggio. L'alfabeto rimanda alla possibilità di nominare e trasmettere esperienza; il codice introduce sistemi di regole, traduzione e controllo. Il tempo plasma il ritmo della scena, ne organizza le ripetizioni, i ritorni, le sospensioni; l'icona condensa immaginari collettivi, trasformando corpi e storie in figure capaci di sopravvivere al proprio tempo. A partire dai percorsi tracciati negli ultimi due numeri di Stormi, dedicati al Festival Presente Indicativo | Milano Crocevia, il dialogo tra il nostro Direttore Artistico Claudio Longhi e Mariacristina Cavecchi, docente di Teatro inglese presso l’Università degli Studi di Milano, propone una riflessione sulle modalità con cui il teatro contemporaneo attraversa la storia, costruisce linguaggi e rielabora le immagini della cultura condivisa.Moderano Maddalena Giovannelli e Camilla Lietti. Stormi è il magazine mensile curato dalla redazione di Stratagemmi - Prospettive Teatrali, realizzato da un gruppo di studentesse e studenti dell’Università degli Studi di Milano e illustrato dalle allieve e dag",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/hero_Stormi_7_8.png",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1658,15 +1906,16 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "73f6aeba98",
     "slug": "incontro-con-anne-teresa-de-keersmaeker-e-solal-mariotte-73f6aeba98",
     "title": "Incontro con Anne Teresa De Keersmaeker e Solal Mariotte",
     "category": "theater",
+    "description": "Venerdì 29 maggio, dopo lo spettacolo, Anne Teresa De Keersmaeker – nostra Artista associata – e Solal Mariotte, coreografi e protagonisti di BREL, dialogano con Graziano Graziani. 29 maggio 2026 La celebre coreografa Anne Teresa De Keersmaeker e il giovane danzatore e coreografo Solal Mariotte raccontano lo spettacolo BREL: un intenso duetto ispirato alla poesia, alle canzoni eterne, alla straordinaria presenza scenica e all’espressività gestuale di Jacques Brel. Un duo artistico in cui si incontrano due generazioni e due universi, per incarnare l'energia e i temi cari – la giustizia sociale, l’amore, le relazioni, le donne, la vecchiaia, l’infanzia, la famiglia, l’amicizia, la complicità – all’artista belga. Ingresso libero fino a esaurimento dei posti disponibili La celebre coreografa Anne Teresa De Keersmaeker e il giovane danzatore e coreografo Solal Mariotte raccontano lo spettacolo BREL: un intenso duetto ispirato alla poesia, alle canzoni eterne, alla straordinaria presenza scenica e all’espressività gestuale di Jacques Brel. Un duo artistico in cui si incontrano due generazioni e due universi, per incarnare l'energia e i temi cari – la giustizia sociale, l’amore, le relazioni, le donne, la vecchiaia, l’infanzia, la famiglia, l’amicizia, la complicità – all’artista belga. Ingresso libero fino a esaurimento dei posti disponibili",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Anne_Teresa_de_Keersmaeker_Solal_Mariotte.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1678,15 +1927,16 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "e30d2e33c3",
     "slug": "make-your-cardio-an-art-jump-rope-meetup-with-parini-secondo-powered-by-marcrope-e30d2e33c3",
     "title": "Make your cardio an art: Jump-rope meetup with Parini Secondo powered by MarcRope",
     "category": "theater",
+    "description": "Sabato 30 maggio alle 11, al Teatro Strehler (Sala prove Carpi), Make your cardio an art: Jump-rope meetup with Parini Secondo powered by MarcRope, una masterclass a cura di Parini Secondo e MarcRope team. 30 maggio 2026 Parini Secondo invita tutti coloro che vogliano sperimentare il salto della corda a un meetup, un laboratorio dedicato alla pratica atletica nella sua dimensione ritmica e sonora. In co-conduzione con gli atleti di MarcRope, il brand di corda più importante d’Italia, si introducono gli elementi base del salto della corda seguiti da esercizi d’ascolto, con un’attenzione mirata alla composizione ritmica. Le pratiche si basano sulla ricerca di Parini Secondo e sul loro spettacolo HIT OUT, in scena durante il Festival Presente Indicativo | Milano Crocevia il 26 e 27 maggio 2026 al Chiostro Nina Vinchi.Non è richiesta una preparazione atletica precisa. È consigliato l’utilizzo di scarpe da ginnastica e indumenti comodi.Puoi portare la tua corda: se non ne possiedi una, non ti preoccupare! Potrai provare le corde di MarcRope e scegliere quella più adatta a te.Ingresso gratuito con prenotazione obbligatoria su piccoloteatro.org, presso la biglietteria Teatro Strehler e tramite biglietteria telefonica. Consulta gli orari di apertura della biglietteria. Biglietti 30Mag Ore 11:00 Mostra altre date Parini Secondo invita tutti coloro che vogliano sperimentare il salto della corda a un meetup, un laboratorio dedicato alla pratica atletica nella sua dimensione ritmica e so",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Hero_Teatro_in_platea_PariniSecondo.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1698,9 +1948,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "ca1eba2959",
@@ -1708,6 +1958,7 @@
     "title": "Healing",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Sabato 30 maggio dalle 15 alle 19, un percorso di attività olistiche, a cura di Chiara Taviani per mare training, che richiama lo spettacolo SLOOOOOOW di Parini Secondo: un tempo lento e condiviso di ascolto, corpo e presenza, in cui rallentare il ritmo e abitare il presente. 30 maggio 2026 Sagrato Teatro Strehler Un invito ad abitare il presente attraverso pratiche che attivano energia, respiro e consapevolezza. Il percorso si ispira allo spettacolo SLOOOOOOW di Parini Secondo, che esplora la possibilità di rallentare come gesto radicale, capace di aprire nuove forme di percezione e relazione.Dalle 15 alle 16 Yoga della risata con Milano Che Ride; dalle 16 alle 17 Sound Healing con le Meraviglie Sonore di Sara Usai; dalle 17 alle 18 Silent Yoga con Chiara Taviani; e dalle 18 alle 19 Tai Chi con Verena Battilana del Centro Ricerche Tai Chi.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Un invito ad abitare il presente attraverso pratiche che attivano energia, respiro e consapevolezza. Il percorso si ispira allo spettacolo SLOOOOOOW di Parini Secondo, che esplora la possibilità di rallentare come gesto radicale, capace di aprire nuove forme di percezione e relazione.Dalle 15 alle 16 Yoga della risata con Milano Che Ride; dalle 16 alle 17 Sound Healing con le Meraviglie Sonore di Sara Usai; dalle 17 alle 18 Silent Yoga con Chiara Taviani; e dalle 18 alle 19 Tai Chi con Verena Battilana del Cent",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Healing.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1719,9 +1970,9 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
-    "rank": 65
+    "rank": 69
   },
   {
     "id": "fca39e357f",
@@ -1729,6 +1980,7 @@
     "title": "Grande Festa di Fine Festival",
     "subtitle": "Sagrato Teatro Strehler",
     "category": "theater",
+    "description": "Sabato 30 maggio dalle 22, una notte insieme a Parini Secondo, Vogo Beat Brass Band e Quilombo Tropical per festeggiare il Festival appena concluso. 30 maggio 2026 Sagrato Teatro Strehler Il festival si chiude come è iniziato: insieme, nella piazza. Un ultimo tempo in cui la scena si apre, si mescola alla città e diventa presenza, ritmo, relazione. Ad aprire la serata Parini Secondo, appena scese dal palco con SLOOOOOOW: un passaggio diretto dalla scena alla piazza, in cui l’energia si trasforma in azione condivisa. A seguire, il Sagrato si accende con la Vogo Beat Brass Band, che porta dal vivo l’energia della musica dance trasformandola in un’esperienza fisica, travolgente, tutta da ballare. Chiude la notte il Quilombo DJ SET, un flusso sonoro che attraversa ritmi globali e vibrazioni urbane. Tre momenti, un unico movimento: stare insieme, liberare energia, continuare.Ingresso liberoIn caso di maltempo, gli eventi Oltre la Scena | LaPiazza programmati sul Sagrato del Teatro Strehler sono annullati Il festival si chiude come è iniziato: insieme, nella piazza. Un ultimo tempo in cui la scena si apre, si mescola alla città e diventa presenza, ritmo, relazione. Ad aprire la serata Parini Secondo, appena scese dal palco con SLOOOOOOW: un passaggio diretto dalla scena alla piazza, in cui l’energia si trasforma in azione condivisa. A seguire, il Sagrato si accende con la Vogo Beat Brass Band, che porta dal vivo l’energia della musica dance trasformandola in un’esperienza fisica, t",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Grande_Festa_di_Fine_Festival.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -1740,9 +1992,144 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-05-26T10:08:33.034Z"
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
+    },
+    "rank": 69
+  },
+  {
+    "id": "2dc8ce9c1a",
+    "slug": "l-ultimo-nastro-di-krapp-quella-volta-2dc8ce9c1a",
+    "title": "L’ultimo nastro di Krapp / Quella volta",
+    "category": "theater",
+    "description": "Dopo il sorprendente GIORNI FELICI, Francesco Frongia progetta un nuovo affondo nel teatro di Beckett per raccontare il rapporto tra l’uomo e il tempo, tra l’artista e l’involuzione artistica. Protagonista è Ferdinando Bruni, chiamato a dare corpo e (soprattutto) voce ai personaggi di due testi – L’ULTIMO NASTRO DI KRAPP e QUELLA VOLTA. Ascoltare, guardare, ripetere. Krapp, una sorta di clown sinistro e solitario, si accinge a registrare l’ultimo nastro della sua vita. Nel giorno del suo compleanno, ogni volta, ritualmente, si registra per riascoltarsi nel corso degli anni. E poi ricomincia da capo. Per poter guardare con un «colpo d’occhio un vecchio me futuro», come fa dire Beckett al suo personaggio, per chiudere i conti con quello «stupido bastardo per cui mi prendevo trent’anni fa». Bruni e Frongia approfondiscono la sperimentazione sul suono e sull’ascolto con il secondo testo: QUELLA VOLTA è un'installazione di cui sono protagonisti un volto e una voce, che si moltiplicano e risuonano.\n\nCon Ferdinando Bruni.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2466.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-04-08T20:00:00.000Z",
+        "end": "2026-05-17T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/l-ultimo-nastro-di-krapp.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 67
+  },
+  {
+    "id": "13f0ef6105",
+    "slug": "incontro-con-caroline-guiela-nguyen-13f0ef6105",
+    "title": "Incontro con Caroline Guiela Nguyen",
+    "category": "theater",
+    "description": "Sabato 16 maggio, dopo lo spettacolo, Caroline Guiela Nguyen, regista di Valentina, presenta il suo libro Teatro (Il Saggiatore, 2026). 16 maggio 2026 La nostra Artista associata Caroline Guiela Nguyen, regista di Valentina, presenta il suo libro Teatro (Il Saggiatore, 2026), in dialogo con Chiara Elefante e Graziano Graziani. Ingresso gratuito fino a esaurimento dei posti disponibili La nostra Artista associata Caroline Guiela Nguyen, regista di Valentina, presenta il suo libro Teatro (Il Saggiatore, 2026), in dialogo con Chiara Elefante e Graziano Graziani. Ingresso gratuito fino a esaurimento dei posti disponibili",
+    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Caroline_Guiela_Nguyen.jpg",
+    "venueSlug": "piccolo-teatro",
+    "performances": [
+      {
+        "start": "2026-05-16T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/incontro-con-caroline-guiela-nguyen",
+    "source": {
+      "venue": "Piccolo Teatro di Milano",
+      "url": "https://www.piccoloteatro.org/it/calendar",
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
     },
     "rank": 65
+  },
+  {
+    "id": "2a1d8ab672",
+    "slug": "orgasmo-2a1d8ab672",
+    "title": "Orgasmo",
+    "subtitle": "Teatro Studio Melato",
+    "category": "theater",
+    "description": "L’ultimo orgasmo avrà luogo sulla Terra a settembre del 2030. A stabilirlo è l’agenda politica dell’Unione Europea. Che cosa è successo, a questo nostro mondo, se ovunque dilaga la crisi del desiderio? La risposta è nello spettacolo di Niccolò Fettarappa, classe 1996: l’ufficio ha preso il posto dell’orgasmo e l’unico piacere ammesso è quello lavorativo. 21 - 22 maggio 2026 Teatro Studio Melato Ironico, surreale, caustico, inquietante. Dopo sei recite da tutto esaurito a marzo 2026, Orgasmo di Niccolò Fettarappa – autore, attore e regista classe 1996 – torna al Piccolo nell’ambito del Festival Presente Indicativo.In uno scenario in cui l’agenda dell’Unione Europea ha stabilito che entro il 2030 avrà luogo l’ultimo orgasmo sulla terra, l’Italia viene invasa da un’orda di orsi, dagli smodati appetiti sessuali. Una coppia in crisi sopravvive all’inerzia di inutili e spenti pomeriggi, leggendo giornali e facendo ginnastica in salotto, mentre un giornalista e uno zoologo incaricato dal governo fanno luce sul mistero degli orsi…«Non si fa più sesso – dichiara Fettarappa – lo dicono le statistiche e io posso confermarlo. A constatarlo sono psicologi, psichiatri, sociologi. Un’epidemia di pigrizia sessuale, una inedita e preoccupante crisi del desiderio che colpisce principalmente le coppie di giovani amanti. Cosa è successo? Questa rapida deflazione dell’eccitazione va di pari passo con l’aumento del consumo di narcotici, antidepressivi o farmaci stimolanti che rendono più prestanti",
+    "image": "https://www.piccoloteatro.org/sites/default/files/2026-02/Posata_Hero_Orgasmo_1.jpg",
+    "venueSlug": "piccolo-teatro",
+    "performances": [
+      {
+        "start": "2026-05-21T19:30:00.000Z"
+      },
+      {
+        "start": "2026-05-22T20:30:00.000Z",
+        "end": "2026-05-22T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026/orgasmo-festival-presente-indicativo",
+    "source": {
+      "venue": "Piccolo Teatro di Milano",
+      "url": "https://www.piccoloteatro.org/it/calendar",
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
+    },
+    "rank": 65
+  },
+  {
+    "id": "a705911f60",
+    "slug": "incontro-con-niccolo-fettarappa-a705911f60",
+    "title": "Incontro con Niccolò Fettarappa",
+    "subtitle": "Teatro Studio Melato",
+    "category": "theater",
+    "description": "Giovedì 21 maggio, dopo lo spettacolo, Niccolò Fettarappa, regista di Orgasmo, presenta la sua nuova pubblicazione in dialogo con Graziano Graziani. 21 maggio 2026 Teatro Studio Melato Il nostro Artista associato Niccolò Fettarappa, regista di Orgasmo, presenta la sua pubblicazione Orgasmo. Prosa dispiaciuta sulla fine del sesso (Luca Sossella editore, 2026), in dialogo con Graziano Graziani.Ingresso gratuito fino a esaurimento dei posti disponibiliPer questo appuntamento è attivo un servizio di traduzione automatica in italiano e in inglese tramite tecnologia Converso®. Inquadrando il QR code dedicato, è possibile seguire l’evento dal proprio dispositivo mobile, tramite sottotitoli o ascolto in cuffia (per quest’ultima modalità è richiesto l’uso di cuffie personali). Il nostro Artista associato Niccolò Fettarappa, regista di Orgasmo, presenta la sua pubblicazione Orgasmo. Prosa dispiaciuta sulla fine del sesso (Luca Sossella editore, 2026), in dialogo con Graziano Graziani.Ingresso gratuito fino a esaurimento dei posti disponibiliPer questo appuntamento è attivo un servizio di traduzione automatica in italiano e in inglese tramite tecnologia Converso®. Inquadrando il QR code dedicato, è possibile seguire l’evento dal proprio dispositivo mobile, tramite sottotitoli o ascolto in cuffia (per quest’ultima modalità è richiesto l’uso di cuffie personali).",
+    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Niccolo_Fettarappa.jpg",
+    "venueSlug": "piccolo-teatro",
+    "performances": [
+      {
+        "start": "2026-05-21T21:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.piccoloteatro.org/it/events/2025-2026/incontro-con-niccolo-fettarappa",
+    "source": {
+      "venue": "Piccolo Teatro di Milano",
+      "url": "https://www.piccoloteatro.org/it/calendar",
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
+    },
+    "rank": 65
+  },
+  {
+    "id": "38799a2f89",
+    "slug": "incontro-con-daria-deflorian-38799a2f89",
+    "title": "Incontro con Daria Deflorian",
+    "category": "theater",
+    "description": "Mercoledì 27 maggio, dopo lo spettacolo, la nostra Artista associata Daria Deflorian dialoga con Graziano Graziani. 27 maggio 2026 La nostra Artista associata Daria Deflorian, regista di Che dolore terribile è l’amore – Work in progress, dialoga con Graziano Graziani sul suo nuovo lavoro, ispirato al romanzo Non dico addio di Han Kang. I fatti riguardano la rivolta del 1948 sull’isola di Jeju, in Corea del Sud, quando trentamila civili sono stati uccisi. Una ferita mai sanata che continua a tormentare due amiche, proprio come aveva tormentato la madre di una di loro.Ingresso gratuito fino a esaurimento dei posti disponibiliPer questo appuntamento è attivo un servizio di traduzione automatica in italiano e in inglese tramite tecnologia Converso®. Inquadrando il QR code dedicato, è possibile seguire l’evento dal proprio dispositivo mobile, tramite sottotitoli o ascolto in cuffia (per quest’ultima modalità è richiesto l’uso di cuffie personali). La nostra Artista associata Daria Deflorian, regista di Che dolore terribile è l’amore – Work in progress, dialoga con Graziano Graziani sul suo nuovo lavoro, ispirato al romanzo Non dico addio di Han Kang. I fatti riguardano la rivolta del 1948 sull’isola di Jeju, in Corea del Sud, quando trentamila civili sono stati uccisi. Una ferita mai sanata che continua a tormentare due amiche, proprio come aveva tormentato la madre di una di loro.Ingresso gratuito fino a esaurimento dei posti disponibiliPer questo appuntamento è attivo un servizi",
+    "image": "https://www.piccoloteatro.org/sites/default/files/2026-05/Daria_Deflorian.jpg",
+    "venueSlug": "piccolo-teatro",
+    "performances": [
+      {
+        "start": "2026-05-27T21:30:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.piccoloteatro.org/it/2025-2026/incontro-con-daria-deflorian",
+    "source": {
+      "venue": "Piccolo Teatro di Milano",
+      "url": "https://www.piccoloteatro.org/it/calendar",
+      "scrapedAt": "2026-05-27T09:37:32.216Z"
+    },
+    "rank": 65
+  },
+  {
+    "id": "35196a9c1b",
+    "slug": "dentro-la-tela-35196a9c1b",
+    "title": "DENTRO LA TELA",
+    "subtitle": "Indagine su Artemisia",
+    "category": "theater",
+    "description": "Cinzia Spanò, dopo i successi di TUTTO QUELLO CHE VOLEVO e ESAGERATE, prosegue la sua indagine sul femminile con questo spettacolo che ci accompagna DENTRO LA TELA della cultura patriarcale. E dentro la vita di una donna, una professionista affermata e sicura di sé che sarà costretta a ribaltare le proprie convinzioni e a reinventarsi radicalmente. Mara Landolfi, la protagonista dello spettacolo, ha fatto della costruzione di processi mediatici il suo mestiere. Ideatrice e conduttrice di una trasmissione televisiva, affronta casi di cronaca e vicende giudiziarie che hanno per protagonisti uomini sospettati o accusati di diversi reati. Il suo compito è sottile quanto spietato: manipolare la percezione pubblica attraverso i social e la TV, ripulendo l’immagine dei suoi ospiti. Tutto cambia quando si trova di fronte a un uomo del suo passato e quello che sembrava l’ennesimo cliente da ‘riabilitare’ si trasforma in un corto circuito personale. Per trovare la verità, la protagonista sarà costretta ad abbandonare le certezze del presente per immergersi letteralmente dentro la tela di un celebre dipinto di Artemisia Gentileschi. Il confronto con l’opera e la vita della pittrice seicentesca – vittima di un processo per stupro e di una cultura volta a screditarla – diventa lo specchio in cui Mara vede riflessi i pregiudizi che ancora oggi alimentano la disparità di genere. Lo spettacolo è il nucleo di partenza del progetto DENTRO LA TELA DEL PATRIARCATO, realizzato dal Teatro dell'Elf\n\nCon Cinzia Spanò.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2513.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-07T20:00:00.000Z",
+        "end": "2026-05-31T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/dentro-la-tela.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 64
   },
   {
     "id": "d88b9ac23e",
@@ -1762,7 +2149,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 64
   },
@@ -1786,9 +2173,32 @@
     "source": {
       "venue": "teatro-argentina",
       "url": "https://www.teatrodiroma.net/",
-      "scrapedAt": "2026-05-26T10:08:52.838Z"
+      "scrapedAt": "2026-05-27T09:47:09.110Z"
     },
     "rank": 63
+  },
+  {
+    "id": "12dc0762bd",
+    "slug": "quentin-crisp-12dc0762bd",
+    "title": "Quentin Crisp",
+    "subtitle": "La speranza è nuda",
+    "category": "theater",
+    "description": "La vita di Quentin Crisp, icona gay nel mondo anglosassone: dagli anni difficili trascorsi a Londra agli irresistibili one man show in cui si esibiva a New York. Tra aforismi e paradossi, Toracca è l’interprete perfetto per farci conoscere questo personaggio sorprendente, inedito e soavemente rivoluzionario.\n\nCon Luca Toracca.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2479.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-03T20:00:00.000Z",
+        "end": "2026-06-19T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/quentin-crisp.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 62
   },
   {
     "id": "6bac9b69e3",
@@ -1808,7 +2218,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-26T10:08:50.000Z"
+      "scrapedAt": "2026-05-27T09:47:05.623Z"
     },
     "rank": 61
   },
@@ -1830,7 +2240,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 61
   },
@@ -1852,7 +2262,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-26T10:08:50.000Z"
+      "scrapedAt": "2026-05-27T09:47:05.623Z"
     },
     "rank": 61
   },
@@ -1874,7 +2284,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-26T10:08:50.000Z"
+      "scrapedAt": "2026-05-27T09:47:05.623Z"
     },
     "rank": 61
   },
@@ -1896,54 +2306,9 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-05-26T10:08:50.000Z"
+      "scrapedAt": "2026-05-27T09:47:05.623Z"
     },
     "rank": 61
-  },
-  {
-    "id": "2dc8ce9c1a",
-    "slug": "l-ultimo-nastro-di-krapp-quella-volta-2dc8ce9c1a",
-    "title": "L’ultimo nastro di Krapp / Quella volta",
-    "category": "theater",
-    "description": "Con Ferdinando Bruni.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2466.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-04-08T20:00:00.000Z",
-        "end": "2026-05-17T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/l-ultimo-nastro-di-krapp.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 60
-  },
-  {
-    "id": "35196a9c1b",
-    "slug": "dentro-la-tela-35196a9c1b",
-    "title": "DENTRO LA TELA",
-    "subtitle": "Indagine su Artemisia",
-    "category": "theater",
-    "description": "Con Cinzia Spanò.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2513.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-07T20:00:00.000Z",
-        "end": "2026-05-31T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/dentro-la-tela.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 60
   },
   {
     "id": "12c13d3120",
@@ -1963,7 +2328,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 60
   },
@@ -1985,32 +2350,165 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 60
   },
   {
-    "id": "12dc0762bd",
-    "slug": "quentin-crisp-12dc0762bd",
-    "title": "Quentin Crisp",
-    "subtitle": "La speranza è nuda",
+    "id": "9b647c866b",
+    "slug": "tre-sorelle-9b647c866b",
+    "title": "TRE SORELLE",
+    "subtitle": "NEVICA. CHE SENSO HA?",
     "category": "theater",
-    "description": "Con Luca Toracca.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2479.jpg",
+    "description": "Tre sorelle Nevica. Che senso ha? da Anton Čechov testo e regia di Liv Ferracchiati dramaturg Piera Mungiguerra consulenza letteraria Margherita Crepax con (in o.a.) Francesco Aricò, Valentina Bartolo, Giovanni Battaglia, Giordana Faggiano, Rosario Lisma, Riccardo Martone, Antonio Mingarelli, Marco Quaglia, Livia Rossi, Irene Villa scene Giuseppe Stellatocostumi Gianluca Sbicca luci Pasquale Marisuono Giacomo Agnifili aiuto regia Adele Di Bella assistente regia Giovanni Migliettiassistente ai costumi Rossana Gea Cavallo produzione Teatro Stabile Torino - Teatro Nazionale\n\nCon Liv Ferracchiati.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2511.jpg",
     "venueSlug": "teatro-elfo-puccini",
     "performances": [
       {
-        "start": "2026-06-03T20:00:00.000Z",
-        "end": "2026-06-19T23:59:00.000Z"
+        "start": "2026-05-12T20:00:00.000Z",
+        "end": "2026-05-17T23:59:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/quentin-crisp.htm",
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle.htm",
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
     },
-    "rank": 58
+    "rank": 59
+  },
+  {
+    "id": "eff2cfbfb8",
+    "slug": "leo-kottke-eff2cfbfb8",
+    "title": "LEO KOTTKE",
+    "subtitle": "evento annullato",
+    "category": "theater",
+    "description": "Leo Kottke nasce ad Athens, in Georgia, ma lascia la città dopo un anno e mezzo per spostarsi in dodici stati diversi durante l’infanzia. Durante questo lungo viaggio assorbe un’immensa varietà di influenze musicali, cimentandosi con violino e trombone prima di decidere di abbandonare Stravinsky e imbracciare una chitarra all'età di 11 anni. Dopo aver sviluppato un amore per il country-blues di Mississippi John Hurt, accanto alla musica di John Phillip Sousa e Preston Epps, Kottke si stabilisce nell'area delle Twin Cities e diventa una presenza fissa allo Scholar Coffeehouse di Minneapolis, frequentato anche da Bob Dylan e John Koerner. Dopo aver inviato delle registrazioni al chitarrista John Fahey, Kottke firma un contratto con la sua etichetta Takoma e pubblica quello che è diventato noto come il disco Armadillo. Fahey e il suo manager, Denny Bruce, ottengono presto un accordo di produzione per Kottke con la Capitol Records, e in quel periodo Kottke affina la sua tecnica chitarristica e inizia a collaborare con altri artisti. Con Chewing Pine (1975), Kottke raggiunge la Top 30 negli Stati Uniti per la seconda volta. La sua collaborazione con il bassista dei Phish Mike Gordon nell'album Clone, attira l'attenzione del pubblico nel 2002. Kottke e Gordonproseguono la loro collaborazione con una registrazione alle Bahamas intitolata Sixty Six Steps, prodotta dal vecchio amico di Leo e produttore di Prince, David Z. Kottke ha ricevuto due nomination ai Grammy e un Dottorato in M\n\nCon Barley Arts presenta.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2457.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-05-25T21:00:00.000Z",
+        "end": "2026-05-25T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/leo-kottke.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "3447f1ea13",
+    "slug": "de-frammentazione-di-dramma-assoluto-3447f1ea13",
+    "title": "De/frammentazione di dramma assoluto",
+    "category": "theater",
+    "description": "De/frammentazione di dramma assoluto con incursioni a latere di io epico ovvero una storia di impossibilità drammaturgia Fabio Pisano regia Michele Segreto con Francesca Borriero, Michele Magni, Roberto Marinelli, Irene Latronico assistente alla regia Irene Latronico costumi Alessandra Faienza light design Martino Minzoni produzione servomutoTeatro in collaborazione con Liberaimago con il sostegno di AMAT – Associazione Marchigiana Attività Teatrali, in collaborazione con RAM – Residenze Artistiche Marchigiane, progetto promosso da MiC e Regione Marche con il supporto del progetto di residenza artistica Teatro Le Forche – Futuro Prossimo Venturo 2024, con il sostengo di Circuito CLAPS/IntercettAzioni si ringrazia NEST Napoli Est Teatro\n\nCon servomutoTeatro.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2515.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-09T20:00:00.000Z",
+        "end": "2026-06-14T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/de-frammentazione.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "92efbb585a",
+    "slug": "giusto-92efbb585a",
+    "title": "GIUSTO",
+    "category": "theater",
+    "description": "Giusto di e con Rosario Lisma aiuto regia Alessia Donadio illustrazioni Gregorio Giannotta costumi Daniela De Blasio produzione Fondazione Luzzati Teatro della Tosse si ringrazia Comasia Palazzo per i movimenti coreografici\n\nCon Rosario Lisma.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2478.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-09T20:00:00.000Z",
+        "end": "2026-06-11T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "e2f7e1b732",
+    "slug": "giusto-e2f7e1b732",
+    "title": "GIUSTO",
+    "category": "theater",
+    "description": "Giusto di e con Rosario Lisma aiuto regia Alessia Donadio illustrazioni Gregorio Giannotta costumi Daniela De Blasio produzione Fondazione Luzzati Teatro della Tosse si ringrazia Comasia Palazzo per i movimenti coreografici\n\nCon Anteprima Under 30.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2622.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-09T20:30:00.000Z",
+        "end": "2026-06-09T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto-under30.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "48ca0f0519",
+    "slug": "bouquet-of-madness-48ca0f0519",
+    "title": "Bouquet of Madness",
+    "category": "theater",
+    "description": "Bouquet of Madness ha da poco superato quota 160 episodi, confermandosi una delle realtà più amate e riconoscibili del panorama true crime italiano. A questo si aggiunge l’esperienza della serie dedicata su Prime, Cold/Open, che ha portato Federica e Martina a un pubblico ancora più vasto e trasversale, consolidando ulteriormente la loro presenza nel mondo dell’intrattenimento, oltre al romanzo Spinascura (Mondadori, 2024) e il nuovissimo progetto video BOM Voyage attualmente in fase di lavorazione. Bouquet of Madness – per gli amici BOM – è un podcast di true crime che esplora casi misteriosi e irrisolti con un approccio unico e personale. Nato durante il lockdown dal desiderio di Federica e Martina di creare qualcosa insieme dopo anni di amicizia, il progetto prende ispirazione da podcast internazionali come My Favorite Murder di Karen Kilgariff e Georgia Hardstark, rielaborandone lo spirito in chiave originale, intima e profondamente rispettosa. Le due creatrici si avvicinano al crime da prospettive diverse: Martina ama calarsi nel buio e guardare l’orrore negli occhi, mentre Federica lo affronta da controfobica, con una paura particolare per i serial killer. Entrambe provengono dal mondo di YouTube e negli anni hanno attraversato media e piattaforme multiple: un bagaglio poliedrico che oggi dà forma a BOM, il punto d'incontro tra terrore e leggerezza, tra paura e comprensione, sempre nel rispetto delle vittime e delle loro storie. Il nuovo tour sarà l’occasione perfetta p\n\nCon Barley Arts presenta.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2686.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-12T21:00:00.000Z",
+        "end": "2026-06-12T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/bouquet-of-madness.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "6ebc4cd170",
+    "slug": "rette-parallele-sono-l-amore-e-la-morte-6ebc4cd170",
+    "title": "RETTE PARALLELE SONO L'AMORE E LA MORTE",
+    "category": "theater",
+    "description": "Rette parallele sono l'amore e la morte di e con Oscar De Summa progetto luci e scene Matteo Gozziprogetto sonoro Oscar De Summa produzione Atto Due ETS, Emilia Romagna Teatro ERT / Teatro Nazionalecon il contributo di GialloMare Minimal Teatro, Fondazione Armunia, Pimoff Milano, ATER Fondazione\n\nCon Oscar De Summa.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2516.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-06-15T20:00:00.000Z",
+        "end": "2026-06-19T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/rette-parallele-sono-l-amore-e-la-morte.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
+    },
+    "rank": 59
   },
   {
     "id": "d25d761271",
@@ -2030,7 +2528,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 57
   },
@@ -2052,7 +2550,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 57
   },
@@ -2074,62 +2572,16 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-05-26T10:08:33.736Z"
+      "scrapedAt": "2026-05-27T09:37:56.279Z"
     },
     "rank": 57
-  },
-  {
-    "id": "9b647c866b",
-    "slug": "tre-sorelle-9b647c866b",
-    "title": "TRE SORELLE",
-    "subtitle": "NEVICA. CHE SENSO HA?",
-    "category": "theater",
-    "description": "Con Liv Ferracchiati.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2511.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-12T20:00:00.000Z",
-        "end": "2026-05-17T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "dba7098d94",
-    "slug": "tre-sorelle-dba7098d94",
-    "title": "TRE SORELLE",
-    "subtitle": "NEVICA. CHE SENSO HA?",
-    "category": "theater",
-    "description": "Con Anteprima Under 30.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2682.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-12T20:30:00.000Z",
-        "end": "2026-05-12T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/tre-sorelle-under30.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
   },
   {
     "id": "612f91a76f",
     "slug": "casanova-612f91a76f",
     "title": "CASANOVA",
     "category": "theater",
-    "description": "Con Sandro Lombardi.",
+    "description": "Casanova di Fabrizio Sinisiliberamente ispirato a Storia della mia vita di Giacomo Casanova regia Fabio Condemi con Sandro Lombardie con (in ordine alfabetico) Marco Cavalcoli, Simona De Leo, Alberto Marcello, Betti Pedrazzi e Filippo Boncinelli scene e drammaturgia dell’immagine Fabio Cherstichcostumi Gianluca Sbicca disegno luci Giulia Pastoremusiche e sound design Andrea Gianessi produzione LAC Lugano Arte e Culturain coproduzione con Emilia Romagna Teatro ERT / Teatro Nazionale, TPE - Teatro Piemonte Europa, Compagnia Lombardi-Tiezzi, Teatro Vascello\n\nCon Sandro Lombardi.",
     "image": "https://www.elfo.org/static/images/spettacoli/462x260/2512.jpg",
     "venueSlug": "teatro-elfo-puccini",
     "performances": [
@@ -2142,30 +2594,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "eff2cfbfb8",
-    "slug": "leo-kottke-eff2cfbfb8",
-    "title": "LEO KOTTKE",
-    "subtitle": "evento annullato",
-    "category": "theater",
-    "description": "Con Barley Arts presenta.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2457.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-05-25T21:00:00.000Z",
-        "end": "2026-05-25T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/leo-kottke.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
     },
     "rank": 55
   },
@@ -2175,7 +2604,7 @@
     "title": "ARRIVANO I DUNQUE",
     "subtitle": "(Avannotti, sole Blu e la storia della giovane Saracinesca)",
     "category": "theater",
-    "description": "Con Alessandro Bergonzoni.",
+    "description": "I tempi sono colmi, i Dunque stanno arrivando. Bergonzoni corre, intorno al tavolo, unico elemento in scena, e intorno alla platea, perché non c’è più tempo da perdere, ma lui non vorrebbe lasciare indietro nessuno. Nel suo ultimo capolavoro ci chiede di «non coprire la distanza, ma scoprire la vicinanza, non infrangere le regole, ma rifrangere nuove regole».\n\nCon Alessandro Bergonzoni.",
     "image": "https://www.elfo.org/static/images/spettacoli/462x260/2477.jpg",
     "venueSlug": "teatro-elfo-puccini",
     "performances": [
@@ -2188,7 +2617,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
     },
     "rank": 55
   },
@@ -2197,7 +2626,7 @@
     "slug": "a-volo-d-angelo-cd16347278",
     "title": "A VOLO D’ANGELO",
     "category": "theater",
-    "description": "Con Cottini/Canzi.",
+    "description": "Crazy Bosnian guy è una guida turistica e ci accompagna per le strade della sua città, Mostar, nel sud della Bosnia Erzegovina. È un personaggio loquace, sopra le righe: il suo soprannome, se l'è guadagnato sul campo. Mentre il tour procede, veniamo risucchiati nel turbine dei ricordi. Crazy Bosnian guy negli anni Novanta era un ventenne: la guerra nei Balcani è viva nella sua memoria. Ci parla della ricchezza della Jugoslavia di Tito, del crollo della confederazione, dell'avvento di governi instabili, del sentimento jugonostalgico. E della situazione attuale, definita dagli stessi abitanti 'una polveriera pronta ad esplodere'. Perché interessarci a una storia in apparenza distante da noi? Ricordare, oggi, ha ancora un senso? A VOLO D'ANGELO è lo spettacolo vincitore del “FringeMi Festival” Milano, 2025.\n\nCon Cottini/Canzi.",
     "image": "https://www.elfo.org/static/images/spettacoli/462x260/2578.jpg",
     "venueSlug": "teatro-elfo-puccini",
     "performances": [
@@ -2210,117 +2639,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "3447f1ea13",
-    "slug": "de-frammentazione-di-dramma-assoluto-3447f1ea13",
-    "title": "De/frammentazione di dramma assoluto",
-    "category": "theater",
-    "description": "Con servomutoTeatro.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2515.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-09T20:00:00.000Z",
-        "end": "2026-06-14T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/de-frammentazione.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "92efbb585a",
-    "slug": "giusto-92efbb585a",
-    "title": "GIUSTO",
-    "category": "theater",
-    "description": "Con Rosario Lisma.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2478.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-09T20:00:00.000Z",
-        "end": "2026-06-11T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "e2f7e1b732",
-    "slug": "giusto-e2f7e1b732",
-    "title": "GIUSTO",
-    "category": "theater",
-    "description": "Con Anteprima Under 30.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2622.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-09T20:30:00.000Z",
-        "end": "2026-06-09T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/giusto-under30.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "48ca0f0519",
-    "slug": "bouquet-of-madness-48ca0f0519",
-    "title": "Bouquet of Madness",
-    "category": "theater",
-    "description": "Con Barley Arts presenta.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2686.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-12T21:00:00.000Z",
-        "end": "2026-06-12T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/bouquet-of-madness.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
-    },
-    "rank": 55
-  },
-  {
-    "id": "6ebc4cd170",
-    "slug": "rette-parallele-sono-l-amore-e-la-morte-6ebc4cd170",
-    "title": "RETTE PARALLELE SONO L'AMORE E LA MORTE",
-    "category": "theater",
-    "description": "Con Oscar De Summa.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2516.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-06-15T20:00:00.000Z",
-        "end": "2026-06-19T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2025-2026/rette-parallele-sono-l-amore-e-la-morte.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
     },
     "rank": 55
   },
@@ -2329,7 +2648,7 @@
     "slug": "wonder-woman-d6084618e7",
     "title": "WONDER WOMAN",
     "category": "theater",
-    "description": "Con Antonio Latella.",
+    "description": "Un caso reale di stupro. Ancona, 2015. La protagonista, una Wonder Woman moderna, rappresentata da quattro attrici, combatte contro un sistema ingiusto, mettendo a nudo le distorsioni della verità attraverso un racconto intenso e ininterrotto.\n\nCon Antonio Latella.",
     "image": "https://www.elfo.org/static/images/spettacoli/462x260/2525.jpg",
     "venueSlug": "teatro-elfo-puccini",
     "performances": [
@@ -2342,9 +2661,75 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-05-26T10:08:34.787Z"
+      "scrapedAt": "2026-05-27T09:37:58.992Z"
     },
     "rank": 55
+  },
+  {
+    "id": "ccfea2ae94",
+    "slug": "il-piccolo-principe-ccfea2ae94",
+    "title": "Il Piccolo Principe",
+    "category": "theater",
+    "description": "“IL PICCOLO PRINCIPE” è una storia che tutti conoscono ma nessuno ricorda. Questa è la prova che il concetto che ribadisce l’autore corrisponde a verità: gli adulti non pensano mai alle cose veramente importanti. Quali sono le cose importanti? Sono quelle che gli adulti ci hanno insegnato da bambini e che abbiamo dimenticato diventando adulti. Spetta quindi al Piccolo Principe, eterno bambino, rinfrescarci la memoria. Proprio come sosteneva lo stesso Antoine de Saint-Exupéry, le immagini aiutano a non dimenticare, a rendere reale ciò che, se fosse solo raccontato, non sarebbe creduto. Un pensiero molto attuale, estremamente all’avanguardia in un’epoca in cui ancora la fotografia era agli albori, quasi a predire l’importanza che essa, un secolo dopo, avrebbe iniziato ad avere nelle vite di ciascuno di noi. Fedele allo stile dell’opera originale, Stefano Genovese ha deciso di non lasciare solo alle parole il ruolo centrale, ma di affidare il racconto all’immaginazione, traducendolo in un’esperienza evocativa che solo il teatro, per sua stessa natura, è in grado di restituire. Un’esperienza che combina il racconto, la musica, il canto, il circo e il teatro performativo per dar vita ad uno show senza precedenti. Ogni scena, ogni personaggio, ogni snodo della storia, ogni elemento attinge allo strumento più adatto per arrivare alla destinazione finale: il cuore di ogni spettatore. Una rivisitazione unica nel suo genere di un classico senza tempo, amato da adulti e bambini per gene",
+    "image": "https://teatrocarcano.com/images/events/horizontal/622_half.jpg?NC=20260527114649",
+    "venueSlug": "teatro-carcano",
+    "performances": [
+      {
+        "start": "2026-10-29T19:30:00.000Z"
+      },
+      {
+        "start": "2026-10-30T19:30:00.000Z"
+      },
+      {
+        "start": "2026-10-31T16:00:00.000Z"
+      },
+      {
+        "start": "2026-10-31T20:30:00.000Z"
+      },
+      {
+        "start": "2026-11-01T15:00:00.000Z"
+      },
+      {
+        "start": "2026-11-05T19:30:00.000Z"
+      },
+      {
+        "start": "2026-11-06T19:30:00.000Z"
+      },
+      {
+        "start": "2026-11-07T16:00:00.000Z"
+      },
+      {
+        "start": "2026-11-07T20:30:00.000Z"
+      },
+      {
+        "start": "2026-11-08T15:00:00.000Z"
+      },
+      {
+        "start": "2026-11-12T19:30:00.000Z"
+      },
+      {
+        "start": "2026-11-13T19:30:00.000Z"
+      },
+      {
+        "start": "2026-11-14T16:00:00.000Z"
+      },
+      {
+        "start": "2026-11-14T20:30:00.000Z"
+      },
+      {
+        "start": "2026-11-15T15:00:00.000Z",
+        "end": "2026-11-15T18:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrocarcano.com/eventi/il-piccolo-principe-2627.htm",
+    "priceFrom": 37,
+    "priceCurrency": "EUR",
+    "source": {
+      "venue": "Teatro Carcano",
+      "url": "https://teatrocarcano.com/rassegne/stagione-26-27.htm",
+      "scrapedAt": "2026-05-27T09:46:46.912Z"
+    },
+    "rank": 54
   },
   {
     "id": "3040e4a0bf",
@@ -2363,7 +2748,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2384,7 +2769,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2405,7 +2790,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 53
   },
@@ -2426,7 +2811,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2447,7 +2832,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2468,7 +2853,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2489,7 +2874,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2510,28 +2895,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
-    },
-    "rank": 53
-  },
-  {
-    "id": "cf3bc6d4fc",
-    "slug": "il-piccolo-principe-cf3bc6d4fc",
-    "title": "Il Piccolo Principe",
-    "category": "theater",
-    "image": "https://teatrocarcano.com/images/events/horizontal/622_half.jpg?NC=20260526120517",
-    "venueSlug": "teatro-carcano",
-    "performances": [
-      {
-        "start": "2026-10-29T20:00:00.000Z",
-        "end": "2026-11-15T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrocarcano.com/eventi/il-piccolo-principe-2627.htm",
-    "source": {
-      "venue": "Teatro Carcano",
-      "url": "https://teatrocarcano.com/rassegne/stagione-26-27.htm",
-      "scrapedAt": "2026-05-26T10:08:37.426Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2552,7 +2916,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
@@ -2573,28 +2937,34 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-05-26T10:08:36.429Z"
+      "scrapedAt": "2026-05-27T09:46:43.631Z"
     },
     "rank": 53
   },
   {
-    "id": "27dae742f0",
-    "slug": "francesco-27dae742f0",
+    "id": "a81177d0b7",
+    "slug": "francesco-a81177d0b7",
     "title": "Francesco",
     "category": "theater",
-    "image": "https://teatrocarcano.com/images/events/horizontal/623_half.jpg?NC=20260526120517",
+    "description": "Nel 2026 l'Italia celebrerà il suo santo patrono, \"il più italiano dei santi\": San Francesco, morto 800 anni fa. Aldo Cazzullo e Angelo Branduardi raccontano la storia del santo, anzi le storie. Il San Francesco della devozione: il lupo, la predica agli uccelli, le stimmate. Il San Francesco della storia: la conversione, la spoliazione, il rapporto con il Papa, la nascita dell'ordine, la crociata, l'incontro con il sultano. Il San Francesco poeta: il Cantico delle Creature. I grandi francescani, dai terziari – Dante, Colombo – ai santi: Sant'Antonio, Padre Pio. Fino al primo Papa chiamato Francesco. Attraverso parole, musiche, immagini, torna la figura di un santo meraviglioso, e si ricostruisce un tassello prezioso dell'identità italiana.",
+    "image": "https://teatrocarcano.com/images/events/horizontal/623_half.jpg?NC=20260527114649",
     "venueSlug": "teatro-carcano",
     "performances": [
       {
-        "start": "2026-10-03T20:00:00.000Z",
-        "end": "2026-10-04T23:59:00.000Z"
+        "start": "2026-10-03T20:30:00.000Z"
+      },
+      {
+        "start": "2026-10-04T20:30:00.000Z",
+        "end": "2026-10-04T23:30:00.000Z"
       }
     ],
     "ticketUrl": "https://teatrocarcano.com/eventi/francesco-cazzullo-branduardi-2627.htm",
+    "priceFrom": 44,
+    "priceCurrency": "EUR",
     "source": {
       "venue": "Teatro Carcano",
       "url": "https://teatrocarcano.com/rassegne/stagione-26-27.htm",
-      "scrapedAt": "2026-05-26T10:08:37.426Z"
+      "scrapedAt": "2026-05-27T09:46:46.912Z"
     },
     "rank": 50
   },
@@ -2615,7 +2985,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2636,7 +3006,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2657,7 +3027,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2678,7 +3048,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2699,7 +3069,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2720,7 +3090,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2741,7 +3111,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2762,7 +3132,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-05-26T10:08:46.582Z"
+      "scrapedAt": "2026-05-27T09:46:58.748Z"
     },
     "rank": 49
   },
@@ -2771,6 +3141,7 @@
     "slug": "a-casa-la-sapevo-manuale-di-sopravvivenza-alla-scuola-italiana-33807ea3b2",
     "title": "A CASA LA SAPEVO - Manuale di sopravvivenza alla scuola italiana",
     "category": "theater",
+    "description": "Lo spettacolo A CASA LA SAPEVO - Manuale di sopravvivenza alla scuola italiana sarà in scena al Teatro Filodrammatici di Milano dal dal 28 al 31 maggio 2026 . Acquista online il biglietto.",
     "image": "https://teatrofilodrammatici.eu/wp-content/uploads/2025/06/A-casa-la-sapevo-160-vittorio-borsari-scaled.jpg",
     "venueSlug": "teatro-filodrammatici",
     "performances": [
@@ -2783,7 +3154,7 @@
     "source": {
       "venue": "Teatro Filodrammatici",
       "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-05-26T10:08:37.755Z"
+      "scrapedAt": "2026-05-27T09:46:50.175Z"
     },
     "rank": 48
   }
