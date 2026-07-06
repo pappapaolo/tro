@@ -44,7 +44,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 90
   },
@@ -84,7 +84,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 90
   },
@@ -133,7 +133,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 90
   },
@@ -173,7 +173,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 87
   },
@@ -216,7 +216,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 87
   },
@@ -253,7 +253,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 87
   },
@@ -308,7 +308,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 87
   },
@@ -332,7 +332,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-07-05T08:58:06.499Z"
+      "scrapedAt": "2026-07-06T10:17:31.591Z"
     },
     "rank": 85
   },
@@ -356,7 +356,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-07-05T08:58:06.499Z"
+      "scrapedAt": "2026-07-06T10:17:31.591Z"
     },
     "rank": 85
   },
@@ -380,7 +380,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-07-05T08:58:06.499Z"
+      "scrapedAt": "2026-07-06T10:17:31.591Z"
     },
     "rank": 85
   },
@@ -429,30 +429,9 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 83
-  },
-  {
-    "id": "130e1ac611",
-    "slug": "francesco-meli-luca-salsi-130e1ac611",
-    "title": "Francesco Meli / Luca Salsi",
-    "category": "concert",
-    "description": "At Teatro alla Scala on 21 June 2026, the vocal recital of Francesco Meli and Luca Salsi. Accompanied by pianist Nelson Calzi. The programme features music by Giuseppe Verdi.",
-    "image": "https://www.teatroallascala.org/static/upload/202/2023-don-carlo-734854badg-ph-brescia-e-amisano---tas.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-06-21T18:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/voice-recital/francesco-meli-luca-salsi.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
-    },
-    "rank": 80
   },
   {
     "id": "95aa921b81",
@@ -471,7 +450,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 80
   },
@@ -496,7 +475,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 80
   },
@@ -524,7 +503,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 80
   },
@@ -552,7 +531,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -573,7 +552,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -594,7 +573,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -615,7 +594,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -661,7 +640,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -682,7 +661,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -703,7 +682,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -724,7 +703,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 77
   },
@@ -745,7 +724,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-07-05T08:45:13.459Z"
+      "scrapedAt": "2026-07-06T10:04:04.990Z"
     },
     "rank": 73
   },
@@ -767,7 +746,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 67
   },
@@ -789,7 +768,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 65
   },
@@ -811,7 +790,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 65
   },
@@ -834,7 +813,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 65
   },
@@ -856,7 +835,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-07-05T08:46:32.712Z"
+      "scrapedAt": "2026-07-06T10:05:21.783Z"
     },
     "rank": 64
   },
@@ -878,7 +857,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 64
   },
@@ -900,7 +879,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 64
   },
@@ -922,7 +901,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 64
   },
@@ -944,7 +923,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 64
   },
@@ -966,7 +945,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 64
   },
@@ -988,7 +967,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 64
   },
@@ -1012,7 +991,7 @@
     "source": {
       "venue": "teatro-argentina",
       "url": "https://www.teatrodiroma.net/",
-      "scrapedAt": "2026-07-05T08:58:06.499Z"
+      "scrapedAt": "2026-07-06T10:17:31.591Z"
     },
     "rank": 63
   },
@@ -1034,7 +1013,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-07-05T08:46:32.712Z"
+      "scrapedAt": "2026-07-06T10:05:21.783Z"
     },
     "rank": 62
   },
@@ -1056,7 +1035,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1078,7 +1057,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1100,7 +1079,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1122,7 +1101,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1144,7 +1123,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1167,7 +1146,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1189,7 +1168,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1211,7 +1190,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1234,7 +1213,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 62
   },
@@ -1256,7 +1235,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-07-05T08:58:03.439Z"
+      "scrapedAt": "2026-07-06T10:17:28.651Z"
     },
     "rank": 61
   },
@@ -1278,7 +1257,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-07-05T08:58:03.439Z"
+      "scrapedAt": "2026-07-06T10:17:28.651Z"
     },
     "rank": 61
   },
@@ -1300,7 +1279,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-07-05T08:58:03.439Z"
+      "scrapedAt": "2026-07-06T10:17:28.651Z"
     },
     "rank": 61
   },
@@ -1322,7 +1301,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-07-05T08:46:32.712Z"
+      "scrapedAt": "2026-07-06T10:05:21.783Z"
     },
     "rank": 61
   },
@@ -1344,7 +1323,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-07-05T08:58:03.439Z"
+      "scrapedAt": "2026-07-06T10:17:28.651Z"
     },
     "rank": 61
   },
@@ -1366,7 +1345,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-07-05T08:58:03.439Z"
+      "scrapedAt": "2026-07-06T10:17:28.651Z"
     },
     "rank": 61
   },
@@ -1388,7 +1367,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-07-05T08:46:32.712Z"
+      "scrapedAt": "2026-07-06T10:05:21.783Z"
     },
     "rank": 61
   },
@@ -1410,7 +1389,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 60
   },
@@ -1432,7 +1411,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1454,7 +1433,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1477,7 +1456,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1499,7 +1478,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1521,7 +1500,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1543,7 +1522,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1565,7 +1544,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1587,7 +1566,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1609,7 +1588,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1631,7 +1610,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1654,7 +1633,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1677,7 +1656,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1699,7 +1678,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1722,7 +1701,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1744,7 +1723,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1766,7 +1745,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1788,7 +1767,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1810,7 +1789,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1832,7 +1811,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1854,7 +1833,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1876,7 +1855,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1898,7 +1877,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1920,7 +1899,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1942,7 +1921,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1964,7 +1943,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -1986,7 +1965,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2008,7 +1987,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2031,7 +2010,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2053,7 +2032,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2075,7 +2054,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2098,7 +2077,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2120,7 +2099,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2143,7 +2122,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2165,7 +2144,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2187,7 +2166,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2205,11 +2184,11 @@
         "end": "2027-06-18T23:59:00.000Z"
       }
     ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/infinita-bellezza.htm",
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/infinita-bellezza-.htm",
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 59
   },
@@ -2231,7 +2210,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-07-05T08:46:32.712Z"
+      "scrapedAt": "2026-07-06T10:05:21.783Z"
     },
     "rank": 57
   },
@@ -2253,7 +2232,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-07-05T08:46:32.712Z"
+      "scrapedAt": "2026-07-06T10:05:21.783Z"
     },
     "rank": 57
   },
@@ -2275,7 +2254,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2297,7 +2276,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2319,7 +2298,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2341,7 +2320,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2363,7 +2342,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2385,7 +2364,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2408,7 +2387,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2431,7 +2410,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2454,7 +2433,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2476,7 +2455,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2498,7 +2477,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2520,7 +2499,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-07-05T08:46:34.120Z"
+      "scrapedAt": "2026-07-06T10:05:23.519Z"
     },
     "rank": 55
   },
@@ -2541,7 +2520,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 53
   },
@@ -2562,7 +2541,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2583,7 +2562,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2604,7 +2583,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2625,7 +2604,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2646,7 +2625,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2667,7 +2646,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2688,7 +2667,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2709,7 +2688,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2730,7 +2709,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-07-05T08:57:45.213Z"
+      "scrapedAt": "2026-07-06T10:16:58.378Z"
     },
     "rank": 53
   },
@@ -2751,7 +2730,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2772,7 +2751,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2793,7 +2772,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2814,7 +2793,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2835,7 +2814,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2856,7 +2835,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2877,7 +2856,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2898,7 +2877,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2919,7 +2898,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-07-05T08:57:55.539Z"
+      "scrapedAt": "2026-07-06T10:17:10.176Z"
     },
     "rank": 49
   },
@@ -2941,7 +2920,7 @@
     "source": {
       "venue": "Teatro Filodrammatici",
       "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-07-05T08:57:49.800Z"
+      "scrapedAt": "2026-07-06T10:17:02.892Z"
     },
     "rank": 48
   },
@@ -2963,7 +2942,7 @@
     "source": {
       "venue": "Teatro Filodrammatici",
       "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-07-05T08:57:49.800Z"
+      "scrapedAt": "2026-07-06T10:17:02.892Z"
     },
     "rank": 48
   },
@@ -2985,7 +2964,7 @@
     "source": {
       "venue": "Teatro Filodrammatici",
       "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-07-05T08:57:49.800Z"
+      "scrapedAt": "2026-07-06T10:17:02.892Z"
     },
     "rank": 48
   }
