@@ -35,7 +35,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 90
   },
@@ -84,7 +84,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 90
   },
@@ -139,7 +139,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 87
   },
@@ -163,7 +163,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-10-18T10:29:05.738Z"
+      "scrapedAt": "2026-10-19T12:06:47.363Z"
     },
     "rank": 85
   },
@@ -187,7 +187,7 @@
     "source": {
       "venue": "teatro-opera-roma",
       "url": "https://www.operaroma.it/en/season/",
-      "scrapedAt": "2026-10-18T10:29:05.738Z"
+      "scrapedAt": "2026-10-19T12:06:47.363Z"
     },
     "rank": 85
   },
@@ -236,30 +236,9 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 83
-  },
-  {
-    "id": "95aa921b81",
-    "slug": "rudolf-buchbinder-95aa921b81",
-    "title": "Rudolf Buchbinder",
-    "category": "concert",
-    "description": "As part of the Great Pianists Season, Rudolf Buchbinder performs at Teatro alla Scala on 4 October 2026.",
-    "image": "https://www.teatroallascala.org/static/upload/202/2023-rudolf-buchbinder-ok.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-04T18:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/concerts/great-pianists-at-la-scala/rudolf-buchbinder.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
-    },
-    "rank": 80
   },
   {
     "id": "40a4a95456",
@@ -282,7 +261,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 80
   },
@@ -310,30 +289,9 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 80
-  },
-  {
-    "id": "d10372f0c9",
-    "slug": "mimi-teo-and-the-magic-horn-d10372f0c9",
-    "title": "Mimì & Teo and… The Magic Horn",
-    "category": "other",
-    "description": "Among the Concerts for Children, Mimì & Teo and… The magic horn at Teatro alla Scala",
-    "image": "https://www.teatroallascala.org/static/upload/sec/seconda-proposta.jpg",
-    "venueSlug": "teatro-alla-scala",
-    "performances": [
-      {
-        "start": "2026-10-04T13:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatroallascala.org/en/season/2025-2026/great-performances-for-children-and-family/concerts-for-children/mimi-and-teo-and-the-magic-horn.html",
-    "source": {
-      "venue": "Teatro alla Scala",
-      "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
-    },
-    "rank": 77
   },
   {
     "id": "a5aa945583",
@@ -352,7 +310,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 77
   },
@@ -373,7 +331,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 77
   },
@@ -419,7 +377,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 77
   },
@@ -440,7 +398,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 77
   },
@@ -461,7 +419,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 77
   },
@@ -482,7 +440,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 77
   },
@@ -503,7 +461,7 @@
     "source": {
       "venue": "Teatro alla Scala",
       "url": "https://www.teatroallascala.org/en/season/2025-2026/index.html",
-      "scrapedAt": "2026-10-18T10:11:59.927Z"
+      "scrapedAt": "2026-10-19T11:47:43.209Z"
     },
     "rank": 73
   },
@@ -559,7 +517,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 72
   },
@@ -633,7 +591,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -659,7 +617,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -697,7 +655,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -719,7 +677,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -741,7 +699,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -763,7 +721,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -819,7 +777,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -841,7 +799,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -863,7 +821,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -873,7 +831,7 @@
     "title": "Cemento armato, cemento amato. Il materiale del secolo",
     "subtitle": "Teatro Grassi",
     "category": "theater",
-    "description": "Dopo il ciclo dedicato all’Ottocento, le lezioni di Storie dell’Arte tornano “in scena” per narrare il Novecento. Il primo appuntamento, a cura di Gabriele Neri, racconta l’epopea costruttiva e culturale del cemento armato. 18 ottobre 2026 Teatro Grassi Scopri le formule a te dedicate se fai parte dell’Associazione Amici di Brera o possiedi la Milano Museo Card, acquistabili presso la biglietteria del Teatro Strehler.Il Novecento è fatto di cemento armato. Dalle odi futuriste per le sue inedite qualità ai capolavori di maestri come Le Corbusier, Niemeyer e Pier Luigi Nervi; dalle utopie brutaliste alla cementificazione, fino alle più recenti questioni ambientali, questo straordinario materiale ha plasmato i sogni e gli incubi del secolo scorso. Tra tecnica ed estetica, storia e geopolitica, la sua epopea costruttiva e culturale è la chiave per leggere le meraviglie e le contraddizioni del nostro paesaggio costruito.Con Gabriele Neri Biglietti 18Ott Ore 11:00 A partire da €15 Mostra altre date Scopri le formule a te dedicate se fai parte dell’Associazione Amici di Brera o possiedi la Milano Museo Card, acquistabili presso la biglietteria del Teatro Strehler.Il Novecento è fatto di cemento armato. Dalle odi futuriste per le sue inedite qualità ai capolavori di maestri come Le Corbusier, Niemeyer e Pier Luigi Nervi; dalle utopie brutaliste alla cementificazione, fino alle più recenti questioni ambientali, questo straordinario materiale ha plasmato i sogni e gli incubi del secolo",
+    "description": "Dopo il ciclo dedicato all’Ottocento, le lezioni di Storie dell’Arte tornano “in scena” per narrare il Novecento. Il primo appuntamento, a cura di Gabriele Neri, racconta l’epopea costruttiva e culturale del cemento armato. 18 ottobre 2026 Teatro Grassi Scopri le formule a te dedicate se fai parte dell’Associazione Amici di Brera o possiedi la Milano Museo Card, acquistabili presso la biglietteria del Teatro Strehler.Il Novecento è fatto di cemento armato. Dalle odi futuriste per le sue inedite qualità ai capolavori di maestri come Le Corbusier, Niemeyer e Pier Luigi Nervi; dalle utopie brutaliste alla cementificazione, fino alle più recenti questioni ambientali, questo straordinario materiale ha plasmato i sogni e gli incubi del secolo scorso. Tra tecnica ed estetica, storia e geopolitica, la sua epopea costruttiva e culturale è la chiave per leggere le meraviglie e le contraddizioni del nostro paesaggio costruito.Con Gabriele Neri Scopri le formule a te dedicate se fai parte dell’Associazione Amici di Brera o possiedi la Milano Museo Card, acquistabili presso la biglietteria del Teatro Strehler.Il Novecento è fatto di cemento armato. Dalle odi futuriste per le sue inedite qualità ai capolavori di maestri come Le Corbusier, Niemeyer e Pier Luigi Nervi; dalle utopie brutaliste alla cementificazione, fino alle più recenti questioni ambientali, questo straordinario materiale ha plasmato i sogni e gli incubi del secolo scorso. Tra tecnica ed estetica, storia e geopolitica, la su",
     "image": "https://www.piccoloteatro.org/sites/default/files/2026-09/Hero_Storie_dell_arte_Novecento_1.jpg",
     "venueSlug": "piccolo-teatro",
     "performances": [
@@ -885,7 +843,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -923,7 +881,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -945,7 +903,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -967,7 +925,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -993,7 +951,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -1031,7 +989,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 69
   },
@@ -1060,7 +1018,29 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
+    },
+    "rank": 69
+  },
+  {
+    "id": "130b24523f",
+    "slug": "litania-130b24523f",
+    "title": "Litania",
+    "category": "theater",
+    "description": "Il programma dedicato a Beat Furrer e Franco Donatoni chiude la sezione Concerti della rassegna Sound of Wander 2026. Furrer dirige mdi ensemble nell’esecuzione di Ash di Donatoni e di Litanei, lavoro cameristico dello stesso Furrer presentato oggi in prima esecuzione italiana, che vedrà la presenza come voce solista del soprano lettone Elina Viluma-Helling. Ad aprire il programma la sonata per viola e pianoforte intitolata a due, eseguita da Paolo Fumagalli alla viola e Luca Ieracitano al pianoforte.\n\nCon Sound of wander.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2839.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-11-23T21:00:00.000Z",
+        "end": "2026-11-23T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/litanei.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 69
   },
@@ -1082,7 +1062,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 67
   },
@@ -1138,7 +1118,7 @@
     "source": {
       "venue": "Piccolo Teatro di Milano",
       "url": "https://www.piccoloteatro.org/it/calendar",
-      "scrapedAt": "2026-10-18T10:13:14.535Z"
+      "scrapedAt": "2026-10-19T11:49:19.506Z"
     },
     "rank": 65
   },
@@ -1160,7 +1140,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 65
   },
@@ -1182,7 +1162,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 65
   },
@@ -1205,7 +1185,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 65
   },
@@ -1227,7 +1207,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 64
   },
@@ -1249,7 +1229,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 64
   },
@@ -1271,7 +1251,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 64
   },
@@ -1293,7 +1273,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 64
   },
@@ -1315,7 +1295,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 64
   },
@@ -1337,7 +1317,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 64
   },
@@ -1361,7 +1341,7 @@
     "source": {
       "venue": "teatro-argentina",
       "url": "https://www.teatrodiroma.net/",
-      "scrapedAt": "2026-10-18T10:29:05.738Z"
+      "scrapedAt": "2026-10-19T12:06:47.363Z"
     },
     "rank": 63
   },
@@ -1384,7 +1364,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1406,7 +1386,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
     },
     "rank": 62
   },
@@ -1428,7 +1408,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
     },
     "rank": 62
   },
@@ -1450,7 +1430,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1472,7 +1452,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1495,7 +1475,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1517,7 +1497,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1539,7 +1519,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1561,7 +1541,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1583,7 +1563,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1605,7 +1585,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1628,7 +1608,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1650,7 +1630,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1672,7 +1652,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1695,7 +1675,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 62
   },
@@ -1717,7 +1697,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
     },
     "rank": 61
   },
@@ -1738,7 +1718,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-10-18T10:29:02.758Z"
+      "scrapedAt": "2026-10-19T12:06:42.366Z"
     },
     "rank": 61
   },
@@ -1759,7 +1739,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-10-18T10:29:02.758Z"
+      "scrapedAt": "2026-10-19T12:06:42.366Z"
     },
     "rank": 61
   },
@@ -1780,7 +1760,7 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-10-18T10:29:02.758Z"
+      "scrapedAt": "2026-10-19T12:06:42.366Z"
     },
     "rank": 61
   },
@@ -1801,31 +1781,9 @@
     "source": {
       "venue": "Auditorium Parco della Musica",
       "url": "https://www.auditorium.com/it/eventi/",
-      "scrapedAt": "2026-10-18T10:29:02.758Z"
+      "scrapedAt": "2026-10-19T12:06:42.366Z"
     },
     "rank": 61
-  },
-  {
-    "id": "bdedb5db67",
-    "slug": "arrivato-a-questo-punto-bdedb5db67",
-    "title": "Arrivato a questo punto",
-    "category": "theater",
-    "description": "Che succede quando i nostri ricordi cominciano a sbiadire? Gioele Dix affronta in scioltezza il tema della memoria e delle sue intermittenze.",
-    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/07/arrivato-a-questo-punto-tfp-26-27-ph-laila-pozzo-800x450.jpg",
-    "venueSlug": "teatro-franco-parenti",
-    "performances": [
-      {
-        "start": "2026-10-06T20:00:00.000Z",
-        "end": "2026-10-18T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/arrivato-a-questo-punto/",
-    "source": {
-      "venue": "Teatro Franco Parenti",
-      "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
-    },
-    "rank": 60
   },
   {
     "id": "237045072e",
@@ -1845,75 +1803,9 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 60
-  },
-  {
-    "id": "ce2f726292",
-    "slug": "i-corpi-degli-altri-ce2f726292",
-    "title": "I CORPI DEGLI ALTRI",
-    "category": "theater",
-    "description": "MILANoLTRE presenta, in collaborazione con il PAC Padiglione d'Arte Contemporanea, la performance site-specific I corpi degli altri del coreografo di fama internazionale Virgilio Sieni. La creazione, in prima nazionale, trae ispirazione dal celebre spettacolo della Compagnia Virgilio Sieni Sonate di Bach - di fronte al dolore degli altri, di cui nel 2026 ricorre il ventennale. Articolata come un viaggio tra le stanze del PAC, la performance si compone di undici coreografie che trasformano immagini d’archivio dei reporter di guerra e della pittura del Trecento in uno strumento etico e politico: un canto di condivisione e riflessione universale in cui il gesto traspone la tragedia in opera d’arte.I corpi degli altri si nutre delle danze composte per Sonate Bach e tra queste s’insinua per ricamare, con l’arte del dettaglio, un arazzo antico che rimbalza su di noi, ancora colmo di immagini e fatti dolorosi e guerrafondai.Cosa possiamo fare? Qui la danza propone sequenze da respirare, invitando il pubblico a percorrerle col fiato dei pori, individuando nei giochi estremi del corpo e nella complessità della coreografia le forme di uno scavo nell’inconscio, dove si annida lo slancio aggressivo. Disattivare il gesto abitudinario attraverso epifanie del gesto. Come indica Susan Sontag in Davanti al dolore degli altri, la risposta è nello sguardo del pittore del Trecento: la sublimazione della tragedia nella trasfigurazione artistica, senza commento, tra umano e sacro, singolare e univ\n\nCon Virgilio Sieni.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2785.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-10-03T20:00:00.000Z",
-        "end": "2026-10-04T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/i-corpi-degli-altri.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
-    },
-    "rank": 59
-  },
-  {
-    "id": "657d582cc3",
-    "slug": "affollate-solitudini-teens-eveil-657d582cc3",
-    "title": "AFFOLLATE SOLITUDINI TEENS & ÉVEIL",
-    "category": "theater",
-    "description": "AFFOLLATE SOLITUDINI TEENS Giunto alla sua quinta edizione, Affollate Solitudini TEENS è il progetto di MILANoLTRE dedicato alle nuove generazioni di interpreti e creatori. Quest’anno coinvolge 22 giovani allievi e allieve provenienti da cinque centri di formazione – Liceo Coreutico Tito Livio, Centro AIDA, Accademia Susanna Beltrami / DHHD Department, Centro ArteMente e Teatro Oscar – chiamati a confrontarsi con la creazione di una breve coreografia ispirata al tema della 40ª edizione del festival: il dialogo tra danza e sport. Durante la serata, ogni gruppo presenterà un solo di circa 5 minuti: piccole forme coreografiche che raccontano, ciascuna a modo suo, un’idea di corpo in movimento, allenamento, energia e relazione. ÉVEIL La serata include anche Éveil, performance delle studentesse del Liceo Tito Livio di Milano Martina Gambitta, Martina Ossola e Matilde Paura, che nel 2025 ha vinto il bando Absolute Beginners in collaborazione con Fattoria Vittadini. Absolute Beginners è un progetto dedicato alla crescita e al passaggio verso la professione artistica: tra i lavori presentati nell’ambito di Affollate Solitudini TEENS, ne viene selezionato uno che riceve un sostegno economico e un percorso di tutoraggio con Fattoria Vittadini. L’anno successivo, il progetto verrà sviluppato in una versione ampliata e presentato al pubblico, offrendo ai giovani artisti un primo vero passaggio verso la scena professionale.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2800.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-10-04T18:00:00.000Z",
-        "end": "2026-10-04T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/affollate_solitudini.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
-    },
-    "rank": 59
-  },
-  {
-    "id": "e58765566a",
-    "slug": "capitolo-xv-la-horde-jill-crovisier-e58765566a",
-    "title": "CAPITOLO XV (LA)HORDE / JILL CROVISIER",
-    "category": "theater",
-    "description": "Due coreografie, due sguardi distinti e complementari, celebrano il 15° anniversario della compagnia pugliese Equilibrio Dinamico Dance Company. Da un lato l’energia del celebre collettivo artistico francese (La)Horde, dall’altro la dimensione paesaggistica e rituale dell’artista multidisciplinare belga Jill Crovisier: due modi diversi di interrogare il corpo contemporaneo tra memoria, comunità e trasformazione. Un unico biglietto apre l’accesso a due lavori che dialogano per contrasto e risonanza, componendo un percorso coreografico che attraversa estetiche, territori e immaginari differenti. PEOPLE USED TO DIE People used to die è una rielaborazione della performance originale Avant les gens mouraient, creata inizialmente nel 2014 da (La)Horde per l’École de danse contemporaine de Montréal (EDCM). La performance si sviluppa attorno al movimento Mainstream Hardcore, reinterpretando i gesti dell’Hardjump, dell’Hakken (scena gabber) e del Jumpstyle. Il Jumpstyle è un movimento popolare emerso negli anni 2000, evolutosi dall’Hardstyle (alcuni puristi del movimento ne fanno risalire le origini addirittura agli anni Ottanta). Il Jumpstyle è un genere di musica elettronica praticato principalmente in Europa, in particolare in Belgio, Paesi Bassi, Irlanda, Regno Unito e nel nord della Francia. Il termine indica anche un tipo di danza che accompagna questo genere musicale, diventata popolare verso la fine degli anni Novanta nel nord Europa, soprattutto grazie al ballerino Patrick Ju\n\nCon Equilibrio dinamico dance company.",
-    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2787.jpg",
-    "venueSlug": "teatro-elfo-puccini",
-    "performances": [
-      {
-        "start": "2026-10-04T20:30:00.000Z",
-        "end": "2026-10-04T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/people-used-to-die-mahalaga-landscapes.htm",
-    "source": {
-      "venue": "Teatro Elfo Puccini",
-      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
-    },
-    "rank": 59
   },
   {
     "id": "3f38fe34be",
@@ -1933,7 +1825,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -1955,7 +1847,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -1977,7 +1869,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -1999,7 +1891,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2021,7 +1913,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2043,7 +1935,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2065,7 +1957,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2088,7 +1980,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2110,7 +2002,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2132,7 +2024,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2154,7 +2046,29 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "c3559f0798",
+    "slug": "musica-elettrodomestica-c3559f0798",
+    "title": "Musica elettrodomestica",
+    "category": "theater",
+    "description": "Il programma dedicato a Bauckholt e Walter apre ufficialmente la rassegna Sound of Wander dedicata alla musica classica contemporanea - organizzata da mdi ensemble e Associazione Musicadesso ETS - quest’anno composta da tre appuntamenti (23/10, 9/11, 23/11). Il programma della serata presenta composizioni dal forte carattere teatrale e performativo ma anche lavori ispirati da una particolare ricerca fonetica che esplora le possibilità timbriche e gestuali del linguaggio parlato. Protagonisti i musicisti di mdi ensemble Paolo Casiraghi, Elia Leon Mariani, Giorgio Casati, Luca Ieracitano e Matteo Savio.\n\nCon Sound of wander.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2835.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-10-23T21:00:00.000Z",
+        "end": "2026-10-23T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/musica-elettrodomestica.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2176,7 +2090,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2198,7 +2112,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2220,7 +2134,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2243,7 +2157,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2265,7 +2179,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2287,7 +2201,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2310,7 +2224,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2332,7 +2246,51 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "579c40545a",
+    "slug": "dialogo-con-andrea-valle-e-giacomo-albert-579c40545a",
+    "title": "Dialogo con Andrea Valle e Giacomo Albert",
+    "category": "theater",
+    "description": "Il Dialogo, animato dal compositore Andrea Valle e dal musicologo Giacomo Albert, verte sul fascino intramontabile del cinema muto e sulle complesse dinamiche della sonorizzazione dal vivo. La discussione esplorerà la dialettica tra segno scritto e gesto estemporaneo, approfondendo il ruolo dell'improvvisazione come strumento d'interpretazione drammaturgica, grazie alla presenza di alcuni musicisti del gruppo di improvvisazione torinese Arto fantasma, ospiti del dialogo e protagonisti del concerto delle ore 21.00.\n\nCon Sound of wander.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2836.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-11-09T19:30:00.000Z",
+        "end": "2026-11-09T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/dialogo-andrea-valle-giacomo-albert.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "d706ab9bb0",
+    "slug": "l-atleta-fantasma-d706ab9bb0",
+    "title": "L'atleta fantasma",
+    "category": "theater",
+    "description": "Film dal ritmo incalzante, che unisce spettacolarità atletica, azione e commedia, L'atleta fantasma colpisce per la ricchezza dei personaggi e degli ambienti interni ed esterni. La sonorizzazione del film, ad opera di Andrea Valle, è un progetto in collaborazione con Università di Torino e Museo Nazionale del Cinema di Torino. La composizione prevede una articolazione in 43 quadri sulle diverse unità d'azione ed è scritta per un organico di 14 musicisti. Per questa occasione Arto fantasma, gruppo torinese legato alla figura di Valle, si unisce a mdi ensemble, formazione milanese dedita al repertorio contemporaneo già esecutore in passato di diversi progetti curati da Andrea Valle.\n\nCon Sound of wander.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2837.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-11-09T21:00:00.000Z",
+        "end": "2026-11-09T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/atleta-fantasma.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2354,7 +2312,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2376,7 +2334,29 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
+    },
+    "rank": 59
+  },
+  {
+    "id": "0853a3fe27",
+    "slug": "dialogo-con-beat-furrer-0853a3fe27",
+    "title": "Dialogo con Beat Furrer",
+    "category": "theater",
+    "description": "Protagonista del dialogo odierno è il compositore e direttore d’orchestra Beat Furrer. Attraverso l’esecuzione del suo Trio per flauto, oboe e clarinetto del 1985, opera giovanile di straordinaria densità e rigore formale, eseguita dai musicisti di mdi ensemble Sonia Formenti, Alessia Vermi e Paolo Casiraghi, scopriremo insieme al maestro svizzero-tedesco quali sono state le radici e i riferimenti del suo pensiero compositivo agli inizi della sua straordinaria produzione artistica.\n\nCon Sound of wander.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2838.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-11-23T19:30:00.000Z",
+        "end": "2026-11-23T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/dialogo-beat-furrer.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2399,7 +2379,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2421,7 +2401,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2444,7 +2424,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2467,7 +2447,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2490,7 +2470,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2512,7 +2492,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2534,7 +2514,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2556,7 +2536,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2578,7 +2558,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2600,7 +2580,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2622,7 +2602,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2644,7 +2624,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2666,7 +2646,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2688,7 +2668,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2710,7 +2690,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2733,7 +2713,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2756,7 +2736,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2778,7 +2758,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2800,7 +2780,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2823,7 +2803,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2845,7 +2825,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2868,7 +2848,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2890,7 +2870,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2912,7 +2892,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2934,7 +2914,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2956,7 +2936,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -2978,7 +2958,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 59
   },
@@ -3000,7 +2980,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
     },
     "rank": 57
   },
@@ -3022,7 +3002,29 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
+    },
+    "rank": 57
+  },
+  {
+    "id": "209ce45dfd",
+    "slug": "lo-scrittore-automatico-209ce45dfd",
+    "title": "Lo scrittore automatico",
+    "category": "theater",
+    "description": "Il racconto profetico di Roald Dahl sul rapporto tra tecnologia e creatività. Una riflessione ancora attuale sul ruolo dell’autore e sulla crescente delega alle macchine. Regia Andrea Carabelli.",
+    "image": "https://teatrofrancoparenti.it/tfp-uploads/2026/09/lo-scrittore-automatico-tfp-26-27-d-800x450.jpg",
+    "venueSlug": "teatro-franco-parenti",
+    "performances": [
+      {
+        "start": "2026-10-25T20:00:00.000Z",
+        "end": "2026-10-25T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofrancoparenti.it/spettacolo/lo-scrittore-automatico/",
+    "source": {
+      "venue": "Teatro Franco Parenti",
+      "url": "https://www.teatrofrancoparenti.it/",
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
     },
     "rank": 57
   },
@@ -3044,7 +3046,7 @@
     "source": {
       "venue": "Teatro Franco Parenti",
       "url": "https://www.teatrofrancoparenti.it/",
-      "scrapedAt": "2026-10-18T10:13:23.999Z"
+      "scrapedAt": "2026-10-19T11:49:28.723Z"
     },
     "rank": 57
   },
@@ -3066,7 +3068,29 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
+    },
+    "rank": 55
+  },
+  {
+    "id": "26f5457312",
+    "slug": "carola-bauckholt-e-caspar-johannes-walter-26f5457312",
+    "title": "Carola Bauckholt e Caspar Johannes Walter",
+    "category": "theater",
+    "description": "I compositori Carola Bauckholt e Caspar Johannes Walter sono i protagonisti del dialogo inaugurale della rassegna Sound of Wonder. Presenteranno al pubblico i caratteri principali della loro musica e la ricerca compositiva alla base del proprio linguaggio estetico. Lo faranno insieme a Luca Ieracitano e Paolo Casiraghi, interpreti del microludio omaggio a Kurtag composto da Bauckholt nel 2017.\n\nCon Sound of wander.",
+    "image": "https://www.elfo.org/static/images/spettacoli/462x260/2834.jpg",
+    "venueSlug": "teatro-elfo-puccini",
+    "performances": [
+      {
+        "start": "2026-10-23T19:30:00.000Z",
+        "end": "2026-10-23T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.elfo.org/spettacoli/2026-2027/dialogo-carola-bauckholt-caspar-johannes-walter.htm",
+    "source": {
+      "venue": "Teatro Elfo Puccini",
+      "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3088,7 +3112,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3110,7 +3134,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3132,7 +3156,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3154,7 +3178,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3176,7 +3200,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3198,7 +3222,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3220,7 +3244,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3243,7 +3267,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3266,7 +3290,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3289,7 +3313,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3311,7 +3335,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3333,7 +3357,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3355,7 +3379,7 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
   },
@@ -3377,51 +3401,9 @@
     "source": {
       "venue": "Teatro Elfo Puccini",
       "url": "https://www.elfo.org/rassegne/tutti-gli-spettacoli.htm",
-      "scrapedAt": "2026-10-18T10:13:26.992Z"
+      "scrapedAt": "2026-10-19T11:49:30.799Z"
     },
     "rank": 55
-  },
-  {
-    "id": "a2efd044c3",
-    "slug": "non-faccio-il-bis-a2efd044c3",
-    "title": "Non faccio il bis",
-    "category": "theater",
-    "description": "Il nuovo spettacolo in cui Federico Basso, tra riflessioni, appunti e pensieri, offrirà agli spettatori uno sguardo ironico sulla quotidianità",
-    "image": "https://www.teatromanzoni.it/storage/2026/06/600x600-16.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-10-16T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/non-faccio-il-bis/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
-    },
-    "rank": 53
-  },
-  {
-    "id": "27eb42cec2",
-    "slug": "a-casa-con-mary-poppins-27eb42cec2",
-    "title": "A casa con... Mary Poppins",
-    "category": "theater",
-    "description": "Un Teatro da Favola propone spettacoli per grandi e piccoli: divertenti e interattivi per i bambini, ironici e parodistici per gli adulti.",
-    "image": "https://www.teatromanzoni.it/storage/2026/06/600x600-11.jpg",
-    "venueSlug": "teatro-manzoni",
-    "performances": [
-      {
-        "start": "2026-10-18T20:00:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://www.teatromanzoni.it/eventi/a-casa-con-mary-poppins/",
-    "source": {
-      "venue": "Teatro Manzoni",
-      "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
-    },
-    "rank": 53
   },
   {
     "id": "037a04ebe6",
@@ -3440,7 +3422,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3461,7 +3443,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3482,7 +3464,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3503,7 +3485,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3524,7 +3506,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 53
   },
@@ -3545,7 +3527,49 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "7da95d4856",
+    "slug": "il-libro-della-giungla-7da95d4856",
+    "title": "Il libro della giungla",
+    "category": "theater",
+    "description": "Un Teatro da Favola propone spettacoli per grandi e piccoli: divertenti e interattivi per i bambini, ironici e parodistici per gli adulti.",
+    "image": "https://www.teatromanzoni.it/storage/2026/04/600x600-10.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-11-14T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/il-libro-della-giungla/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
+    },
+    "rank": 53
+  },
+  {
+    "id": "157da87a8d",
+    "slug": "derby-cabaret-157da87a8d",
+    "title": "Derby Cabaret",
+    "category": "theater",
+    "description": "Torna il talent show della comicità con Maurizio Colombi, Luisa Corna, comici emergenti e affermati, musica dal vivo.",
+    "image": "https://www.teatromanzoni.it/storage/2025/07/600x600-5.jpg",
+    "venueSlug": "teatro-manzoni",
+    "performances": [
+      {
+        "start": "2026-11-16T20:00:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://www.teatromanzoni.it/eventi/derby-cabaret/",
+    "source": {
+      "venue": "Teatro Manzoni",
+      "url": "https://www.teatromanzoni.it/",
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3566,7 +3590,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3587,7 +3611,7 @@
     "source": {
       "venue": "Teatro Manzoni",
       "url": "https://www.teatromanzoni.it/",
-      "scrapedAt": "2026-10-18T10:28:43.978Z"
+      "scrapedAt": "2026-10-19T12:06:18.636Z"
     },
     "rank": 53
   },
@@ -3608,7 +3632,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3629,7 +3653,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3650,7 +3674,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3671,7 +3695,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3692,7 +3716,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3713,7 +3737,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3734,7 +3758,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3755,7 +3779,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3776,7 +3800,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3797,7 +3821,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3818,7 +3842,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3839,7 +3863,7 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
   },
@@ -3860,53 +3884,9 @@
     "source": {
       "venue": "Teatro Nazionale CheBanca!",
       "url": "https://www.teatronazionale.it/",
-      "scrapedAt": "2026-10-18T10:28:54.406Z"
+      "scrapedAt": "2026-10-19T12:06:32.598Z"
     },
     "rank": 49
-  },
-  {
-    "id": "363755a502",
-    "slug": "sette-bambine-ebree-363755a502",
-    "title": "SETTE BAMBINE EBREE",
-    "category": "theater",
-    "description": "Lo spettacolo SETTE BAMBINE EBREE sarà in scena al Teatro Filodrammatici di Milano dal da martedì 13 a domenica 18 ottobre 2026 . Acquista online il biglietto.",
-    "image": "https://teatrofilodrammatici.eu/wp-content/uploads/2026/06/Sette-bambine-ebree-3.jpg",
-    "venueSlug": "teatro-filodrammatici",
-    "performances": [
-      {
-        "start": "2026-10-13T20:00:00.000Z",
-        "end": "2026-10-18T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofilodrammatici.eu/spettacoli/sette-bambine-ebree/",
-    "source": {
-      "venue": "Teatro Filodrammatici",
-      "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-10-18T10:28:49.154Z"
-    },
-    "rank": 48
-  },
-  {
-    "id": "7864e04397",
-    "slug": "l-occidente-di-oriana-fallaci-la-storia-a-processo-7864e04397",
-    "title": "L'OCCIDENTE DI ORIANA FALLACI - La storia a processo!",
-    "category": "theater",
-    "description": "Lo spettacolo L'OCCIDENTE DI ORIANA FALLACI - La storia a processo! sarà in scena al Teatro Filodrammatici di Milano dal lunedì 19 ottobre 2026 . Acquista online il biglietto.",
-    "image": "https://teatrofilodrammatici.eu/wp-content/uploads/2026/09/oriana-fallaci-20f.jpg",
-    "venueSlug": "teatro-filodrammatici",
-    "performances": [
-      {
-        "start": "2026-10-19T20:00:00.000Z",
-        "end": "2026-10-19T23:59:00.000Z"
-      }
-    ],
-    "ticketUrl": "https://teatrofilodrammatici.eu/spettacoli/primo-incontro-la-storia-a-processo/",
-    "source": {
-      "venue": "Teatro Filodrammatici",
-      "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-10-18T10:28:49.154Z"
-    },
-    "rank": 48
   },
   {
     "id": "415ea5bcca",
@@ -3926,7 +3906,51 @@
     "source": {
       "venue": "Teatro Filodrammatici",
       "url": "https://www.teatrofilodrammatici.eu/",
-      "scrapedAt": "2026-10-18T10:28:49.154Z"
+      "scrapedAt": "2026-10-19T12:06:25.486Z"
+    },
+    "rank": 48
+  },
+  {
+    "id": "2a3aa78bcd",
+    "slug": "causa-di-beatificazione-2a3aa78bcd",
+    "title": "CAUSA DI BEATIFICAZIONE",
+    "category": "theater",
+    "description": "Lo spettacolo CAUSA DI BEATIFICAZIONE sarà in scena al Teatro Filodrammatici di Milano dal da giovedì 22 a domenica 25 ottobre 2026 . Acquista online il biglietto.",
+    "image": "https://teatrofilodrammatici.eu/wp-content/uploads/2026/06/C1_3817-Migliorato-NR-Rajeev-Badhan.jpg",
+    "venueSlug": "teatro-filodrammatici",
+    "performances": [
+      {
+        "start": "2026-10-22T20:00:00.000Z",
+        "end": "2026-10-25T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofilodrammatici.eu/spettacoli/causa-di-beatificazione/",
+    "source": {
+      "venue": "Teatro Filodrammatici",
+      "url": "https://www.teatrofilodrammatici.eu/",
+      "scrapedAt": "2026-10-19T12:06:25.486Z"
+    },
+    "rank": 48
+  },
+  {
+    "id": "34d3af8dde",
+    "slug": "lady-grey-34d3af8dde",
+    "title": "LADY GREY",
+    "category": "theater",
+    "description": "Lo spettacolo LADY GREY sarà in scena al Teatro Filodrammatici di Milano dal da martedì 27 ottobre a domenica 1 novembre 2026 . Acquista online il biglietto.",
+    "image": "https://teatrofilodrammatici.eu/wp-content/uploads/2026/06/Lady-Grey_www.mamimo.it-3_ph.-Nicolo-deglIncerti-Tocci-Alida-Raschiani.jpg",
+    "venueSlug": "teatro-filodrammatici",
+    "performances": [
+      {
+        "start": "2026-10-27T20:00:00.000Z",
+        "end": "2026-11-01T23:59:00.000Z"
+      }
+    ],
+    "ticketUrl": "https://teatrofilodrammatici.eu/spettacoli/lady-grey/",
+    "source": {
+      "venue": "Teatro Filodrammatici",
+      "url": "https://www.teatrofilodrammatici.eu/",
+      "scrapedAt": "2026-10-19T12:06:25.486Z"
     },
     "rank": 48
   }
